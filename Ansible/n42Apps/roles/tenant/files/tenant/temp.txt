@@ -1,0 +1,33 @@
++--------------------------------------+----------------------------------------------------------+
+| Property                             | Value                                                    |
++--------------------------------------+----------------------------------------------------------+
+| OS-DCF:diskConfig                    | AUTO                                                     |
+| OS-EXT-AZ:availability_zone          | edge3                                                    |
+| OS-EXT-SRV-ATTR:host                 | n42-poweredge-3                                          |
+| OS-EXT-SRV-ATTR:hypervisor_hostname  | n42-poweredge-3                                          |
+| OS-EXT-SRV-ATTR:instance_name        | instance-00000b69                                        |
+| OS-EXT-STS:power_state               | 1                                                        |
+| OS-EXT-STS:task_state                | -                                                        |
+| OS-EXT-STS:vm_state                  | active                                                   |
+| OS-SRV-USG:launched_at               | 2016-01-06T11:48:31.000000                               |
+| OS-SRV-USG:terminated_at             | -                                                        |
+| accessIPv4                           |                                                          |
+| accessIPv6                           |                                                          |
+| config_drive                         |                                                          |
+| created                              | 2016-01-06T11:48:17Z                                     |
+| flavor                               | m1.tiny (1)                                              |
+| hostId                               | 21f15c61935d86cdbbbe8700b95dd3d355a142b17b29e663f15cda52 |
+| id                                   | 9ac4ce7d-1576-4129-a06b-963c4c418343                     |
+| image                                | Image not found (08bf7f41-0783-484e-911e-57221ab55a1a)   |
+| key_name                             | new_key                                                  |
+| metadata                             | {}                                                       |
+| name                                 | test-vm2-cirros                                          |
+| os-extended-volumes:volumes_attached | []                                                       |
+| progress                             | 0                                                        |
+| security_groups                      | test                                                     |
+| status                               | ACTIVE                                                   |
+| tenant_id                            | 9e30c8ef1ec94f17a4dfd3105e35b396                         |
+| test-2 network                       | 10.20.0.104, 172.25.1.150                                |
+| updated                              | 2016-01-12T06:31:47Z                                     |
+| user_id                              | ddec3a7e59bc42798b7aee9265473094                         |
++--------------------------------------+----------------------------------------------------------+

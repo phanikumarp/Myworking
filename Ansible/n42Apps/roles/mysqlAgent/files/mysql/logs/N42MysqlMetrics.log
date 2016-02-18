@@ -1,0 +1,659 @@
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_warnings 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_table 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_update 1455601970 512.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_commit 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_view 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_hits 1455601970 1.4346845E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_running 1455601970 1.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_uninstall_plugin 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_rows_updated 1455601970 488.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_udf 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_reprepare 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_db 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.table_locks_immediate 1455601970 2402.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_function 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_lock_tables 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_rnd 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_db 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_ha_open 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_empty_query 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_inserts 1455601970 391.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_event 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_load 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_read 1455601970 1.3668352E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_evicted 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_repair 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_replace_select 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_query_cache_hit_utilization 1455601970 99.74672 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_pending_fsyncs 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_db_upgrade 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_event 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_purge_before_date 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_db 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_server 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_fsyncs 1455601970 819.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.opened_files 1455601970 407.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_end 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_master_status 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_contributors 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.master_log_lag_bytes 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_scan 1455601970 71270.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.max_used_connections 1455601970 62.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_resignal 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.opened_table_definitions 1455601970 115.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_check 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_prepare_sql 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_set_option 1455601970 986410.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_func 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_authors 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_range_check 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_insert_select 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.volume_writes 1455601970 1529.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_slave_status 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_replace 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_function 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_fsyncs_os_log 1455601970 754.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_commit 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.sort_scan 1455601970 24.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_ha_read 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_free_blocks 1455601970 11.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_cached 1455601970 2.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_server 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.query_cache_misses 1455601970 391.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_processlist 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.uptime 1455601970 71276.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_binlog 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_query_cache_memory_in_use 1455601970 95.6 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_keys 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_page_size 1455601970 16384.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_recover 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_variables 1455601970 35602.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.bytes_sent 1455601970 4.7335838E10 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_bp_pages_written 1455601970 1465.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_os_log_fsyncs 1455601970 754.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_delete 1455601970 452.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_grant 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_databases 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_bp_pages_created 1455601970 13.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_binlogs 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.aborted_clients 1455601970 36.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.table_locks_waited 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_optimize 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_rename_table 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_triggers 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_rows_inserted 1455601970 301.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_close 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_execute 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_signal 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_connected 1455601970 35.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_rollback 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_wait_free 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_change_master 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_user 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_prepare 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_db 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_reads 1455601970 701.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_slave_start 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_privileges 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_total_blocks 1455601970 250.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_full_join 1455601970 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:122) - End of the Mysql Metrics 
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:106) - Gathering MySQL metrics. Agent Name: localhost Agent Version: 2.0.0
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:110) - Connected with the server : ec2-52-8-104-253.us-west-1.compute.amazonaws.com with port : 4343
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_write_requests 1455601971 7287.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_procedure 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_free_memory 1455601971 1.6353416E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_flushed 1455601971 1465.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_trigger 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_profiles 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_prepare 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_unlock_tables 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_table_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_queries_in_cache 1455601971 102.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_trigger 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.replication_lag 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_event 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_execute_sql 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_admin_commands 1455601971 1.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.open_streams 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.replication_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_events 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_engine_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_lowmem_prunes 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_procedure 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_table 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.connections_running 1455601971 2.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_slave_hosts 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_delete_multi 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_insert 1455601971 565.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.slow_queries 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_innodb_buffer_pool_hit_ratio 1455601971 98.3737 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_engine_mutex 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_misc 1455601971 2.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_assign_to_keycache 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_rows_deleted 1455601971 245.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_tmp_tables_written_to_disk 1455601971 0.07558156 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_fetch 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_grants 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_unassigned 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_clean 1455601971 713.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.sort_range 1455601971 3.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_flush 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_bp_pages_read 1455601971 700.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.bytes_received 1455601971 2.01007782E9 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_send_long_data 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_dealloc_sql 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_server 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_rollback_to_savepoint 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_event 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_reads 1455601971 711.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.open_tables 1455601971 235.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_connection_utilization 1455601971 5.714286 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_begin 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_tablespace 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_rename_user 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_fsyncs_data 1455601971 819.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_errors 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.connections_connected 1455601971 35.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_plugins 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_engine_logs 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_install_plugin 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_binlog_events 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_reset 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_revoke 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_storage_engines 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_purge 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_pages_created 1455601971 13.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_preload_keys 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_requests 1455601971 42403.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_table 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_call_procedure 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_range 1455601971 26.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_relaylog_events 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_view 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_open_tables 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.opened_tables 1455601971 242.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_trigger 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_update_multi 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.slave_relay_log_bytes 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_proc 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_not_cached 1455601971 36016.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_procedure 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_full_range_join 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_slave_stop 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_profile 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_written 1455601971 4.9042432E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_table 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_status 1455601971 35599.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_index 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_help 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_revoke_all 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_index 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_function_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_user 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.volume_reads 1455601971 1.4383308E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.connections_cached 1455601971 2.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_os_log_written 1455601971 1028096.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_do 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_procedure_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_rollback 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.created_tmp_tables 1455601971 71446.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_collations 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_fields 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.aborted_connects 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_start 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_kill 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_function 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_release_savepoint 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.open_table_definitions 1455601971 115.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_checksum 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.query_cache_hits 1455601971 1.4346877E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.created_tmp_disk_tables 1455601971 54.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_ha_close 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_charsets 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_writes 1455601971 2259.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.open_files 1455601971 48.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_savepoint 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_pages_read 1455601971 700.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_reset 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_change_db 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_pages_written 1455601971 1465.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_truncate 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.query_cache_not_cached 1455601971 36016.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_dirty 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_free 1455601971 7477.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_created 1455601971 11393.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_rows_read 1455601971 10985.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_analyze 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_select 1455601971 36431.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_tables 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_warnings 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_table 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_update 1455601971 512.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_commit 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_view 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_hits 1455601971 1.4346877E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_running 1455601971 2.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_uninstall_plugin 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_rows_updated 1455601971 488.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_udf 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_reprepare 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_db 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.table_locks_immediate 1455601971 2402.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_function 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_lock_tables 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_rnd 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_db 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_ha_open 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_empty_query 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_inserts 1455601971 391.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_event 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_load 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_read 1455601971 1.3668352E7 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_evicted 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_repair 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_replace_select 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_query_cache_hit_utilization 1455601971 99.74672 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_pending_fsyncs 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_db_upgrade 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_event 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_purge_before_date 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_db 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_create_server 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_data_fsyncs 1455601971 819.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.opened_files 1455601971 407.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_end 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_master_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_contributors 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.master_log_lag_bytes 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_scan 1455601971 71272.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.max_used_connections 1455601971 62.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_resignal 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.opened_table_definitions 1455601971 115.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_check 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_prepare_sql 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_set_option 1455601971 986416.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_create_func 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_authors 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_range_check 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_insert_select 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.volume_writes 1455601971 1529.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_slave_status 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_replace 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_function 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_fsyncs_os_log 1455601971 754.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_commit 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.sort_scan 1455601971 24.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_ha_read 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_free_blocks 1455601971 11.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_cached 1455601971 2.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_server 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.query_cache_misses 1455601971 391.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_processlist 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.uptime 1455601971 71276.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_binlog 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.pct_query_cache_memory_in_use 1455601971 95.6 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_keys 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_page_size 1455601971 16384.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_recover 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_variables 1455601971 35603.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.bytes_sent 1455601971 4.7335928E10 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_bp_pages_written 1455601971 1465.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_os_log_fsyncs 1455601971 754.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_delete 1455601971 452.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_grant 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_databases 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_bp_pages_created 1455601971 13.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_binlogs 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.aborted_clients 1455601971 36.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.table_locks_waited 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_optimize 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_rename_table 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_triggers 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_rows_inserted 1455601971 301.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_close 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_stmt_execute 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_signal 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.threads_connected 1455601971 35.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_rollback 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_wait_free 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_change_master 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_drop_user 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_xa_prepare 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_alter_db 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_reads 1455601971 701.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_slave_start 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.com_show_privileges 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.qcache_total_blocks 1455601971 250.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:338) - put mysql.select_full_join 1455601971 0.0 appname=ADC-SUNNYVALE hostname=localhost host=mysql
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:122) - End of the Mysql Metrics 
+
+2016-02-16  INFO [pool-1-thread-1] (MySQLAgent.java:106) - Gathering MySQL metrics. Agent Name: localhost Agent Version: 2.0.0

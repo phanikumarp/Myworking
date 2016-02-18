@@ -1,0 +1,3 @@
+kairosdb_host=175.126.104.46
+appname=alge
+

@@ -1,0 +1,6 @@
+
+ - name: writing the mysqlconf file
+   template: src=mysqlagent.conf.j2  dest={{project_root}}/mysql/config/plugin.json  owner=root group=root mode=755
+  
+ - name: starting the agent ...wait
+   command: 'nohup java -jar {{project_root}}/mysql/mysql.jar>/dev/null &'

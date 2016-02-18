@@ -1,0 +1,27 @@
+
+
+- name: update all packages
+  apt: update_cache=yes
+
+- name: creating directory
+  file: "state=directory path={{project_root}}/{{packetbeat_name}}  owner=root group=root recurse=yes mode=0755"
+
+- name: check if service exists
+  stat: path=/etc/init.d/{{packetbeat_name}}
+  register: pktbt_status
+
+- name: downloading in process
+  get_url:
+      url='https://download.elastic.co/beats/packetbeat/packetbeat_{{ packetbeat_version }}_amd64.deb'
+      dest={{project_root}}/{{packetbeat_name}}
+  register: get_pktbt
+  when: not pktbt_status.stat.exists
+  ignore_errors: true
+
+- name: downloading is failed...now copying packetbeat from source
+  copy: src=packetbeat_{{ packetbeat_version }}_amd64.deb  dest={{project_root}}/{{packetbeat_name}}
+  when: get_pktbt|failed
+
+- name: execute if packetbeat is not installed
+  command: dpkg -i "{{project_root}}/{{packetbeat_name}}/{{packetbeat_name}}_{{packetbeat_version}}_amd64.deb"
+  when: not pktbt_status.stat.exists

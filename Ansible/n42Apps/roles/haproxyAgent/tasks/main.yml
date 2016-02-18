@@ -1,0 +1,7 @@
+- include: agentinfo.yml
+  when: ansible_os_family == "RedHat"
+
+- include: agentinfo.yml
+  when: ansible_os_family == "Debian"
+
+- include: n42Agent_conf.yml 

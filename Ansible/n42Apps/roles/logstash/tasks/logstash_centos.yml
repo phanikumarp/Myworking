@@ -1,0 +1,27 @@
+
+- name: install rpm
+  yum: pkg=rpm state=latest
+  
+- name: creating directory
+  file: "state=directory path={{project_root}}/{{logstash_name}} owner=root group=root recurse=yes mode=0755"
+
+- name: check if logstash exists
+  stat: path=/etc/init.d/"{{logstash_name}}*"
+  register: logsh_status
+
+- name: downloading in process
+  get_url:
+       url='https://download.elastic.co/logstash/logstash/packages/centos/logstash-{{ logstash_version }}-1.noarch.rpm'
+       dest={{project_root}}/{{logstash_name}}/{{logstash_name}}-{{ logstash_version }}-1.noarch.rpm
+  register: get_logsh
+  when: not logsh_status.stat.exists
+  ignore_errors: true
+
+- name: downloading is failed...now copying logstash from local
+  copy: src=logstash-{{ logstash_version }}-1.noarch.rpm dest={{project_root}}/{{logstash_name}}
+  when: get_logsh|failed
+
+- name: execute if logstash.rpm is not installed
+  command: rpm -ivh "{{project_root}}/{{logstash_name}}/{{logstash_name}}-{{ logstash_version }}-1.noarch.rpm"
+  when: not logsh_status.stat.exists
+

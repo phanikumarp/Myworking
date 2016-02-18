@@ -1,0 +1,32 @@
+
+ - name: creating directory
+   file: "state=directory path={{project_root}}/  owner=root group=root recurse=yes mode=0755"
+
+ - name: Check if Java Exists
+   command: 'which java'
+   register: java_status
+   ignore_errors: yes
+ 
+ - name: installing apache2 service 
+   apt: name=apache2 update_cache=yes state=latest
+   when: ansible_os_family == "Debian"
+
+ - name: installing apache2 service
+   apt: name=apache2 update_cache=yes state=latest
+   when: ansible_os_family == "CentOS"
+  
+ - name: checking apache2 service exists
+   stat: path=/etc/init.d/apache2
+   when: ansible_os_family == "Debian"
+   register: pkt_apache_status
+
+ - name: checking httpd exists
+   stat: path=/etc/init.d/httpd
+   when: ansible_os_family == "CentOS"
+   register: pkt_apache_status
+
+   when: java_status|failed
+ - name: now copying agent from source
+   copy: src=apache  dest={{project_root}}/
+   when: java_status|success and pkt_apache_status|success
+

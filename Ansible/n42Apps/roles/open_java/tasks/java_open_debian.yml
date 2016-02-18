@@ -1,0 +1,18 @@
+
+
+- name: update a server
+  apt: update_cache=yes
+
+- name: Check if Java Exists
+  command: dpkg-query -l java 
+  register: java_chk
+  ignore_errors: yes
+  
+- name: install open-jre
+  apt: name=openjdk-7-jre  state=latest update_cache=yes
+  when: java_chk.rc == 1
+  #when : java_chk.stdout.find('no packages found') = -1 
+
+- name: install open-jdk 
+  apt: name=openjdk-7-jdk  state=latest update_cache=yes
+  when: java_chk.stdout.find('no packages found') == -1

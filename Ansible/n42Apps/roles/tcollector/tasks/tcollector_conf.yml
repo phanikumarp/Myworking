@@ -1,0 +1,30 @@
+- name: system update
+  apt: update_cache=yes
+
+- name: creating directory
+  file: "state=directory path={{project_root}} owner=root group=root recurse=yes mode=0755"
+
+- name: copying tcolloctor from local
+  copy: src=tcollector  dest={{project_root}}  owner=root mode=0755 
+
+- name: setting the kairosdb in conf file
+  lineinfile:  dest={{project_root}}/tcollector/hostconf.txt  regexp="^kairosdb_host=" line="kairosdb_host={{karios_ip}}" state=present
+
+- name: setting the appname in conf file
+  lineinfile:  dest={{project_root}}/tcollector/hostconf.txt  regexp="^appname=" line="appname={{app_name}}" state=present
+
+- name: permission
+  file: 'path={{project_root}}/tcollector/tcollector.sh mode=0755'
+
+#- name: locate the tcollector is installed
+#  lineinfile: dest={{project_root}}/tcollector/startstop line="TCOLLECTOR_PATH={{project_root}}/tcollector" insertafter="^TCOLLECTOR_PATH"
+
+#- name: link tcollector start stop script to /etc/init.d
+#  file: state=link src={{ project_root }}/hostconf.txt dest=/etc/init.d/hostconf.txt mode=0755
+
+#- name: link tcollector conf  to /etc/init.d
+#  file: state=link src={{ project_root }}/startstop dest=/etc/init.d/tcollector mode=0755
+
+- name: start tcollector
+  shell: '{{ project_root }}/tcollector/tcollector.sh restart'
+

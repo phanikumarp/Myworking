@@ -1,0 +1,4 @@
+tsdbhost=52.8.104.25
+tsdbport=4242
+appname=sunnyvele
+

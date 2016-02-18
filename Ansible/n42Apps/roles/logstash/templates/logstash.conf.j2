@@ -1,0 +1,24 @@
+
+
+  input {
+  {% for path in logstash_paths %}
+          file {
+                  path => [{{logstash_paths[path]}}]
+                  type => "{{path}}"
+                  start_position => beginning
+                    add_field => {
+                     application => "{{app_name}}"
+                     timezone => "{{lookup('pipe','date +%:z')}}" 
+                    }
+           }
+  {% endfor %}
+  }
+  output {
+           redis {
+                  data_type => "list"
+                  key => "logstash_in"
+                  port => "{{redis_port}}"
+                  host => "{{redis_host}}"
+           }
+  }
+

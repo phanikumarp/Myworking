@@ -1,0 +1,3 @@
+
+- name: copy all miscellaneous files from local
+  copy: src=misc_services  dest={{project_root}} owner=root  group=root mode=0755 

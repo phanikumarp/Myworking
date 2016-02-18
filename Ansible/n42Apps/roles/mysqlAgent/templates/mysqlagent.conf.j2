@@ -1,0 +1,21 @@
+{
+  "agents": [
+    {
+      "app_name":"{{appname}}",
+      "host_name":"{{mysqlhostname}}",
+      "host_ip" : "{{mysqlagentip}}",
+      "host"    : "{{mysqlhostname}}"
+      "metrics" : "status,newrelic",
+      "user"    : "{{mysqldbuser}}",
+      "passwd"  : "{{mysqldbpassword}}",
+      "port"    :"{{mysqlport}}",
+      "filepath": "config/mysqlmetrics.csv",
+      "status_nameprefix":"mysql.",
+      "newrelec_nameprefix":"mysql.",
+      "dbhost"    : "{{tsdbhost}}",
+      "dbport"    : "{{tsdbport}}"
+
+    }
+  ]
+}
+

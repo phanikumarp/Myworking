@@ -1,0 +1,16 @@
+{
+  "haproxy": [
+    {
+      "app_name":"ADC-SDDC"
+      "host_name"  : "n42-dev11",
+      "host_ip"    : "175.126.103.46",
+      "port" 	: "80",
+      "user"    : "root",
+      "passwd"  : "son123!",
+      "kairodb_name"    : "n42-dev15",
+      "kairodb_host"    : "175.126.104.46",
+      "kairodb_port"	: "4343",
+      "time_interval" 	: "5000"
+    }
+  ]
+}

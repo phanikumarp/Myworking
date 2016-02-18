@@ -1,0 +1,40 @@
+---
+- hosts: controller_node
+  sudo: yes
+
+  vars_files:
+    - vars/default.yml
+
+  roles:
+   # - { role: open_java, tags: ["open_java"] }
+   # - { role: logstash, tags: ["logstash"] }
+   # - { role: misc_services}
+   # - { role: packetbeat, tags: ["packetbeat"] }
+   # - { role: mlt_nw_health_monitor, tags: ["multilayer"] }
+   # - { role: rtt, tags: ["rtt"] }
+   # - { role: tenant, tags: ["tenant"] }
+   # - { role: tcollector, tags: ["tcollector"] }
+   # - { role: openstackServiceStatus, tags: ["openstack"] }
+    - { role: rabbitMqQuelength, tags: ["rabbitMqQuelength"] }
+
+
+- hosts: compute_node 
+  vars_files:
+    - vars/default.yml 
+  roles:
+    - { role: openstackServiceStatus, tags: ["openstack"] }
+   # - { role: open_java, tags: ["open_java"] }
+   # - { role: logstash, tags: ["logstash"] }
+    - { role: mlt_nw_health_monitor, tags: ["multilayer"] }
+    - { role: tenant, tags: ["tenant"] }
+
+
+- hosts: network_node
+  vars_files:
+    - vars/default.yml
+  roles:
+    - { role: openstackServiceStatus, tags: ["openstack"] }
+   # - { role: open_java, tags: ["open_java"] }
+   # - { role: logstash, tags: ["logstash"] }
+    - { role: mlt_nw_health_monitor, tags: ["multilayer"] }
+    - { role: rtt, tags: ["rtt"] }

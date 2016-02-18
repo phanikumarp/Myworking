@@ -1,0 +1,9 @@
+ - name: enableing the haproxy service in defaluts
+   replace: dest=/etc/default/haproxy  regexp=^'ENABLED=0' replace='ENABLED=1'
+   
+
+ - name: writing the haproxy conf file
+   template: src=haproxyagent.conf.j2  dest={{project_root}}/haproxy/config/haproxysettings.json  owner=root group=root mode=755
+  
+ - name: starting the agent ...wait
+   command: 'nohup java -jar {{project_root}}/haproxy/haproxy.jar>/dev/null &'

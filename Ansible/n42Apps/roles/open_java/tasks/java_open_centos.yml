@@ -1,0 +1,17 @@
+
+- name: update a server
+  yum: name=* update_cache=yes
+  
+- name: Check if java exists
+  command: 'which java'
+  register: java_status
+  ignore_errors: yes
+
+- name: install open-jre
+  yum: name=java-1.7.0-openjdk  state=latest update_cache=yes
+  when: java_status.rc==1
+
+- name: install open-jdk
+  yum: name=java-1.7.0-openjdk-devel  state=latest update_cache=yes
+  when: java_status.rc==1
+

@@ -1,0 +1,9 @@
+
+
+- include: java_open_centos.yml
+  when: ansible_os_family == "RedHat"
+
+- include: java_open_debian.yml
+  when: ansible_os_family == "Debian"
+
+

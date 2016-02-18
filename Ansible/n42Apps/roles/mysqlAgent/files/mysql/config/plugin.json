@@ -1,0 +1,20 @@
+{
+  "agents": [
+    {
+      "app_name":"ADC-SUNNYVALE",
+      "host_name":"localhost",
+      "host_ip" : "mysql",
+      "host" : "n42-sunnyvale-infra",
+      "metrics" : "status,newrelic",
+      "user"    : "root",
+      "passwd"  : "mysql",
+      "port"    :"3306",
+      "filepath": "config/mysqlmetrics.csv",
+      "status_nameprefix":"mysql.",
+      "newrelec_nameprefix":"mysql.",
+      "dbhost"    : "52.8.104.253",
+      "dbport"    : "4343"
+       
+    }
+  ]
+}

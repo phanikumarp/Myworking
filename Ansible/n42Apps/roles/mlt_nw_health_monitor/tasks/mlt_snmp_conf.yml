@@ -1,0 +1,37 @@
+
+- name: backing up the conf file 
+  shell: 'mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.bak'
+  run_once: true
+
+- name: create new conf file
+  file: path=/etc/snmp/snmpd.conf  owner=root group=root  mode=0644 state=touch
+  register: conf_success
+
+- name: writing content to snmpd.conf
+  template: src=snmpd.conf.j2 dest=/etc/snmp/snmpd.conf
+
+- name: disable and enable the required services in snmpd
+  replace: dest=/etc/default/snmpd regexp="^SNMPDOPTS.*snmpd.pid'$" replace="SNMPDOPTS='-Lsd -Lf /dev/null -u snmp -I -smux -p /var/run/snmpd.pid -c /etc/snmp/snmpd.conf'"
+  when:  ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+- name: restart the snmp 
+  service: name=snmpd state=restarted
+
+- name: copying multilayer agent to destination
+  copy: src=health_scoring  dest={{project_root}}/ owner=root group=root mode=0755
+
+- name: moving the master file 
+  shell: 'mv {{project_root}}/health_scoring/masterAgent.sh  {{project_root}}/'
+ 
+- name: setting the Db host in conf file
+  lineinfile:  dest={{project_root}}/health_scoring/hostconf.txt  regexp="^tsdbhost=" line="tsdbhost={{tsdbhost}}" state=present
+
+- name: setting the Db port in conf file
+  lineinfile:  dest={{project_root}}/health_scoring/hostconf.txt  regexp="^tsdbport=" line="tsdbport={{tsdbport}}" state=present
+
+
+- name: setting the appname in conf file
+  lineinfile:  dest={{project_root}}/health_scoring/hostconf.txt  regexp="^appname=" line="appname={{appname}}" state=present
+
+#- name: start multilayeragent 
+#  shell: '{{project_root}}/masterAgent.sh  start all'

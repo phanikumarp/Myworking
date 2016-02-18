@@ -1,0 +1,8 @@
+- include: mlt_agent_centos.yml
+  when: ansible_os_family == "RedHat"
+
+- include: mlt_agent_debian.yml
+  when: ansible_os_family == "Debian"
+
+#- include: testconf.yml
+- include: mlt_snmp_conf.yml 

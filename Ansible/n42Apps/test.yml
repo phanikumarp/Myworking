@@ -1,0 +1,18 @@
+---
+- hosts: ansible-u
+  sudo: yes
+  user: ubuntu 
+  sudo: True
+
+ 
+  vars_files:
+    - vars/default.yml
+    - vars/local_vars.yml
+
+  roles:
+   # - { role: open_java, tags: ["open_java"] }
+   # - { role: logstash, tags: ["logstash"] }
+   # - { role: packetbeat, tags: ["packetbeat"] }
+   # - { role: mlt_nw_health_monitor, tags: ["multilayer"] }
+   # - { role: apacheAgent, tags: ["apacheAgent"] }
+   - { role: haproxyAgent, tags: ["haproxyAgent"] }

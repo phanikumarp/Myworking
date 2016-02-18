@@ -1,0 +1,27 @@
+
+- name: updates all packges
+  apt: update_cache=yes
+
+- name: creating directory
+  file: "state=directory path={{project_root}}/{{logstash_name}}  owner=root group=root recurse=yes mode=0755"
+
+- name: check if logstash exists
+  stat: path=/etc/init.d/{{logstash_name}}
+  register: logsh_status
+
+- name: downloading in process
+  get_url:
+       url='https://download.elastic.co/logstash/logstash/packages/debian/logstash_{{ logstash_version }}-1_all.deb'
+       dest={{project_root}}/{{logstash_name}}/{{ logstash_version }}-1_all.deb
+  register: get_logsh
+  when: not logsh_status.stat.exists
+  ignore_errors: true
+ 
+- name: downloading is failed...now copying logstash from local
+  copy: src=logstash_{{ logstash_version }}-1_all.deb  dest={{project_root}}/{{logstash_name}}
+  when: get_logsh|failed
+
+- name: Execute if logstash.deb is not installed
+  command: dpkg -i "{{project_root}}/{{logstash_name}}/{{logstash_name}}_{{ logstash_version }}"-1_all.deb
+  when: not logsh_status.stat.exists
+

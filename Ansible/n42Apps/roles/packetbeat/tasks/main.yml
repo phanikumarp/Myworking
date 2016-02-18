@@ -1,0 +1,7 @@
+- include: packetbeat_centos.yml
+  when: ansible_os_family == "RedHat"
+
+- include: packetbeat_debian.yml
+  when: ansible_os_family == "Debian"
+
+- include:  packetbeat_conf.yml

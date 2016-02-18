@@ -1,0 +1,24 @@
+
+- name: copying openstack script  from local
+  copy: src=openstackServiceStatus  dest={{project_root}}  owner=root mode=0755
+
+- name: copying status script  from local
+  copy: src=openstack_service_status_centos.sh  dest={{project_root}}/openstackServiceStatus/  owner=root mode=0755
+
+- name: setting the kairosdb in conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/openstack_service_status_centos.sh  regexp="^tsdb=" line="tsdb={{karios_ip}}" state=present
+
+- name: setting the appname in conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/openstack_service_status_centos.sh  regexp="^appName=" line="appName={{app_name}}" state=present
+
+- name: create logs directory
+  file: "state=directory path={{project_root}}/openstackServiceStatus/logs owner=root group=root mode=0755"  
+
+- name: include the conf file
+  include: openstack_conf.yml
+
+- name: start script file
+  command: 'bash {{project_root}}/openstackServiceStatus/openstack_service_status_centos.sh'
+
+- name: sleep for a specified interval
+  command: sleep '{{ sleep_interval }}'

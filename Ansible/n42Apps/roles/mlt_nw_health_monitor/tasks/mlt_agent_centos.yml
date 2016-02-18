@@ -1,0 +1,8 @@
+
+- name: installing snmp MIB database dependencies
+  yum: name={{ item }}  update_cache=yes state=latest
+  with_items:
+     - net-snmp
+     - net-snmp-utils
+    # - snmp-mibs-downloader
+

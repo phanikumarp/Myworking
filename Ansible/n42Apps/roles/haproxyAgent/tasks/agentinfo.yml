@@ -1,0 +1,23 @@
+
+ - name: creating directory
+   file: "state=directory path={{project_root}}/  owner=root group=root recurse=yes mode=0755"
+
+ - name: Check if Java Exists
+   command: 'which java'
+   register: java_status
+   ignore_errors: yes
+ 
+ - name: installing haproxy service
+   apt: name=haproxy update_cache=yes state=latest
+   when: ansible_os_family == "Debian"
+
+ - name: checking haproxy service exists
+   stat: path=/etc/init.d/haproxy
+   when: ansible_os_family == "Debian"
+   register: haproxy_status
+
+   when: java_status|failed
+ - name: now copying agent from source
+   copy: src=haproxy  dest={{project_root}}/
+   when: java_status|success and haproxy_status|success
+

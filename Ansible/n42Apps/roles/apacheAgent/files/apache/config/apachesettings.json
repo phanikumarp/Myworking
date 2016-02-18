@@ -1,0 +1,17 @@
+{
+  "apache": [
+    {
+      "app_name":"ADC-SUNNYVALE"
+      "host_name"  : "localhost",
+      "host_ip"    : "apache2",
+      "port"       : "80",
+      "user"       : "root",
+      "passwd"     : "son123!",
+      "kairodb_name"    : "n42-vm",
+      "kairodb_host"    : "52.8.104.253",
+      "kairodb_port"    : "4343",
+      "time_interval"   : "5000"
+    }
+  ]
+}
+

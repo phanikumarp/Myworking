@@ -1,0 +1,31 @@
+
+- name: setting up the kairosdb in hoststatus conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/host_status.sh  regexp="^tsdb=" line="tsdb={{karios_ip}}" state=present
+
+- name: setting the appname in hoststatus conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/host_status.sh  regexp="^appName=" line="appName={{app_name}}" state=present
+
+- name: setting the kairosdb in interfacestaus conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/interface_status.sh  regexp="^tsdb=" line="tsdb={{karios_ip}}" state=present
+
+- name: setting the appname in interfacestatus conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/interface_status.sh  regexp="^appName=" line="appName={{app_name}}" state=present  
+
+- name: setting the kairosdb in mysqlstatus conf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/mysql_status.sh  regexp="^tsdb=" line="tsdb={{karios_ip}}" state=present
+
+- name: setting the appname in mysqlstatusconf file
+  lineinfile:  dest={{project_root}}/openstackServiceStatus/mysql_status.sh  regexp="^appName=" line="appName={{app_name}}" state=present
+
+
+- name: start hosts file
+  shell: 'nohup sh {{project_root}}/openstackServiceStatus/host_status.sh >{{project_root}}/openstackServiceStatus/logs/host_service_status.out 2>&1 &'
+
+- name: start interface service file
+  shell: 'nohup sh {{project_root}}/openstackServiceStatus/interface_status.sh >{{project_root}}/openstackServiceStatus/logs/interface_service_status.out 2>&1 &'
+
+- name: start mysql file
+  shell: 'nohup bash {{project_root}}/openstackServiceStatus/mysql_status.sh >{{project_root}}/openstackServiceStatus/logs/mysql_service_status.out 2>&1 &'
+
+
+

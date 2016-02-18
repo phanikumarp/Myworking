@@ -1,0 +1,52 @@
+
+pem_file: ../../new_key.pem
+
+
+
+project_root: /root/n42apps
+
+# kairos 
+tsdbhost: 54.67.112.100
+tsdbport: 4343
+appname: skt
+
+
+##agents details
+#apacheAgent
+apachehostname: apache1
+apacheip: 143
+apacheport: 80
+
+#haproxyAgent
+haporxyhostname: haproxy
+haproxyip: 145
+
+#mysqlAgent
+mysqlhostname: mysql
+mysqlagentip: 146
+mysqldbuser: root
+mysqldbpassword: mysql
+mysqlport: 3306
+
+
+
+
+
+
+sleep_interval: 60
+
+# Logstash
+logstash_name: logstash
+logstash_version: 1.5.6
+logstash_paths: 
+  { nova : '"/var/log/nova","/var/log/logstash"',keystone : '"/var/log/keystone1"' ,neutron: '"/var/log/neutron","/var/opt/neutron2"'}
+
+#Packetbeat 
+packetbeat_name: packetbeat
+packetbeat_version: 1.0.1
+
+### redis details
+redis_host: 175.126.103.44
+redis_port: 6379
+mysql_port: 3306
+http_ports: '80, 8080, 8000, 5000, 8002'

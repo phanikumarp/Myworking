@@ -1,0 +1,8 @@
+- name: copying  tenant gent to destination
+  copy: src=tenant  dest={{project_root}} owner=root  group=root mode=0755
+  
+- name: copy the master script from local
+  copy: src=masterAgent.sh dest={{project_root}}
+  
+- name: start tenant
+  shell: '{{project_root}}/masterAgent.sh  start tenant'

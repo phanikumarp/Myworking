@@ -1,0 +1,8 @@
+- name: copying rtt gent to destination
+  copy: src=rtt dest={{project_root}} owner=root  group=root mode=0755
+
+- name: copy the master script from local
+  copy: src=masterAgent.sh dest={{project_root}}
+
+- name: start rtt
+  shell: '{{project_root}}/masterAgent.sh  start rtt'

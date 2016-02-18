@@ -1,0 +1,11 @@
+  
+  - name: create the logstash conf file
+    file: path=/etc/logstash/conf.d/n42_logstash.conf  owner=root group=root  mode=0644 state=touch
+    register: conf_success
+
+  - name: writing the logstash conf file
+    template: src=logstash.conf.j2 dest=/etc/logstash/conf.d/n42_logstash.conf owner=root group=root mode=755
+
+  - name: Logstash start
+    service: name={{logstash_name}} state=started
+  

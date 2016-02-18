@@ -1,0 +1,7 @@
+#### for packetbeat format  #####
+
+pkt_dest: '/etc/packetbeat/packetbeat.yml'
+double_space: '  '
+pkt_mysql: '{{double_space}}{{double_space}}ports: [{{mysql_port}}]'
+pkt_http: '{{double_space}}{{double_space}}ports: [{{http_ports}}]'
+radis_server: '{{double_space}}redis: \n{{double_space}}{{double_space}}hosts: [\"localhost:92200\"]\n{{double_space}}{{double_space}}ports: [{{redis_port}}]'

@@ -1,0 +1,12 @@
+| 992e6d7eb32540b286a66ee756e6ac02 |                       N42-Tenant-1                      |   True  |
+| 3b2f8bc7738d4304952ca3ed3840d45c |                       N42-Tenant-2                      |   True  |
+| 81138feef51843009e4be88603256fe0 |                       N42-Tenant-3                      |   True  |
+| b648bb320ebe4df590527f5510608828 |                       N42-Tenant-4                      |   True  |
+| ec1fa619e3804610931e3f074a78e79b |                       N42-Tenant-5                      |   True  |
+| a7ae7e9310ca4e08823a7e4528b7307a |                       N42-Tenant-6                      |   True  |
+| 3fb6087e6a284c59bf64c034e642f9d6 |                       N42-Tenant-7                      |   True  |
+| 3d63c0e1be6d403f983c661a74232c0b |                       N42-Tenant-8                      |   True  |
+| aa9db0743e4d4496888f65c1b5546c9c |                         N42-Test                        |   True  |
+| 9e30c8ef1ec94f17a4dfd3105e35b396 |                          admin                          |   True  |
+| 1b4ea38db4654a47996ea8aa6a0690ea |                           demo                          |   True  |
+| 82223fd7830c4d3e85dccb371eb41b5c |                         service                         |   True  |

@@ -1,0 +1,1540 @@
+line1  =tcp    ESTAB      0      0            127.0.0.1:47703         127.0.0.1:memcache
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:34222       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:202 rtt:2.25/1.75 ato:40 mss:65468 cwnd:8 ssthresh:7 send 1862.2Mbps reordering:6 rcv_rtt:229242 rcv_space:108722
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56030
+line2  =cubic wscale:7,7 rto:211 rtt:11.625/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 450.5Mbps reordering:6 rcv_rtt:8.125 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:51592       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:415213 rcv_space:102720
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33004
+line2  =cubic wscale:7,7 rto:212 rtt:12/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:5.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52337
+line2  =cubic wscale:7,7 rto:211 rtt:11.25/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:14.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:33004       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:5.75 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52562
+line2  =cubic wscale:7,7 rto:216 rtt:16.375/20.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 319.8Mbps reordering:6 rcv_rtt:6.125 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:58650       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:56399       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56426
+line2  =cubic wscale:7,7 rto:211 rtt:11.75/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:9 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:51164       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:202 rtt:2.25/1.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 796.4Mbps reordering:6 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0            127.0.0.1:55313         127.0.0.1:27017
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65344 cwnd:10 ssthresh:7 send 2788.0Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:33411       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.125 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:54463       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:50739.3 rcv_space:104384
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53612
+line2  =cubic wscale:7,7 rto:211 rtt:11.75/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:8 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60645
+line2  =cubic wscale:7,7 rto:212 rtt:12/16.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:5.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:33178       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:202 rtt:2.75/3 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1904.5Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:60316       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:202 rtt:2.625/2.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1995.2Mbps reordering:6 rcv_rtt:1.125 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:ssh      49.204.222.234:59982
+line2  =cubic wscale:7,7 rto:491 rtt:288.25/12.5 ato:40 mss:1440 cwnd:12 ssthresh:29 send 479.6Kbps rcv_rtt:271 rcv_space:14480
+flag value is 
+172.25.30.2 49.204.222.234 491 288.25 12.5
+line1  =tcp    ESTAB      0      0          172.25.30.2:51194       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:15306.1 rcv_space:128346
+flag value is 
+line1  =tcp    ESTAB      0      0            127.0.0.1:54859         127.0.0.1:27017
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60234
+line2  =cubic wscale:7,7 rto:212 rtt:12.75/17.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 410.8Mbps reordering:6 rcv_rtt:1.5 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60280
+line2  =cubic wscale:7,7 rto:212 rtt:12.125/16.75 ato:41 mss:65468 cwnd:10 ssthresh:7 send 432.0Mbps reordering:6 rcv_rtt:5.625 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33094
+line2  =cubic wscale:7,7 rto:212 rtt:12/15.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:51173       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:202 rtt:2.375/1.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 754.5Mbps reordering:6 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:41497       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:206 rtt:3.125/3.25 ato:40 mss:65468 cwnd:4 ssthresh:4 send 670.4Mbps reordering:6 rcv_rtt:343896 rcv_space:89744
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:37611       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:9 ssthresh:7 send 2514.0Mbps reordering:6 rcv_rtt:443454 rcv_space:89616
+flag value is 
+line1  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:55000
+line2  =cubic wscale:7,7 rto:211 rtt:11.875/12.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps rcv_rtt:9.625 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59734
+line2  =cubic wscale:7,7 rto:211 rtt:11.875/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps reordering:6 rcv_rtt:3.75 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:51426       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:60868       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+flag value is 
+line1  =tcp    ESTAB      0      0          172.25.30.2:rfb       61.240.144.64:60000
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60316
+flag value is 
+line1  =cubic wscale:7,7 rto:216 rtt:16/20.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 327.3Mbps reordering:6 rcv_rtt:8.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60733
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.375/19 ato:40 mss:65468 cwnd:10 ssthresh:7 send 364.3Mbps reordering:6 rcv_rtt:3.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:41011
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14/15 ato:42 mss:65468 cwnd:7 ssthresh:7 send 261.9Mbps rcv_rtt:11563.5 rcv_space:84276
+line2  =tcp    ESTAB      0      0          172.25.30.2:56381       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:55335
+flag value is 1
+line1  =cubic wscale:7,7 rto:209 rtt:9.75/14 ato:40 mss:65468 cwnd:10 ssthresh:7 send 537.2Mbps reordering:6 rcv_rtt:15.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51191       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:299622 rcv_space:60192
+line2  =tcp    ESTAB      0      0          172.25.30.2:33447       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51192       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:12728.2 rcv_space:137932
+line2  =tcp    ESTAB      0      0          172.25.30.2:57891       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:webcache     172.25.30.2:47057
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:5/6.25 ato:40 mss:22400 cwnd:10 ssthresh:7 send 358.4Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51565       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:210 rtt:10.875/15.25 ato:40 mss:22976 cwnd:10 ssthresh:7 send 169.0Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51160       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.75/6.5 ato:49 mss:65468 cwnd:10 ssthresh:7 send 1102.6Mbps reordering:6 rcv_rtt:46563.8 rcv_space:654414
+line2  =tcp    ESTAB      0      0          172.25.30.2:55335       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:53752       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:epmd          127.0.0.1:48185
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.25/1 ato:40 mss:21888 cwnd:10 send 1400.8Mbps rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59089
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:113582 rcv_space:87812
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53732
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.5/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 419.0Mbps reordering:6 rcv_rtt:7.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51497       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:443927 rcv_space:109920
+line2  =tcp    ESTAB      0      0          172.25.30.2:42136       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:6.75/8.5 ato:40 mss:65468 cwnd:5 ssthresh:4 send 388.0Mbps reordering:6 rcv_rtt:159443 rcv_space:88520
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58650
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.625/17.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 414.8Mbps reordering:6 rcv_rtt:7.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33447
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.625/19.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 358.1Mbps reordering:6 rcv_rtt:1.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:44305       172.25.30.2:armtechdaemon
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:5/5.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 358.4Mbps reordering:6 rcv_rtt:103 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60403       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.625/2.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1995.2Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:54662
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.5/18.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 388.0Mbps reordering:6 rcv_rtt:25.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51495       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.75/3.5 ato:40 mss:65468 cwnd:8 ssthresh:6 send 882.1Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60280       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.375/5.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1197.1Mbps reordering:6 rcv_rtt:2 rcv_space:52140
+line2  =tcp    ESTAB      0      0          172.25.30.2:51190       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:11896.8 rcv_space:148388
+line2  =tcp    ESTAB      0      0          172.25.30.2:wap-wsp    54.67.17.235:47950
+flag value is 1
+line1  =cubic wscale:7,7 rto:210 rtt:10.875/1.5 ato:40 mss:1448 cwnd:10 ssthresh:7 send 10.7Mbps rcv_rtt:13.25 rcv_space:16192
+line2  =tcp    ESTAB      0      0          172.25.30.2:58945       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:54168
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.125/19.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 346.3Mbps reordering:6 rcv_rtt:8.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51122       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.5/5.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 398.2Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56733       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:51535
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.875/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps reordering:6 rcv_rtt:7.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60645       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:45509       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33449
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    CLOSE-WAIT 1      0            127.0.0.1:42091         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.625/5.25 ato:40 mss:25088 cwnd:10 ssthresh:7 send 434.0Mbps rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33095
+flag value is 1
+line1  =cubic wscale:7,7 rto:210 rtt:10.625/14.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 492.9Mbps reordering:6 rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:59090       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65152 cwnd:10 ssthresh:7 send 2779.8Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51650       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:208 rtt:8.625/12.75 ato:40 mss:22976 cwnd:10 ssthresh:7 send 213.1Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51166       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65088 cwnd:8 ssthresh:6 send 2221.7Mbps reordering:6 rcv_rtt:277706 rcv_space:88480
+line2  =tcp    ESTAB      0      0            127.0.0.1:55449         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65152 cwnd:10 ssthresh:7 send 2779.8Mbps rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59104
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.875/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps reordering:6 rcv_rtt:9 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:57516       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:wap-wsp    54.67.17.235:49194
+flag value is 1
+line1  =cubic wscale:7,7 rto:229 rtt:29/21 ato:40 mss:1448 cwnd:10 ssthresh:7 send 4.0Mbps rcv_rtt:309996 rcv_space:29306
+line2  =tcp    ESTAB      0      0          172.25.30.2:53481       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:51060
+line2  =tcp    ESTAB      0      0            127.0.0.1:43056         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58965
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.25/19.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 343.4Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56560       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:29317.7 rcv_space:88472
+line2  =tcp    ESTAB      0      0          172.25.30.2:33449       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:59089       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.75/2.75 ato:40 mss:65280 cwnd:10 ssthresh:7 send 1899.1Mbps reordering:6 rcv_rtt:2.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:55274
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.125/17.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 432.0Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60735       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:52709
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.625/15.75 ato:41 mss:65468 cwnd:6 ssthresh:4 send 230.6Mbps rcv_rtt:26693.5 rcv_space:84276
+line2  =tcp    ESTAB      0      0          172.25.30.2:51183       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:12947.9 rcv_space:143254
+line2  =tcp    ESTAB      0      0          172.25.30.2:56942       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53284
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:8 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:40770
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.375/16.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 391.6Mbps rcv_rtt:3.125 rcv_space:65548
+line2  =tcp    ESTAB      0      0          172.25.30.2:webcache     172.25.30.2:47037
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.875/5.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 367.6Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:55807
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/16 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:10 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53198
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/17.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:8 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51566       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.25/2 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2327.8Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:52709         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2/1 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2618.7Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:47733       172.25.30.2:armtechdaemon
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:6.5/7.5 ato:40 mss:22400 cwnd:10 ssthresh:7 send 275.7Mbps reordering:6 rcv_rtt:79 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51158       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:60034.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60017
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/14.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:5.75 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58111
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13/16.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 402.9Mbps reordering:6 rcv_rtt:11.75 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:58965       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33093
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13/18 ato:40 mss:65468 cwnd:10 ssthresh:7 send 402.9Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60403
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/16 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:4.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58113
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.5/16.5 ato:42 mss:65468 cwnd:10 ssthresh:7 send 388.0Mbps reordering:6 rcv_rtt:3.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:51426
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/14.5 ato:41 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:10.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:37612       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.25/3.5 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1289.2Mbps reordering:6 rcv_rtt:98953.7 rcv_space:88472
+line2  =tcp    ESTAB      0      0          172.25.30.2:51260       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps retrans:0/1 rcv_rtt:183413 rcv_space:89264
+line2  =tcp    ESTAB      0      0          172.25.30.2:58111       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53152
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.375/18 ato:40 mss:65468 cwnd:10 ssthresh:7 send 391.6Mbps reordering:6 rcv_rtt:6.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51636       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.625/2.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1995.2Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:55274       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:51604
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.75/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:8.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:41476       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps retrans:0/2 rcv_rtt:89562.7 rcv_space:89600
+line2  =tcp    ESTAB      0      0          172.25.30.2:51652       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.125/3.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1676.0Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:55551       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2618.7Mbps reordering:6 rcv_rtt:3 rcv_space:52252
+line2  =tcp    ESTAB      0      0          172.25.30.2:33003       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.75 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:55807       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:41489       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:2.75/2.75 ato:40 mss:65468 cwnd:7 ssthresh:7 send 1333.2Mbps reordering:6 rcv_rtt:175482 rcv_space:89448
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59096
+flag value is 1
+line1  =cubic wscale:7,7 rto:209 rtt:9/13.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 581.9Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:57736       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:234314 rcv_space:88470
+line2  =tcp    ESTAB      0      0            127.0.0.1:55001         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65216 cwnd:10 ssthresh:7 send 2782.5Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60938       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51549       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:236864 rcv_space:90560
+line2  =tcp    ESTAB      0      0          172.25.30.2:35413       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:207 rtt:7.5/11 ato:40 mss:65468 cwnd:5 ssthresh:5 send 349.2Mbps reordering:6 rcv_rtt:410873 rcv_space:88480
+line2  =tcp    ESTAB      0      0          172.25.30.2:43616     172.25.29.103:wap-wsp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.5/2.25 mss:1448 cwnd:10 ssthresh:130 send 46.3Mbps reordering:14 rcv_space:14600
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:55001
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.375/12.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 460.4Mbps rcv_rtt:5.25 rcv_space:49646
+line2  =tcp    ESTAB      0      0          172.25.30.2:51604       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.375/3.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1551.8Mbps reordering:6 rcv_rtt:2.75 rcv_space:68666
+line2  =tcp    ESTAB      0      0          172.25.30.2:48030       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2/1 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2095.0Mbps reordering:6 rcv_rtt:177884 rcv_space:99280
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60070
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.75/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57301
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.5/18.5 ato:45 mss:65468 cwnd:10 ssthresh:7 send 388.0Mbps reordering:6 rcv_rtt:8.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:33927       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:292790 rcv_space:88494
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:60485
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.25/15 ato:40 mss:65468 cwnd:6 ssthresh:4 send 256.5Mbps rcv_rtt:107.375 rcv_space:93640
+line2  =tcp    ESTAB      0      0          172.25.30.2:48687       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:9 ssthresh:6 send 2514.0Mbps reordering:6 rcv_rtt:505992 rcv_space:89616
+line2  =tcp    ESTAB      0      0          172.25.30.2:53284       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:41792       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.75/2.75 ato:40 mss:65468 cwnd:5 ssthresh:5 send 952.3Mbps reordering:6 rcv_rtt:107371 rcv_space:89600
+line2  =tcp    ESTAB      0      0          172.25.30.2:60017       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53213
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.75/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:8.75 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57516
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.5/17.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 419.0Mbps reordering:6 rcv_rtt:11 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33092
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.875/17.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 406.8Mbps reordering:6 rcv_rtt:96.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52463
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.625/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 450.5Mbps reordering:6 rcv_rtt:8.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33411
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:48690       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:3.875/4.5 ato:40 mss:65468 cwnd:4 ssthresh:4 send 540.6Mbps retrans:0/1 rcv_rtt:363025 rcv_space:90728
+line2  =tcp    ESTAB      0      0          172.25.30.2:51165       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:24576 cwnd:10 ssthresh:7 send 1048.6Mbps reordering:6 rcv_rtt:12003.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51622       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53481
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.75/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:9.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56552       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:209 rtt:9.5/14.25 ato:40 mss:65468 cwnd:8 ssthresh:6 send 441.0Mbps reordering:6 rcv_rtt:413576 rcv_space:89616
+line2  =tcp    ESTAB      0      0          172.25.30.2:56398       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51205       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps retrans:0/4 rcv_rtt:268079 rcv_space:89360
+line2  =tcp    ESTAB      0      0          172.25.30.2:54662       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56426       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.375 rcv_space:52140
+line2  =tcp    ESTAB      0      0          172.25.30.2:51621       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:210 rtt:10.375/15.25 ato:40 mss:22976 cwnd:10 ssthresh:7 send 177.2Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:57821       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:6.375/9.25 ato:40 mss:65468 cwnd:8 ssthresh:7 send 657.2Mbps reordering:6 rcv_rtt:335440 rcv_space:89304
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52679
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.875/20 ato:40 mss:65468 cwnd:10 ssthresh:7 send 329.9Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:47037       172.25.30.2:webcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.875/5.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1074.3Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:55448         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65344 cwnd:10 ssthresh:7 send 2788.0Mbps rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:60485         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51713       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.75/3 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1904.5Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58945
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.75/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:8 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:35233         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.5/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2095.0Mbps rcv_rtt:1.875 rcv_space:6252880
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33003
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:3.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:37613       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:2.75/2.75 ato:40 mss:65468 cwnd:5 ssthresh:5 send 952.3Mbps reordering:6 rcv_rtt:351046 rcv_space:89776
+line2  =tcp    ESTAB      0      0          172.25.30.2:51186       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:9 ssthresh:6 send 2514.0Mbps reordering:6 rcv_rtt:363771 rcv_space:89960
+line2  =tcp    ESTAB      0      0          172.25.30.2:58189       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.375/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2205.2Mbps reordering:6 rcv_rtt:1.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60796
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 391.6Mbps reordering:6 rcv_rtt:7.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60938
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.625/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 450.5Mbps reordering:6 rcv_rtt:2.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51590       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:497485 rcv_space:88452
+line2  =tcp    ESTAB      0      0          172.25.30.2:51193       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.25/4 ato:40 mss:65468 cwnd:8 ssthresh:7 send 1289.2Mbps reordering:6 rcv_rtt:320855 rcv_space:124752
+line2  =tcp    ESTAB      0      0          172.25.30.2:37638       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:333371 rcv_space:90344
+line2  =tcp    ESTAB      0      0            127.0.0.1:54849         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51131       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:207 rtt:7.875/12.25 ato:40 mss:65280 cwnd:10 ssthresh:7 send 663.2Mbps reordering:6 rcv_rtt:500568 rcv_space:88480
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:55448
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.625/12.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 450.5Mbps rcv_rtt:178 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56376       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.25 rcv_space:48792
+line2  =tcp    ESTAB      0      0          172.25.30.2:33096       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:4.5 rcv_space:134218
+line2  =tcp    ESTAB      0      0          172.25.30.2:51494       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:8897.73 rcv_space:88540
+line2  =tcp    ESTAB      0      0          172.25.30.2:51187       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.875/6 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1074.3Mbps reordering:6 rcv_rtt:190916 rcv_space:89616
+line2  =tcp    ESTAB      0      0            127.0.0.1:41011         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60735
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 391.6Mbps reordering:6 rcv_rtt:5.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:54761       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.25/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2327.8Mbps reordering:6 rcv_rtt:2.5 rcv_space:51060
+line2  =tcp    ESTAB      0      0          172.25.30.2:53420       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.125/1.25 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1971.7Mbps reordering:6 rcv_rtt:443949 rcv_space:88492
+line2  =tcp    ESTAB      0      0          172.25.30.2:51195       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.75/18.75 ato:40 mss:65468 cwnd:5 ssthresh:4 send 190.5Mbps reordering:6 rcv_rtt:131389 rcv_space:89744
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:54852
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.375/12.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 460.4Mbps rcv_rtt:340.625 rcv_space:49508
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:51867
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.375/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 423.2Mbps reordering:6 rcv_rtt:9 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:49840         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52933
+flag value is 1
+line1  =cubic wscale:7,7 rto:210 rtt:10.625/14.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 492.9Mbps reordering:6 rcv_rtt:11.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:armtechdaemon     172.25.30.2:47733
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:6.5/7.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 805.8Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56718       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:210 rtt:10.5/14.5 ato:40 mss:22976 cwnd:10 ssthresh:7 send 175.1Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:35233
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:10 send 2793.3Mbps retrans:0/36 rcv_rtt:10145 rcv_space:1350648
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:55532
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.125/19.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 346.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:34201       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:122347 rcv_space:104182
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33178
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.75/19.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 332.5Mbps reordering:6 rcv_rtt:12.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:54869         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51188       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.625/4 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1444.8Mbps reordering:6 rcv_rtt:262923 rcv_space:91384
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33687
+flag value is 1
+line1  =cubic wscale:7,7 rto:209 rtt:9.875/15 ato:40 mss:23680 cwnd:10 ssthresh:7 send 191.8Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:59928       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:207 rtt:7.625/11 ato:40 mss:65468 cwnd:5 ssthresh:4 send 343.4Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:59212         127.0.0.1:35838
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 mss:21888 cwnd:10 ssthresh:7 send 933.9Mbps rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:57848       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:52562       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2/1.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2618.7Mbps reordering:6 rcv_rtt:3.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:33303
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.375/15.5 ato:40 mss:65468 cwnd:7 ssthresh:7 send 274.1Mbps rcv_rtt:145.75 rcv_space:65940
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56381
+flag value is 1
+line1  =cubic wscale:7,7 rto:216 rtt:16.75/19 ato:40 mss:65468 cwnd:10 ssthresh:7 send 312.7Mbps reordering:6 rcv_rtt:11 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:52933       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51130       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:6 ssthresh:4 send 573.4Mbps reordering:6 rcv_rtt:3236.38 rcv_space:104178
+line2  =tcp    ESTAB      0      0          172.25.30.2:51737       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:54852         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51635       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.375/3.5 ato:40 mss:22976 cwnd:10 ssthresh:7 send 544.6Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:55902       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:3/2.5 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1396.7Mbps reordering:6 rcv_rtt:486724 rcv_space:88460
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:54849
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/11.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps rcv_rtt:14.5 rcv_space:61954
+line2  =tcp    ESTAB      0      0          172.25.30.2:58045       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2/1.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2618.7Mbps reordering:6 rcv_rtt:3.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:53152       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.125 rcv_space:48792
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:54859
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.875/11.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps rcv_rtt:79 rcv_space:67528
+line2  =tcp    ESTAB      0      0          172.25.30.2:51161       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:216 rtt:16.375/17.5 ato:40 mss:22976 cwnd:8 ssthresh:6 send 89.8Mbps reordering:6 rcv_rtt:484.625 rcv_space:771148
+line2  =tcp    ESTAB      0      0          172.25.30.2:59097       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65152 cwnd:10 ssthresh:7 send 2779.8Mbps reordering:6 rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:53752
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.375/18.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 364.3Mbps reordering:6 rcv_rtt:3.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:42047       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65280 cwnd:10 ssthresh:7 send 2785.3Mbps reordering:6 rcv_rtt:141205 rcv_space:88480
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:36654
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.875/17.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 352.1Mbps rcv_rtt:55.75 rcv_space:74912
+line2  =tcp    ESTAB      0      0          172.25.30.2:33095       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:4.375 rcv_space:167402
+line2  =tcp    ESTAB      0      0          172.25.30.2:33093       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.5 rcv_space:134188
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:55449
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11/12.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 476.1Mbps rcv_rtt:6.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51214       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:229 rtt:15.75/20.25 ato:40 mss:65468 cwnd:7 ssthresh:6 send 232.8Mbps retrans:0/1 rcv_rtt:329285 rcv_space:89616
+line2  =tcp    ESTAB      0      0          172.25.30.2:52049       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.875/3.25 ato:40 mss:65468 cwnd:4 ssthresh:4 send 728.7Mbps reordering:6 rcv_rtt:213470 rcv_space:88480
+line2  =tcp    ESTAB      0      0          172.25.30.2:51212       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:208 rtt:8/12.25 ato:40 mss:65468 cwnd:6 ssthresh:6 send 392.8Mbps reordering:6 rcv_rtt:188108 rcv_space:88472
+line2  =tcp    ESTAB      0      0          172.25.30.2:57253       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.25/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2327.8Mbps reordering:6 rcv_rtt:2.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:41977       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:324104 rcv_space:91240
+line2  =tcp    ESTAB      0      0          172.25.30.2:51264       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:22400 cwnd:10 ssthresh:7 send 597.3Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:57572       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:54168       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:55000         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65408 cwnd:10 ssthresh:7 send 2790.7Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:ssh        183.83.21.81:58158
+flag value is 1
+line1  =cubic wscale:8,7 rto:549 rtt:340.5/42 ato:52 mss:1460 cwnd:10 send 343.0Kbps rcv_rtt:453330 rcv_space:40384
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59426
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/14.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:5.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51213       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:8/12.5 ato:40 mss:65468 cwnd:8 ssthresh:6 send 523.7Mbps retrans:0/1 rcv_rtt:306627 rcv_space:89928
+line2  =tcp    ESTAB      0      0          172.25.30.2:55532       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57891
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.625/18.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 358.1Mbps reordering:6 rcv_rtt:5.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52428
+flag value is 1
+line1  =cubic wscale:7,7 rto:216 rtt:16.375/20.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 319.8Mbps reordering:6 rcv_rtt:6.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60733       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33450
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.125/19.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 346.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51167       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:217 rtt:17.25/20.5 ato:40 mss:22976 cwnd:6 ssthresh:4 send 63.9Mbps reordering:6 rcv_rtt:1246.38 rcv_space:160994
+line2  =tcp    ESTAB      0      0          172.25.30.2:52480       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.125/3.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1676.0Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:56838       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:9 ssthresh:6 send 2514.0Mbps reordering:6 rcv_rtt:126819 rcv_space:88640
+line2  =tcp    ESTAB      0      0          172.25.30.2:59096       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65152 cwnd:10 ssthresh:7 send 2779.8Mbps reordering:6 rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:55551
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:18.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51472       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:299343 rcv_space:89760
+line2  =tcp    ESTAB      0      0          172.25.30.2:52537       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51119       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.5/6 ato:40 mss:22400 cwnd:10 ssthresh:7 send 398.2Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:59104       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.875 rcv_space:43690
+line2  =tcp    ESTAB      0      64         172.25.30.2:ssh        183.83.21.81:58171
+flag value is 1
+line1  =cubic wscale:8,7 rto:531 rtt:328.875/34.5 ato:40 mss:1460 cwnd:10 ssthresh:34 send 355.2Kbps unacked:1 retrans:0/3 rcv_rtt:54785.4 rcv_space:29558
+line2  =tcp    ESTAB      0      0          172.25.30.2:51276       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.375/1.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1764.2Mbps reordering:6 rcv_rtt:222311 rcv_space:88444
+line2  =tcp    ESTAB      0      0          172.25.30.2:51589       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:5332.17 rcv_space:88484
+line2  =tcp    ESTAB      0      0          172.25.30.2:52463       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.75/4.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1396.7Mbps reordering:6 rcv_rtt:2.875 rcv_space:68666
+line2  =tcp    ESTAB      0      0          172.25.30.2:53732       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:54695       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:57301       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:4.375/5.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1197.1Mbps reordering:6 rcv_rtt:2.25 rcv_space:48792
+line2  =tcp    ESTAB      0      0          172.25.30.2:51189       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:14425.8 rcv_space:135492
+line2  =tcp    ESTAB      0      0          172.25.30.2:59734       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:53280       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:532085 rcv_space:88522
+line2  =tcp    ESTAB      0      0          172.25.30.2:51712       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:208 rtt:8.125/12.25 ato:40 mss:22976 cwnd:10 ssthresh:7 send 226.2Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33424
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.75/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 445.7Mbps reordering:6 rcv_rtt:7.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:51541
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.5/19.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 361.2Mbps reordering:6 rcv_rtt:5.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:54761
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.875/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps reordering:6 rcv_rtt:7.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59097
+flag value is 1
+line1  =cubic wscale:7,7 rto:208 rtt:8.875/13.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 590.1Mbps reordering:6 rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:53612       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:36654         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:52537
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.375/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 364.3Mbps reordering:6 rcv_rtt:45 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:48185         127.0.0.1:epmd
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.25/1 ato:40 mss:21888 cwnd:10 send 1400.8Mbps rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57572
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.5/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 455.4Mbps reordering:6 rcv_rtt:2.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:59426       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:10.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:33450       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:59090
+flag value is 1
+line1  =cubic wscale:7,7 rto:208 rtt:8.875/13.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 590.1Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51147       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:783.824 rcv_space:88480
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58045
+flag value is 1
+line1  =cubic wscale:7,7 rto:216 rtt:16.375/20.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 319.8Mbps reordering:6 rcv_rtt:6.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:52341       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:7 ssthresh:5 send 1955.3Mbps retrans:0/1 rcv_rtt:181610 rcv_space:88438
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:33096
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12/16.25 ato:41 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57329
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.625/18.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 384.4Mbps reordering:6 rcv_rtt:11.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:commplex-main   61.240.144.67:60000
+flag value is 1
+line1  =cubic rto:642 rtt:214/107 mss:300 cwnd:10 send 112.1Kbps rcv_space:14600
+line2  =tcp    ESTAB      0      0          172.25.30.2:52428       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:52337       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3.625 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:55313
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.5/12.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 455.4Mbps rcv_rtt:129.75 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:53213       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:33303         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:33094       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:14.125 rcv_space:167432
+line2  =tcp    ESTAB      0      0          172.25.30.2:47184       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:76993.6 rcv_space:88484
+line2  =tcp    ESTAB      0      0          172.25.30.2:52442       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:446968 rcv_space:88470
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:51737
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/16.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 465.6Mbps reordering:6 rcv_rtt:8.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:54689         127.0.0.1:27017
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65408 cwnd:10 ssthresh:7 send 2790.7Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51181       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:13599.2 rcv_space:128966
+line2  =tcp    ESTAB      0      0          172.25.30.2:armtechdaemon     172.25.30.2:44305
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:5/5.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1047.5Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58189
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14/18.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 374.1Mbps reordering:6 rcv_rtt:3.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:49840
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.375/14.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 460.4Mbps rcv_rtt:13 rcv_space:74912
+line2  =tcp    ESTAB      0      0          172.25.30.2:51159       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.5/2.25 ato:40 mss:22400 cwnd:10 ssthresh:7 send 716.8Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51867       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:68666
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57848
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.875/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 441.0Mbps reordering:6 rcv_rtt:5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51196       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.75/3 ato:40 mss:65468 cwnd:5 ssthresh:5 send 952.3Mbps reordering:6 rcv_rtt:270834 rcv_space:88472
+line2  =tcp    ESTAB      0      0          172.25.30.2:8777     175.126.104.43:54164
+flag value is 1
+line1  =cubic wscale:7,7 rto:495 rtt:171.125/81 ato:40 mss:1448 cwnd:10 ssthresh:173 send 676.9Kbps reordering:5 rcv_rtt:164 rcv_space:14480
+line2  =tcp    ESTAB      0      0          172.25.30.2:33687       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.625/2.5 ato:40 mss:22976 cwnd:10 ssthresh:7 send 700.2Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:33092       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:134188
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:43056
+flag value is 1
+line1  =cubic wscale:7,7 rto:208 rtt:8/10.5 ato:40 mss:65468 cwnd:7 ssthresh:7 send 458.3Mbps rcv_rtt:17.75 rcv_space:75304
+line2  =tcp    ESTAB      0      0          172.25.30.2:41978       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:204 rtt:1.875/1 ato:40 mss:65468 cwnd:7 ssthresh:4 send 1955.3Mbps reordering:6 rcv_rtt:279163 rcv_space:91352
+line2  =tcp    ESTAB      0      0            127.0.0.1:40770         127.0.0.1:memcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:60070       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:41577       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.25/1.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1862.2Mbps reordering:6 rcv_rtt:158478 rcv_space:89656
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:32940
+flag value is 1
+line1  =cubic wscale:7,7 rto:214 rtt:14.625/18.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 358.1Mbps reordering:6 rcv_rtt:6.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:47153       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:206 rtt:6.875/10.25 ato:40 mss:65468 cwnd:7 ssthresh:7 send 533.3Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:52679       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/1 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:35838         127.0.0.1:59212
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.25/14.25 ato:40 mss:21888 cwnd:10 ssthresh:7 send 155.6Mbps rcv_rtt:243108 rcv_space:87552
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:60868
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.75/17.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 410.8Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51209       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:220 rtt:20.75/21.25 ato:40 mss:22976 cwnd:10 ssthresh:7 send 88.6Mbps reordering:6 rcv_rtt:1965.62 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:47057       172.25.30.2:webcache
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:5/6.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1047.5Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56399
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15/19.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 349.2Mbps reordering:6 rcv_rtt:8.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:58837
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.375/16.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 460.4Mbps reordering:6 rcv_rtt:113574 rcv_space:87812
+line2  =tcp    ESTAB      0      0          172.25.30.2:51555       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.25/3.5 ato:40 mss:65280 cwnd:11 ssthresh:7 send 1767.6Mbps reordering:6 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56942
+flag value is 1
+line1  =cubic wscale:7,7 rto:213 rtt:13.875/18 ato:40 mss:65468 cwnd:10 ssthresh:7 send 377.5Mbps reordering:6 rcv_rtt:8.125 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51182       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:10404.9 rcv_space:136714
+line2  =tcp    ESTAB      0      0          172.25.30.2:58837       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65280 cwnd:10 ssthresh:7 send 2785.3Mbps reordering:6 rcv_rtt:6.375 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51211       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:378013 rcv_space:112592
+line2  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:54869
+flag value is 1
+line1  =cubic wscale:7,7 rto:211 rtt:11.5/12.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 455.4Mbps rcv_rtt:136 rcv_space:66298
+line2  =tcp    ESTAB      0      0          172.25.30.2:57329       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:3 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:57253
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.75/17 ato:40 mss:65468 cwnd:10 ssthresh:7 send 410.8Mbps reordering:6 rcv_rtt:6.25 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:55901       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:520444 rcv_space:88564
+line2  =tcp    ESTAB      0      0          172.25.30.2:41980       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.5/2.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1676.0Mbps reordering:6 rcv_rtt:488920 rcv_space:89616
+line2  =tcp    ESTAB      0      0          172.25.30.2:51541       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56398
+flag value is 1
+line1  =cubic wscale:7,7 rto:215 rtt:15.5/20 ato:40 mss:65468 cwnd:10 ssthresh:7 send 337.9Mbps reordering:6 rcv_rtt:6.75 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:54731       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:202 rtt:2.625/1.75 ato:40 mss:65468 cwnd:7 ssthresh:5 send 1396.7Mbps reordering:6 rcv_rtt:341727 rcv_space:90024
+line2  =tcp    ESTAB      0      0          172.25.30.2:51262       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:205 rtt:5.125/7.25 ato:40 mss:22400 cwnd:10 ssthresh:7 send 349.7Mbps reordering:6 rcv_rtt:4892 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:58113       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:1.875 rcv_space:43690
+line2  =tcp    ESTAB      0      0            127.0.0.1:memcache       127.0.0.1:47703
+flag value is 1
+line1  =cubic wscale:7,7 rto:212 rtt:12.25/15 ato:40 mss:65468 cwnd:7 ssthresh:7 send 299.3Mbps rcv_rtt:31.25 rcv_space:93640
+line2  =tcp    ESTAB      0      0          172.25.30.2:60796       172.25.30.2:mysql
+flag value is 1
+line1  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2 rcv_space:43690
+line2  =tcp    ESTAB      0      0          172.25.30.2:51496       172.25.30.2:amqp
+flag value is 1
+line1  =cubic wscale:7,7 rto:203 rtt:3.375/3 ato:40 mss:65468 cwnd:6 ssthresh:5 send 931.1Mbps reordering:6 rcv_rtt:251784 rcv_space:96698
+line2  =tcp    ESTAB      0      0          172.25.30.2:commplex-main   61.240.144.65:60000
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:51535       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.75 rcv_space:48792
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:51544       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:204 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:507099 rcv_space:88492
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:33424       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:202 rtt:2.625/2.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 1995.2Mbps reordering:6 rcv_rtt:2.75 rcv_space:51530
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:60234       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0            127.0.0.1:27017         127.0.0.1:54689
+line2  =cubic wscale:7,7 rto:212 rtt:12/12.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 436.5Mbps rcv_rtt:1398.5 rcv_space:116486
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:51169       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 2234.6Mbps reordering:6 rcv_rtt:166754 rcv_space:92560
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:56376
+line2  =cubic wscale:7,7 rto:213 rtt:13.5/18.25 ato:40 mss:65468 cwnd:10 ssthresh:7 send 388.0Mbps reordering:6 rcv_rtt:8.5 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:51185       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:22400 cwnd:10 ssthresh:7 send 955.7Mbps reordering:6 rcv_rtt:12980.2 rcv_space:151204
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:56030       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:48792
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:32940       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:202 rtt:2.125/1.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2464.7Mbps reordering:6 rcv_rtt:2.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:51201       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:204 rtt:4.625/6.25 ato:40 mss:22400 cwnd:10 ssthresh:7 send 387.5Mbps reordering:6 rcv_rtt:89458.9 rcv_space:175092
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:53198       172.25.30.2:mysql
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:10 ssthresh:7 send 2793.3Mbps reordering:6 rcv_rtt:2.5 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:57660       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:206 rtt:3.75/4.5 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1117.3Mbps reordering:6 rcv_rtt:229245 rcv_space:88484
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:mysql       172.25.30.2:54695
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18.5 ato:40 mss:65468 cwnd:10 ssthresh:7 send 391.6Mbps reordering:6 rcv_rtt:11.75 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:59927       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:206 rtt:3.5/3.75 ato:40 mss:65468 cwnd:8 ssthresh:6 send 1197.1Mbps reordering:6 rcv_rtt:334923 rcv_space:91024
+flag value is 1
+line1  =tcp    ESTAB      0      0          172.25.30.2:44979       172.25.30.2:amqp
+line2  =cubic wscale:7,7 rto:207 rtt:4.25/5.5 ato:40 mss:65468 cwnd:6 ssthresh:5 send 739.4Mbps reordering:6 rcv_rtt:131377 rcv_space:88488
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51160
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:6 ssthresh:4 send 1676.0Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51276
+line2  =cubic wscale:7,7 rto:212 rtt:12.375/15.5 ato:40 mss:22400 cwnd:10 send 144.8Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51621
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:26688 cwnd:10 send 711.7Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:52480
+line2  =cubic wscale:7,7 rto:213 rtt:13.75/18.5 ato:40 mss:22400 cwnd:10 send 130.3Mbps rcv_rtt:2.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51181
+line2  =cubic wscale:7,7 rto:202 rtt:2/0.75 ato:40 mss:65468 cwnd:10 send 2618.7Mbps rcv_rtt:309625 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51214
+line2  =cubic wscale:7,7 rto:212 rtt:12.375/17.25 ato:40 mss:22400 cwnd:10 send 144.8Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51549
+line2  =cubic wscale:7,7 rto:208 rtt:8.25/12 ato:40 mss:22400 cwnd:10 send 217.2Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51592
+line2  =cubic wscale:7,7 rto:210 rtt:10.25/11.5 ato:40 mss:22400 cwnd:10 send 174.8Mbps rcv_rtt:3.375 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42363
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51555
+line2  =cubic wscale:7,7 rto:222 rtt:22.5/21.5 ato:40 mss:22400 cwnd:10 send 79.6Mbps rcv_rtt:280450 rcv_space:88360
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51494
+line2  =cubic wscale:7,7 rto:212 rtt:12.75/17 ato:40 mss:22400 cwnd:10 send 140.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51186
+line2  =cubic wscale:7,7 rto:213 rtt:13.25/18 ato:40 mss:22400 cwnd:10 send 135.2Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:37638
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:22400 cwnd:10 send 134.0Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47108
+line2  =cubic wscale:7,7 rto:203 rtt:3.5/4.5 ato:40 mss:1448 cwnd:10 send 33.1Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:47184
+line2  =cubic wscale:7,7 rto:214 rtt:14.875/17.5 ato:40 mss:22400 cwnd:10 send 120.5Mbps rcv_rtt:2.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43598      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:1448 cwnd:10 ssthresh:15 send 38.6Mbps rcv_rtt:1 rcv_space:185344
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:56560
+line2  =cubic wscale:7,7 rto:213 rtt:13/18 ato:40 mss:22400 cwnd:10 send 137.8Mbps rcv_rtt:1.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:57821
+line2  =cubic wscale:7,7 rto:208 rtt:8/12.25 ato:40 mss:22400 cwnd:10 send 224.0Mbps rcv_rtt:1.625 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42355
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:52341
+line2  =cubic wscale:7,7 rto:213 rtt:13.75/18.75 ato:40 mss:22400 cwnd:10 send 130.3Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47110
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:10 send 61.8Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51161
+line2  =cubic wscale:7,7 rto:209 rtt:9/8.5 ato:40 mss:65468 cwnd:6 ssthresh:4 send 349.2Mbps rcv_rtt:282565 rcv_space:88788
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51622
+line2  =cubic wscale:7,7 rto:212 rtt:12/16.5 ato:40 mss:22400 cwnd:10 send 149.3Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:35413
+line2  =cubic wscale:7,7 rto:212 rtt:12.75/17.5 ato:40 mss:22400 cwnd:10 send 140.5Mbps rcv_rtt:2.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42354
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42365
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:10 ssthresh:15 send 61.8Mbps rcv_rtt:223881 rcv_space:29120
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51211
+line2  =cubic wscale:7,7 rto:210 rtt:10.25/15.25 ato:40 mss:22400 cwnd:10 send 174.8Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:33959
+line2  =cubic wscale:7,7 rto:212 rtt:12.75/17.5 ato:40 mss:1448 cwnd:10 send 9.1Mbps rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51131
+line2  =cubic wscale:7,7 rto:210 rtt:10.125/14.75 ato:40 mss:22400 cwnd:10 send 177.0Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51636
+line2  =cubic wscale:7,7 rto:210 rtt:10.125/15.75 ato:40 mss:22400 cwnd:10 send 177.0Mbps rcv_rtt:7.625 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51213
+line2  =cubic wscale:7,7 rto:212 rtt:12.375/17.5 ato:40 mss:22400 cwnd:10 send 144.8Mbps rcv_rtt:1.875 rcv_space:45104
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51187
+line2  =cubic wscale:7,7 rto:216 rtt:16.75/20.75 ato:40 mss:22400 cwnd:10 send 107.0Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51635
+line2  =cubic wscale:7,7 rto:207 rtt:7.125/11 ato:40 mss:24576 cwnd:10 send 275.9Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:45509
+line2  =cubic wscale:7,7 rto:211 rtt:11.25/16.25 ato:40 mss:22400 cwnd:10 send 159.3Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43596      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:204 rtt:4.125/5.25 ato:40 mss:1448 cwnd:10 ssthresh:7 send 28.1Mbps rcv_rtt:19.625 rcv_space:161800
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51164
+line2  =cubic wscale:7,7 rto:205 rtt:5.875/10.25 ato:40 mss:22400 cwnd:10 send 305.0Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51496
+line2  =cubic wscale:7,7 rto:215 rtt:15.125/18.5 ato:40 mss:22400 cwnd:10 send 118.5Mbps rcv_rtt:6.75 rcv_space:65886
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51119
+line2  =cubic wscale:7,7 rto:205 rtt:5.375/8.75 ato:40 mss:22400 cwnd:10 send 333.4Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:33927
+line2  =cubic wscale:7,7 rto:210 rtt:10.5/15.25 ato:40 mss:22400 cwnd:10 send 170.7Mbps rcv_rtt:2.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:56838
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18 ato:40 mss:22400 cwnd:10 send 134.0Mbps rcv_rtt:1.375 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51589
+line2  =cubic wscale:7,7 rto:211 rtt:11.25/16 ato:40 mss:22400 cwnd:10 send 159.3Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51196
+line2  =cubic wscale:7,7 rto:212 rtt:12.75/17.5 ato:40 mss:22400 cwnd:10 send 140.5Mbps rcv_rtt:1.5 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41980
+line2  =cubic wscale:7,7 rto:213 rtt:13.125/18 ato:40 mss:22400 cwnd:10 send 136.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55616
+line2  =cubic wscale:7,7 rto:211 rtt:11.5/17 ato:40 mss:1448 cwnd:10 send 10.1Mbps rcv_rtt:1.875 rcv_space:37262
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:56552
+line2  =cubic wscale:7,7 rto:212 rtt:12.75/17.75 ato:40 mss:22400 cwnd:10 send 140.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42361
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43594      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/3.5 ato:40 mss:1448 cwnd:10 ssthresh:9 send 35.6Mbps rcv_rtt:12.5 rcv_space:173192
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43597      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51566
+line2  =cubic wscale:7,7 rto:211 rtt:11.25/15.75 ato:40 mss:22400 cwnd:10 send 159.3Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:48690
+line2  =cubic wscale:7,7 rto:212 rtt:12.875/17.75 ato:40 mss:22400 cwnd:10 send 139.2Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47112
+line2  =cubic wscale:7,7 rto:219 rtt:16/20.25 ato:40 mss:1448 cwnd:5 ssthresh:4 send 3.6Mbps retrans:0/938 rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:39565
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.25 ato:40 mss:1448 cwnd:7 ssthresh:4 send 27.0Mbps rcv_rtt:227610 rcv_space:33768
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42358
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:49235     ::ffff:175.126.103.50:unicall
+line2  =cubic wscale:7,7 rto:371 rtt:168.5/2 mss:1448 cwnd:10 send 687.5Kbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:48687
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:22400 cwnd:10 send 134.0Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51212
+line2  =cubic wscale:7,7 rto:212 rtt:12.875/18.25 ato:80 mss:22400 cwnd:10 send 139.2Mbps rcv_rtt:1 rcv_space:45676
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43595      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:202 rtt:2.875/2 ato:40 mss:1448 cwnd:10 ssthresh:7 send 40.3Mbps rcv_rtt:19.25 rcv_space:154848
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51188
+line2  =cubic wscale:7,7 rto:213 rtt:13.625/18 ato:40 mss:22400 cwnd:10 send 131.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42362
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:57660
+line2  =cubic wscale:7,7 rto:211 rtt:11.5/16 ato:40 mss:22400 cwnd:10 send 155.8Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41977
+line2  =cubic wscale:7,7 rto:213 rtt:13.25/18 ato:40 mss:22400 cwnd:10 send 135.2Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:57736
+line2  =cubic wscale:7,7 rto:215 rtt:15.125/19.25 ato:40 mss:22400 cwnd:10 send 118.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41978
+line2  =cubic wscale:7,7 rto:213 rtt:13/18 ato:40 mss:22400 cwnd:10 send 137.8Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:52049
+line2  =cubic wscale:7,7 rto:210 rtt:10.625/15.5 ato:40 mss:22400 cwnd:10 send 168.7Mbps rcv_rtt:1.625 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:40558
+line2  =cubic wscale:7,7 rto:216 rtt:16.125/19.5 ato:40 mss:1448 cwnd:10 send 7.2Mbps rcv_rtt:2.875 rcv_space:27036
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51167
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:65468 cwnd:6 ssthresh:4 send 1676.0Mbps rcv_rtt:437379 rcv_space:90468
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42360
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51201
+line2  =cubic wscale:7,7 rto:210 rtt:10.25/10.25 ato:40 mss:65468 cwnd:6 ssthresh:4 send 306.6Mbps rcv_rtt:312612 rcv_space:87402
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51652
+line2  =cubic wscale:7,7 rto:208 rtt:8.25/13.5 ato:40 mss:22400 cwnd:10 send 217.2Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55614
+line2  =cubic wscale:7,7 rto:202 rtt:2.875/0.75 ato:40 mss:1448 cwnd:6 ssthresh:4 send 24.2Mbps rcv_rtt:86209.1 rcv_space:40068
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:39571
+line2  =cubic wscale:7,7 rto:202 rtt:2/1 ato:40 mss:1448 cwnd:11 send 63.7Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43602      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:1448 cwnd:10 ssthresh:15 send 38.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55619
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:7 ssthresh:4 send 43.2Mbps rcv_rtt:402295 rcv_space:34860
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:56401
+line2  =cubic wscale:7,7 rto:212 rtt:12/16.75 ato:40 mss:1448 cwnd:10 send 9.7Mbps rcv_rtt:1.875 rcv_space:36750
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51182
+line2  =cubic wscale:7,7 rto:202 rtt:2/0.75 ato:40 mss:65468 cwnd:10 send 2618.7Mbps rcv_rtt:319360 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51472
+line2  =cubic wscale:7,7 rto:209 rtt:9.125/12.75 ato:40 mss:22400 cwnd:10 send 196.4Mbps rcv_rtt:1.25 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51713
+line2  =cubic wscale:7,7 rto:208 rtt:8.375/13.25 ato:40 mss:22400 cwnd:10 send 214.0Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:39465
+line2  =cubic wscale:7,7 rto:219 rtt:16.25/20.25 ato:40 mss:1448 cwnd:6 ssthresh:4 send 4.3Mbps retrans:0/524 rcv_rtt:20756.8 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51189
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/1 ato:40 mss:65468 cwnd:10 send 2793.3Mbps rcv_rtt:323483 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51130
+line2  =cubic wscale:7,7 rto:203 rtt:3/1 ato:40 mss:65468 cwnd:5 ssthresh:4 send 872.9Mbps rcv_rtt:312012 rcv_space:87418
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:39566
+line2  =cubic wscale:7,7 rto:215 rtt:15.625/19 ato:40 mss:1448 cwnd:10 send 7.4Mbps rcv_rtt:2.25 rcv_space:27112
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47113
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:7 send 43.2Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:39414
+line2  =cubic wscale:7,7 rto:218 rtt:15.875/19.75 ato:40 mss:1448 cwnd:6 ssthresh:4 send 4.4Mbps retrans:0/650 rcv_rtt:9006.38 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41476
+line2  =cubic wscale:7,7 rto:212 rtt:12.875/15.25 ato:40 mss:22400 cwnd:10 send 139.2Mbps rcv_rtt:2 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:34026
+line2  =cubic wscale:7,7 rto:215 rtt:15.625/19.75 ato:40 mss:1448 cwnd:10 send 7.4Mbps rcv_rtt:1.875 rcv_space:17674
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51192
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/1.75 ato:40 mss:65468 cwnd:10 send 1611.5Mbps rcv_rtt:323485 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47115
+line2  =cubic wscale:7,7 rto:276 rtt:67/45.5 ato:40 mss:1448 cwnd:5 ssthresh:3 send 864.5Kbps retrans:0/232 rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51194
+line2  =cubic wscale:7,7 rto:203 rtt:3.125/1.75 ato:40 mss:65468 cwnd:10 send 1676.0Mbps rcv_rtt:323548 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41497
+line2  =cubic wscale:7,7 rto:214 rtt:14/18.75 ato:40 mss:22400 cwnd:10 send 128.0Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43599      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:1448 cwnd:10 ssthresh:15 send 38.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:42136
+line2  =cubic wscale:7,7 rto:212 rtt:12.375/17.5 ato:40 mss:22400 cwnd:10 send 144.8Mbps rcv_rtt:1.25 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:34201
+line2  =cubic wscale:7,7 rto:211 rtt:11.375/14.25 ato:40 mss:22400 cwnd:10 send 157.5Mbps rcv_rtt:4.375 rcv_space:66862
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51169
+line2  =cubic wscale:7,7 rto:215 rtt:15.875/20 ato:40 mss:22400 cwnd:10 send 112.9Mbps rcv_rtt:3.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:49238     ::ffff:175.126.103.50:unicall
+line2  =cubic wscale:7,7 rto:373 rtt:170/1 mss:1448 cwnd:10 send 681.4Kbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43601      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:1448 cwnd:10 ssthresh:15 send 38.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51262
+line2  =cubic wscale:7,7 rto:207 rtt:7.125/10.75 ato:40 mss:65468 cwnd:10 send 735.1Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:53280
+line2  =cubic wscale:7,7 rto:215 rtt:15.25/19.25 ato:40 mss:22400 cwnd:10 send 117.5Mbps rcv_rtt:2.25 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51166
+line2  =cubic wscale:7,7 rto:216 rtt:16.375/20.25 ato:40 mss:22400 cwnd:10 send 109.4Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:56718
+line2  =cubic wscale:7,7 rto:203 rtt:3.375/3 ato:40 mss:28864 cwnd:10 send 684.2Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55615
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:10 ssthresh:9 send 61.8Mbps retrans:0/14 reordering:8 rcv_rtt:40714.1 rcv_space:38136
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51497
+line2  =cubic wscale:7,7 rto:207 rtt:7.75/11 ato:40 mss:22400 cwnd:10 send 231.2Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51159
+line2  =cubic wscale:7,7 rto:206 rtt:6/10.5 ato:40 mss:22400 cwnd:10 send 298.7Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:49237     ::ffff:175.126.103.50:unicall
+line2  =cubic wscale:7,7 rto:373 rtt:170/1 mss:1448 cwnd:8 ssthresh:7 send 545.1Kbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51122
+line2  =cubic wscale:7,7 rto:205 rtt:5.375/8.75 ato:40 mss:22400 cwnd:10 send 333.4Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51195
+line2  =cubic wscale:7,7 rto:213 rtt:13.25/18.25 ato:40 mss:22400 cwnd:10 send 135.2Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42364
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:10 ssthresh:15 send 61.8Mbps rcv_rtt:44374.4 rcv_space:93304
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:54731
+line2  =cubic wscale:7,7 rto:212 rtt:12.125/17 ato:40 mss:22400 cwnd:10 send 147.8Mbps rcv_rtt:2.25 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:37611
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:22400 cwnd:10 send 134.0Mbps rcv_rtt:1.25 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:55902
+line2  =cubic wscale:7,7 rto:215 rtt:15.625/19.5 ato:40 mss:22400 cwnd:10 send 114.7Mbps rcv_rtt:2.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:59927
+line2  =cubic wscale:7,7 rto:214 rtt:14.625/17.25 ato:40 mss:22400 cwnd:10 send 122.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:37613
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:22400 cwnd:10 send 134.0Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51260
+line2  =cubic wscale:7,7 rto:213 rtt:13/18 ato:40 mss:22400 cwnd:10 send 137.8Mbps rcv_rtt:2.375 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43600      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:1448 cwnd:10 ssthresh:15 send 38.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:58999
+line2  =cubic wscale:7,7 rto:216 rtt:16/20 ato:40 mss:1448 cwnd:10 send 7.2Mbps rcv_rtt:1.875 rcv_space:34854
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:59928
+line2  =cubic wscale:7,7 rto:213 rtt:13.5/18.25 ato:40 mss:22400 cwnd:10 send 132.7Mbps rcv_rtt:1.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43592      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51544
+line2  =cubic wscale:7,7 rto:215 rtt:15.125/19.75 ato:40 mss:22400 cwnd:10 send 118.5Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51193
+line2  =cubic wscale:7,7 rto:213 rtt:13.375/18.25 ato:40 mss:22400 cwnd:10 send 134.0Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51565
+line2  =cubic wscale:7,7 rto:202 rtt:2.625/2.5 ato:40 mss:26688 cwnd:10 send 813.3Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47109
+line2  =cubic wscale:7,7 rto:408 rtt:101.25/51.75 ato:40 mss:1448 cwnd:5 ssthresh:3 send 572.0Kbps retrans:0/259 rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:44302
+line2  =cubic wscale:7,7 rto:214 rtt:14.375/18.75 ato:40 mss:1448 cwnd:10 send 8.1Mbps rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47114
+line2  =cubic wscale:7,7 rto:203 rtt:3.5/1 ato:40 mss:1448 cwnd:10 send 33.1Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51185
+line2  =cubic wscale:7,7 rto:203 rtt:3/1.75 ato:40 mss:65468 cwnd:10 send 1745.8Mbps rcv_rtt:323353 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:44979
+line2  =cubic wscale:7,7 rto:212 rtt:12.375/17.5 ato:40 mss:22400 cwnd:10 send 144.8Mbps rcv_rtt:3.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51209
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/1.5 ato:40 mss:65468 cwnd:10 send 2793.3Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42357
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:40603
+line2  =cubic wscale:7,7 rto:215 rtt:15.25/19.5 ato:40 mss:1448 cwnd:10 send 7.6Mbps rcv_rtt:1.875 rcv_space:23638
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:49236     ::ffff:175.126.103.50:unicall
+line2  =cubic wscale:7,7 rto:370 rtt:167.5/1.25 mss:1448 cwnd:10 send 691.6Kbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42359
+line2  =cubic wscale:7,7 rto:203 rtt:3/3.5 ato:40 mss:1448 cwnd:10 ssthresh:15 send 38.6Mbps rcv_rtt:1 rcv_space:78192
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51191
+line2  =cubic wscale:7,7 rto:207 rtt:7.25/5.25 ato:40 mss:65468 cwnd:10 send 722.4Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:37612
+line2  =cubic wscale:7,7 rto:208 rtt:8.5/12.5 ato:40 mss:22400 cwnd:10 send 210.8Mbps rcv_rtt:4.625 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51183
+line2  =cubic wscale:7,7 rto:202 rtt:2.25/0.75 ato:40 mss:65468 cwnd:10 send 2327.8Mbps rcv_rtt:322996 rcv_space:87444
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43593      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:34222
+line2  =cubic wscale:7,7 rto:208 rtt:8.875/13 ato:40 mss:22400 cwnd:10 send 201.9Mbps rcv_rtt:4.875 rcv_space:160354
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51205
+line2  =cubic wscale:7,7 rto:214 rtt:14.625/19.5 ato:40 mss:22400 cwnd:10 send 122.5Mbps rcv_rtt:5.375 rcv_space:93026
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41792
+line2  =cubic wscale:7,7 rto:213 rtt:13/18 ato:40 mss:22400 cwnd:10 send 137.8Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51650
+line2  =cubic wscale:7,7 rto:203 rtt:3.125/3.5 ato:40 mss:24576 cwnd:10 send 629.1Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:47153
+line2  =cubic wscale:7,7 rto:215 rtt:15.125/16.25 ato:40 mss:22400 cwnd:10 send 118.5Mbps rcv_rtt:1 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41489
+line2  =cubic wscale:7,7 rto:208 rtt:8.125/12.25 ato:40 mss:22400 cwnd:10 send 220.6Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:39567
+line2  =cubic wscale:7,7 rto:216 rtt:16.75/16.25 ato:40 mss:1448 cwnd:10 send 6.9Mbps rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42356
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51165
+line2  =cubic wscale:7,7 rto:204 rtt:4.875/3 ato:40 mss:65468 cwnd:10 send 1074.3Mbps rcv_rtt:466828 rcv_space:87446
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:33957
+line2  =cubic wscale:7,7 rto:214 rtt:14/17.5 ato:40 mss:1448 cwnd:10 send 8.3Mbps rcv_rtt:1.875 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51158
+line2  =cubic wscale:7,7 rto:204 rtt:4.5/3.75 ato:40 mss:65468 cwnd:10 send 1163.9Mbps rcv_rtt:353806 rcv_space:87428
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51173
+line2  =cubic wscale:7,7 rto:206 rtt:6.75/10.5 ato:40 mss:22400 cwnd:10 send 265.5Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51147
+line2  =cubic wscale:7,7 rto:216 rtt:16.375/20.25 ato:40 mss:22400 cwnd:10 send 109.4Mbps rcv_rtt:3.375 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47117
+line2  =cubic wscale:7,7 rto:219 rtt:16/20 ato:40 mss:1448 cwnd:6 ssthresh:4 send 4.3Mbps retrans:0/939 rcv_rtt:5462.38 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51712
+line2  =cubic wscale:7,7 rto:203 rtt:3.375/3.75 ato:40 mss:24576 cwnd:10 send 582.5Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51590
+line2  =cubic wscale:7,7 rto:211 rtt:11.75/16.5 ato:40 mss:22400 cwnd:10 send 152.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51190
+line2  =cubic wscale:7,7 rto:202 rtt:2.5/1.75 ato:40 mss:65468 cwnd:10 send 2095.0Mbps rcv_rtt:323491 rcv_space:87402
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:44301
+line2  =cubic wscale:7,7 rto:205 rtt:5.75/10 ato:40 mss:1448 cwnd:10 send 20.1Mbps rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:54463
+line2  =cubic wscale:7,7 rto:211 rtt:11.25/14.25 ato:40 mss:22400 cwnd:10 send 159.3Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47118
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:10 send 61.8Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47116
+line2  =cubic wscale:7,7 rto:203 rtt:3.625/0.75 ato:40 mss:1448 cwnd:6 ssthresh:4 send 19.2Mbps rcv_rtt:60429 rcv_space:40026
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55620
+line2  =cubic wscale:7,7 rto:202 rtt:2.25/1.5 ato:40 mss:1448 cwnd:11 ssthresh:10 send 56.6Mbps retrans:0/23 reordering:8 rcv_rtt:512314 rcv_space:31248
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51264
+line2  =cubic wscale:7,7 rto:206 rtt:6.75/10.25 ato:40 mss:22400 cwnd:10 send 265.5Mbps rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:39573
+line2  =cubic wscale:7,7 rto:214 rtt:14.75/17.75 ato:40 mss:1448 cwnd:10 send 7.9Mbps rcv_rtt:2.5 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.105:47111
+line2  =cubic wscale:7,7 rto:202 rtt:2.125/1.25 ato:40 mss:1448 cwnd:6 ssthresh:4 send 32.7Mbps retrans:0/3 reordering:4 rcv_rtt:34683.3 rcv_space:31500
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:58493
+line2  =cubic wscale:7,7 rto:216 rtt:16/20.25 ato:40 mss:1448 cwnd:10 send 7.2Mbps rcv_rtt:1.875 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43604      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:201 rtt:1.875/0.75 ato:40 mss:1448 cwnd:10 ssthresh:15 send 61.8Mbps rcv_rtt:165161 rcv_space:30534
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:53420
+line2  =cubic wscale:7,7 rto:212 rtt:12.875/17.75 ato:40 mss:22400 cwnd:10 send 139.2Mbps rcv_rtt:2.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:51495
+line2  =cubic wscale:7,7 rto:211 rtt:11.75/16.5 ato:40 mss:22400 cwnd:10 send 152.5Mbps rcv_rtt:13.625 rcv_space:89164
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:vrace      ::ffff:192.168.1.103:42353
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:52442
+line2  =cubic wscale:7,7 rto:214 rtt:14.625/19.25 ato:40 mss:22400 cwnd:10 send 122.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:55901
+line2  =cubic wscale:7,7 rto:219 rtt:19.375/18.75 ato:46 mss:22400 cwnd:10 send 92.5Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:42047
+line2  =cubic wscale:7,7 rto:222 rtt:22/21 ato:40 mss:22400 cwnd:10 send 81.5Mbps rcv_rtt:245535 rcv_space:88360
+flag value is 1
+line1  =tcp    ESTAB      0      0         ::ffff:192.168.1.101:43603      ::ffff:192.168.1.103:vrace
+line2  =cubic wscale:7,7 rto:203 rtt:3.25/4 mss:1448 cwnd:10 ssthresh:15 send 35.6Mbps rcv_space:14600
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:41577
+line2  =cubic wscale:7,7 rto:212 rtt:12.875/18 ato:40 mss:22400 cwnd:10 send 139.2Mbps rcv_rtt:1.875 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55617
+line2  =cubic wscale:7,7 rto:216 rtt:16/20 ato:40 mss:1448 cwnd:10 send 7.2Mbps rcv_rtt:1 rcv_space:14480
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:56733
+line2  =cubic wscale:7,7 rto:215 rtt:15.625/19.5 ato:40 mss:22400 cwnd:10 send 114.7Mbps rcv_rtt:5.125 rcv_space:43690
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp     ::ffff:172.25.30.2:48030
+line2  =cubic wscale:7,7 rto:214 rtt:14.75/13 ato:40 mss:22400 cwnd:10 send 121.5Mbps rcv_rtt:2.375 rcv_space:87326
+flag value is 1
+line1  =tcp    ESTAB      0      0       ::ffff:172.25.30.2:amqp       ::ffff:172.25.29.103:55625
+line2  =cubic wscale:7,7 rto:209 rtt:9.125/12.75 ato:40 mss:1448 cwnd:10 send 12.7Mbps rcv_rtt:1.875 rcv_space:18564
+flag value is 1

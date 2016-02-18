@@ -1,0 +1,30 @@
+  
+ - name: disable the all ports for packetbeat
+   replace: dest={{pkt_dest}}  regexp='ports:' replace='#ports:'
+
+ - name: disable the all hosts for packetbeat
+   replace:  dest={{pkt_dest}} regexp='hosts:' replace='#hosts:'
+   
+ - name: checking http ports exists
+   stat: path=/etc/init.d/apache2
+   when: ansible_os_family == "Debian"
+   register: pkt_apache_status
+
+ - name: checking http ports exists
+   stat: path=/etc/init.d/httpd
+   when: ansible_os_family == "CentOS"
+   register: pkt_apache_status
+
+ - name: enable the required http ports
+   lineinfile: dest={{pkt_dest}} line='{{pkt_http}}'  insertafter='HTTP protocol' state=present
+   when: pkt_apache_status.stat.exists
+
+ - name: enable the required mysql ports
+   lineinfile: dest={{pkt_dest}} line='{{pkt_mysql}}' insertafter="mysql:" state=present
+
+ - name: enable the redis ports
+   lineinfile: dest={{pkt_dest}} line='{{radis_server}}' insertafter="output:" state=present
+
+# - name: packetbeat start
+#   service: name={{packetbeat_name}} state=started
+

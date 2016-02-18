@@ -1,0 +1,7 @@
+
+ - name: writing the logstash conf file
+   template: src=apacheagent.conf.j2  dest={{project_root}}/apache/config/apachesettings.json  owner=root group=root mode=755
+
+ - name: starting the agent ...wait
+   command: 'nohup java -jar {{project_root}}/apache/apache.jar>/dev/null &'
+ 

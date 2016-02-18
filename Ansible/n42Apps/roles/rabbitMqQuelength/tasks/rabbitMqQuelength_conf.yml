@@ -1,0 +1,17 @@
+
+- name: copying openstack script  from local
+  copy: src=rabbitMqQuelength  dest={{project_root}}  owner=root mode=0755
+
+
+- name: setting the kairosdb in conf file
+  lineinfile:  dest={{project_root}}/rabbitMqQuelength/rabbitMq_queue_len.sh  regexp="^tsdb=" line="tsdb={{karios_ip}}" state=present
+
+- name: setting the appname in conf file
+  lineinfile:  dest={{project_root}}/rabbitMqQuelength/rabbitMq_queue_len.sh  regexp="^appName=" line="appName={{app_name}}" state=present
+
+
+- name: start hosts file
+  shell: 'sh {{project_root}}/rabbitMqQuelength/rabbitMq_queue_len_start.sh start>{{project_root}}/rabbitMq_queue_len.out 2>&1 &'
+
+
+
