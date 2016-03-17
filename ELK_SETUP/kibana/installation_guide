@@ -1,0 +1,23 @@
+install nginx
+-------------------------------------------------------------------------------------------------------------------------------
+sudo yum install epel-release
+sudo yum install nginx
+
+//if you get error in last command run below and then run above
+ yum --disablerepo=epel -y update  ca-certificates
+
+
+copy kibana
+-------------------------------------------------------------------------------------------------------------------------------
+scp -r root@175.126.103.44:/home/kibana3.tar .
+vi /etc/nginx/conf.d/default.conf
+copy file from harsha default.conf and replace all ips
+copy kibana3.tar to /usr/share/nginx/
+cd /usr/share/nginx/
+tar -xvf kibana3.tar
+vi kibana3/config.js
+//replace elasticsearch ip
+sudo /etc/init.d/nginx start
+
+
+

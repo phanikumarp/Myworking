@@ -1,0 +1,24 @@
+BLOCK_STRING \[.*\]
+OPENSTACK_LOG_LEVEL %{LOGLEVEL}|(AUDIT)|(Audit)|(audit)
+OPENSTACK_INSTANCE_UUID \[instance: %{NOTSPACE:uuid}\]
+OPENSTACK_REQ_USER_INFO \[(?<request_id>[^ ]*)\s?(?<user_id>[^ ]*)\s?(?<tenant_id>[^ ]*)[- ]*\]
+
+OPENSTACK_FORMAT_1 %{TIMESTAMP_ISO8601:time} %{POSINT:pid:int} %{OPENSTACK_LOG_LEVEL:level} %{NOTSPACE:ident} %{OPENSTACK_REQ_USER_INFO} %{IP} [ -]* %{BLOCK_STRING} %{QUOTEDSTRING:request} %{POSINT:status_code:int} %{POSINT:bytes_read:int} %{NUMBER:responsetime:float}
+
+OPENSTACK_FORMAT_2 %{TIMESTAMP_ISO8601:time} %{POSINT:pid:int} %{OPENSTACK_LOG_LEVEL:level} %{NOTSPACE:ident} %{OPENSTACK_REQ_USER_INFO} %{IP} %{QUOTEDSTRING:request} (status:) %{POSINT:status_code:int} (len:) %{POSINT:bytes_read:int} (time:) %{NUMBER:responsetime:float}
+
+OPENSTACK_FORMAT_NOVA_INSTANCE %{TIMESTAMP_ISO8601:time} %{POSINT:pid:int} %{OPENSTACK_LOG_LEVEL:level} %{NOTSPACE:ident} %{OPENSTACK_REQ_USER_INFO} %{OPENSTACK_INSTANCE_UUID} %{GREEDYDATA:message}
+
+OPENSTACK_GENERIC_WITHUSER %{TIMESTAMP_ISO8601:time} %{POSINT:pid:int} %{OPENSTACK_LOG_LEVEL:level} %{NOTSPACE:ident} %{OPENSTACK_REQ_USER_INFO} %{GREEDYDATA:message}
+
+OPENSTACK_GENERIC %{TIMESTAMP_ISO8601:time} %{POSINT:pid:int} %{OPENSTACK_LOG_LEVEL:level} %{NOTSPACE:ident} %{GREEDYDATA:message}
+
+TIME_LOG %{TIMESTAMP_ISO8601:time} %{GREEDYDATA:message}
+
+RAW_LOG %{GREEDYDATA:message}
+
+HAPROXYTIME (?!<[0-9])%{HOUR}:%{MINUTE}(?::%{SECOND})(?![0-9])
+HAPROXYDATE %{MONTHDAY}/%{MONTH}/%{YEAR}:%{HAPROXYTIME}.%{INT}
+
+HAPROXYHTTP1 %{SYSLOGTIMESTAMP:syslog_timestamp} %{IPORHOST:syslog_server} %{SYSLOGPROG}: %{IP:client_ip}:%{INT:client_port} \[%{HAPROXYDATE:time}\] %{NOTSPACE:frontend_name} %{NOTSPACE:backend_name}/%{NOTSPACE:server_name} %{INT:time_request}/%{INT:time_queue}/%{INT:time_backend_connect}/%{INT:time_backend_response}/%{NOTSPACE:responsetime:float} %{INT:status_code:int} %{NOTSPACE:bytes_read} %{DATA:captured_request_cookie} %{DATA:captured_response_cookie} %{NOTSPACE:termination_state} %{INT:actconn}/%{INT:feconn}/%{INT:beconn}/%{INT:srvconn}/%{NOTSPACE:retries} %{INT:srv_queue}/%{INT:backend_queue} (\{%{HAPROXYCAPTUREDREQUESTHEADERS}\})?( )?(\{%{HAPROXYCAPTUREDRESPONSEHEADERS}\})?( )?"(<BADREQ>|(%{WORD:http_verb} (%{URIPROTO:http_proto}://)?(?:%{USER:http_user}(?::[^@]*)?@)?(?:%{URIHOST:http_host})?(?:%{URIPATHPARAM:request})?( HTTP/%{NUMBER:http_version})?))?"
+

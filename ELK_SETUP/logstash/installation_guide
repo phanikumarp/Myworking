@@ -1,0 +1,43 @@
+ubuntu
+------------------------------------------------------------------------------------------------------------------------
+echo 'deb http://packages.elasticsearch.org/logstash/1.5/debian stable main' | sudo tee /etc/apt/sources.list.d/logstash.list
+sudo apt-get update
+sudo apt-get install logstash
+vi /etc/default/logstash
+//append to LS_OPTS
+"-w 3"
+//change LS_HEAP
+1000m
+
+centos
+------------------------------------------------------------------------------------------------------------------------
+sudo vi /etc/yum.repos.d/logstash.repo
+//add below lines
+[logstash-1.5]
+name=logstash repository for 1.5.x packages
+baseurl=http://packages.elasticsearch.org/logstash/1.5/centos
+gpgcheck=1
+gpgkey=http://packages.elasticsearch.org/GPG-KEY-elasticsearch
+enabled=1
+
+sudo yum -y install logstash-1.5.2
+
+
+configuration
+------------------------------------------------------------------------------------------------------------------------
+copy all configuration files
+scp -r /home/projects/working/elk_setup/logstash/server_conf/* root@ip:/etc/logstash/conf.d/
+mkdir /opt/logstash/patterns
+scp -r /home/projects/working/elk_setup/logstash/n42-patterns root@ip:/opt/logstash/patterns/
+
+NOTE: For adc use /home/projects/working/elk_setup/logstash/server_conf/adc for new versions of packetbeat
+
+opentsdb customised
+------------------------------------------------------------------------------------------------------------------------
+plugin path:
+/opt/logstash/vendor/bundle/jruby/1.9/gems/logstash-output-opentsdb-0.1.4/lib/logstash/outputs
+  for older versions:  /root/elk/logstash-1.4.2/spec/outputs
+		 	./lib/logstash/outputs/opentsdb.rb
+copy opentsdb.rb file to above location
+if milli second resolution is also needed copy content of opentsdb_millis.rb to above location opentsdb.rb (Note: not supported by kairos)
+------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,48 @@
+installation:
+Reference: https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-logs-on-centos-6
+elastic search:
+-------------------------------------------------------------------------------------------------------------------------
+Download and unzip elasticsearch.tar file to home folder OR
+scp -r /home/n42/projects/working/elk_setup/elasticsearch/elasticsearch-1.4.4.tar.gz root@ip:/root/elk/
+tar -xvf elasticsearch-1.4.4.tar.gz
+cd elasticsearch-1.4.4
+vi config/elasticsearch.yml
+add below two lines at end of file
+http.cors.allow-origin: "/.*/"
+http.cors.enabled: true
+// Note for aws: change below properties, keep ip address of machine 
+discovery.zen.ping.multicast.enabled: false
+discovery.zen.ping.unicast.hosts: ["172.31.23.22"]
+
+./bin/plugin --install lmenezes/elasticsearch-kopf/latest
+kopf url: open http://localhost:9200/_plugin/kopf
+cd bin
+./elasticsearch -d -Xmx2g -Xms2g
+
+increase open files limit
+-------------------------------------------------------------------------------------------------------------------------
+sysctl -w fs.file-max=512000 
+vi /etc/sysctl.conf
+append fs.file-max = 512000
+sysctl -p
+vi /etc/security/limits.conf
+append  
+root soft nofile 65535
+root hard nofile 65535
+* - nofile 65535
+logout and login
+
+
+install logstash ttl template
+-------------------------------------------------------------------------------------------------------------------------
+DO post request: http://52.29.121.31:9200/_template/logstash
+
+{
+"template": "logstash-*", 
+"order":    1,
+"mappings": {
+        "_default_": {
+            "_ttl" : { "enabled" : true, "default" : "15d" }
+        }
+    }
+}

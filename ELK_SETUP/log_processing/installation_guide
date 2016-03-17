@@ -1,0 +1,10 @@
+1. To raise alerts from log records
+copy error_log.jar and log.properties to server
+change properties log.properties file
+run "nohup java -jar error_log.jar &"
+
+2.To generate metrics from log records
+copy all_log.jar and log.properties to server
+change properties log.properties file
+run "nohup java -jar all_log.jar &"
+

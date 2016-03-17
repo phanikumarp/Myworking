@@ -1,0 +1,48 @@
+Centos prerequisites
+-------------------------------------------------------------------------------------------------------------------------------
+yum install gcc
+yum install jemalloc
+yum install tcl
+
+Ubuntu prerequisites
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+Redis service installation
+-------------------------------------------------------------------------------------------------------------------------------
+wget http://download.redis.io/releases/redis-3.0.1.tar.gz
+tar xzf redis-3.0.1.tar.gz
+cd redis-3.0.1
+make
+make test
+make install
+sudo mkdir /etc/redis
+sudo mkdir /var/redis
+sudo cp utils/redis_init_script /etc/init.d/redis_6379
+sudo cp redis.conf /etc/redis/6379.conf
+sudo mkdir /var/redis/6379
+vi /etc/redis/6379.conf
+
+Edit the configuration file, making sure to perform the following changes: or run below step
+ Set daemonize to yes (by default it is set to no).
+ Set the pidfile to /var/run/redis_6379.pid (modify the port if needed).
+ Change the port accordingly. In our example it is not needed as the default port is already 6379.
+ Set your preferred loglevel.
+ Set the logfile to /var/log/redis_6379.log
+ Set the dir to 	 (very important step!)
+
+or you can directly copy this file: 
+ scp -r /home/n42/projects/working/elk_setup/redis/6379.conf root@175.126.103.44:/etc/redis/6379.conf
+
+/etc/init.d/redis_6379 start
+redis-cli
+
+Few important commands
+-------------------------------------------------------------------------------------------------------------------------------
+redis-cli   --- enter command line
+LLEN <listname> --- list lenght
+DEL <listname> --- delete list
+SET <variable_name> <values> --- set variable value
+GET <variable_name>
+
+
