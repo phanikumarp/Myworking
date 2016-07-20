@@ -1,0 +1,7 @@
+name,tenant,openstack,vm
+LoadBalancer,N42-Tenant-1,Sunnyvale OpenStack 1,vm-1
+WebServer,N42-Tenant-1,Sunnyvale OpenStack 1,vm-2
+WebServer,N42-Tenant-1,Sunnyvale OpenStack 1,vm-3
+MySQL,N42-Tenant-1,Sunnyvale OpenStack 1,vm-4
+VPN,N42-Tenant-1,Sunnyvale OpenStack 1,vm-4
+Firewall,N42-Tenant-1,Sunnyvale OpenStack 1,vm-4

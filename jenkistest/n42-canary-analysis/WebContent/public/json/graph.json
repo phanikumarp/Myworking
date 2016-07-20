@@ -1,0 +1,105 @@
+{
+	"metric": "http.responsetime",
+	"version1": {
+		"host": "ip-10-0-0-11",
+		"data": [{
+			"time": "10:56:19 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:22 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:26 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:30 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:34 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:38 GMT",
+			"date": "30 Jun 2016",
+		}, {
+			"time": "10:56:42 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:49 GMT",
+			"date": "30 Jun 2016",
+			"value": 2
+		}, {
+			"time": "10:56:50 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:54 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:58 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:57:02 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}]
+	},
+	"version2": {
+		"data": [{
+			"time": "10:56:13 GMT",
+			"date": "30 Jun 2016",
+			"value": 1.5
+		}, {
+			"time": "10:56:17 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:21 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:25 GMT",
+			"date": "30 Jun 2016",
+			"value": 0.5
+		}, {
+			"time": "10:56:29 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:33 GMT",
+			"date": "30 Jun 2016",
+			"value": 0.5
+		}, {
+			"time": "10:56:36 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:37 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:41 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:45 GMT",
+			"date": "30 Jun 2016",
+			"value": 0
+		}, {
+			"time": "10:56:46 GMT",
+			"date": "30 Jun 2016",
+			"value": 1
+		}, {
+			"time": "10:56:49 GMT",
+			"date": "30 Jun 2016",
+			"value": 0.5
+		}]
+	}
+}

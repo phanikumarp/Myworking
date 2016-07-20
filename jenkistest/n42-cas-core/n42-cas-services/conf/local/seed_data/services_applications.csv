@@ -1,0 +1,11 @@
+services,applications
+Tomcat,ResourceWatch
+MongoDB,ResourceWatch
+Mysql,ResourceWatch
+HardwareLoadBalancer,ResourceWatch
+MongoDB,AutoScaling
+Tomcat,AutoScaling
+HaProxy,AutoScaling
+Mysql,AutoScaling
+HardwareLoadBalancer,VsphereDataCollection
+MongoDB,VsphereDataCollection

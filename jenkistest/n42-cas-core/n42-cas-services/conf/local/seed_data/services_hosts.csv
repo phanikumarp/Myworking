@@ -1,0 +1,8 @@
+service,host
+Tomcat,n42-dev12
+Tomcat,n42-dev13
+HaProxy,n42-dev11
+Tomcat,n42-dev11
+Mysql,n42-dev14
+MongoDB,AS_DB01
+HardwareLoadBalancer,HW_LB01

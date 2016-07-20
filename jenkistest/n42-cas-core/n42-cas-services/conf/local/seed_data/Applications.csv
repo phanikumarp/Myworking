@@ -1,0 +1,4 @@
+name,description,active,isSubApp
+ResourceWatch,Application1,TRUE,FALSE
+AutoScaling,Application2,TRUE,FALSE
+VsphereDataCollection,Application3,TRUE,FALSE

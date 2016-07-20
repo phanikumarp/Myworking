@@ -1,0 +1,13 @@
+mountPoint,size,diskType,active,diskInfo_host
+/,51609340,ext4,TRUE,n42-dev11
+/dev/shm,tmpfs,load Balancers,TRUE,n42-dev11
+/,21609855,ext4,TRUE,n42-dev12
+/dev/shm,1424342,tmpfs,TRUE,n42-dev12
+/,21609855,ext4,TRUE,n42-dev13
+/dev/shm,1424342,tmpfs,TRUE,n42-dev13
+/,21609845,ext4,TRUE,n42-dev14
+/dev/shm,1424243,tmpfs,TRUE,n42-dev14
+/,51609340,ext4,TRUE,AS_DB01
+/dev/shm,1924640,tmpfs,TRUE,AS_DB01
+/,51609340,ext4,TRUE,HW_LB01
+/dev/shm,1924640,tmpfs,TRUE,HW_LB01

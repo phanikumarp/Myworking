@@ -1,0 +1,15 @@
+metricName,yAxisFormatter,renderer,graph,isPrediction,title,isCumulative,unit,hostOrService
+haproxy.requests,default,line,TRUE,FALSE,haproxy requests,FALSE,request/s,Load Balancer
+haproxy.responsetime,default,line,TRUE,FALSE,haproxy responsetime,FALSE,ms,Load Balancer
+haproxy.errors,default,line,TRUE,FALSE,haproxy errors,FALSE,request/s,Load Balancer
+mysql.bytes_sent,byte,line,TRUE,FALSE,mysql bytes sent,TRUE,bytes,MySQL Database
+mysql.bytes_received,byte,line,TRUE,FALSE,mysql bytes received,TRUE,bytes,MySQL Database
+mysql.volume_reads,default,line,TRUE,FALSE,mysql volume reads,FALSE,,MySQL Database
+mysql.volume_writes,default,line,TRUE,FALSE,mysql volume writes,FALSE,,MySQL Database
+apache.requests,default,line,TRUE,FALSE,apache requests,FALSE,request/s,Apache Server
+apache.responsetime,default,line,TRUE,FALSE,apache responsetime,FALSE,ms,Apache Server
+apache.errors,default,line,TRUE,FALSE,apache errors,FALSE,request/s,Apache Server
+proc.cpu.util,default,line,TRUE,FALSE,proc cpu util,FALSE,,system
+mem.usage.percent,default,line,TRUE,FALSE,mem usage percent,FALSE,,system
+disk.block.read,default,line,TRUE,FALSE,disk block read,FALSE,,system
+disk.block.write,default,line,TRUE,FALSE,disk block write,FALSE,,system

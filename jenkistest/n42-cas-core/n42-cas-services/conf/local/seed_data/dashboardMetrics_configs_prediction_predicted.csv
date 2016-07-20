@@ -1,0 +1,356 @@
+id,metricDescription,yAxisFormatter,renderer,url,graph
+csr.memory.available,csr memory available,byte,line,n42-services/resources/prediction/csr.memory.available,TRUE
+csr.memory.used,csr memory used,byte,line,n42-services/resources/prediction/csr.memory.used,TRUE
+csr.memory.free,csr memory free,byte,line,n42-services/resources/prediction/csr.memory.free,TRUE
+csr.cpuutil.total,csr cpuutil total,byte,line,n42-services/resources/prediction/csr.cpuutil.total,TRUE
+proc.net.bytes,proc net bytes,byte,line,n42-services/resources/prediction/proc.net.bytes,TRUE
+mongo.dur.compression,mongo dur compression,default,line,n42-services/resources/prediction/mongo.dur.compression,FALSE
+apache.Resource_Utilization_Processes_Busy_Workers,apache Resource Utilization Processes Busy Workers,default,line,n42-services/resources/prediction/apache.Resource_Utilization_Processes_Busy_Workers,TRUE
+tomcat.processingTime,tomcat processingTime,default,line,n42-services/resources/prediction/tomcat.processingTime,TRUE
+tomcat.sessionCreateRate,tomcat sessionCreateRate,byte,line,n42-services/resources/prediction/tomcat.sessionCreateRate,FALSE
+tomcat.activeSessions,tomcat activeSessions,default,line,n42-services/resources/prediction/tomcat.activeSessions,TRUE
+tomcat.rejectedSessions,tomcat rejectedSessions,default,line,n42-services/resources/prediction/tomcat.rejectedSessions,FALSE
+mongo.backgroundFlushing.average_ms,mongo backgroundFlushing average ms,default,line,n42-services/resources/prediction/mongo.backgroundFlushing.average_ms,TRUE
+mongo.dur.commits,mongo dur commits,default,line,n42-services/resources/prediction/mongo.dur.commits,FALSE
+mongo.globalLock.lockTime,mongo globalLock lockTime,default,line,n42-services/resources/prediction/mongo.globalLock.lockTime,TRUE
+mysql.innodb_data_writes,mysql innodb data writes,byte,line,n42-services/resources/prediction/mysql.innodb_data_writes,FALSE
+mysql.innodb_buffer_pool_read_requests,mysql innodb buffer pool read requests,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_read_requests,TRUE
+mysql.innodb_data_reads,mysql innodb data reads,byte,line,n42-services/resources/prediction/mysql.innodb_data_reads,FALSE
+mongo.opcounters,mongo opcounters,default,line,n42-services/resources/prediction/mongo.opcounters,TRUE
+tomcat.bytesSent,tomcat bytes Sent,byte,line,n42-services/resources/prediction/tomcat.bytesSent,FALSE
+tomcat.maxThreads,tomcat max Threads,default,line,n42-services/resources/prediction/tomcat.maxThreads,TRUE
+tomcat.activeSessions,tomcat.activeSessions,default,line,n42-services/resources/prediction/tomcat.activeSessions,FALSE
+tomcat.requestCount,tomcat.requestCount,default,line,n42-services/resources/prediction/tomcat.requestCount,TRUE
+iostat.disk.read_requests,iostat disk read requests,byte,line,n42-services/resources/prediction/iostat.disk.read_requests,TRUE
+iostat.disk.write_requests,iostat disk write requests,byte,line,n42-services/resources/prediction/iostat.disk.write_requests,FALSE
+proc.meminfo.active,proc meminfo active,byte,line,n42-services/resources/prediction/proc.meminfo.active,TRUE
+proc.meminfo.memfree,proc meminfo memfree,byte,line,n42-services/resources/prediction/proc.meminfo.memfree,FALSE
+mongo.extra_info.heap_usage_bytes,mongo extra info heap usage bytes,byte,line,n42-services/resources/prediction/mongo.extra_info.heap_usage_bytes,TRUE
+mongo.globalLock.currentQueue.readers,mongo globalLock current Queue readers,byte,line,n42-services/resources/prediction/mongo.globalLock.currentQueue.readers,FALSE
+mongo.globalLock.currentQueue.writers,mongo globalLock current Queue writers,byte,line,n42-services/resources/prediction/mongo.globalLock.currentQueue.writers,TRUE
+mongo.globalLock.totalTime,mongo globalLock total Time,default,line,n42-services/resources/prediction/mongo.globalLock.totalTime,FALSE
+mongo.network.bytesIn,mongo network bytesIn,byte,line,n42-services/resources/prediction/mongo.network.bytesIn,TRUE
+mongo.network.bytesOut,mongo network bytesOut,byte,line,n42-services/resources/prediction/mongo.network.bytesOut,FALSE
+mongo.cursors.totalOpen,mongo cursors total Open,default,line,n42-services/resources/prediction/mongo.cursors.totalOpen,TRUE
+mysql.com_execute_sql,mysql com execute sql,default,line,n42-services/resources/prediction/mysql.com_execute_sql,TRUE
+mysql.bytes_received,mysql bytes received,byte,line,n42-services/resources/prediction/mysql.bytes_received,FALSE
+mysql.connections_running,mysql connections running,default,line,n42-services/resources/prediction/mysql.connections_running,TRUE
+mysql.pct_innodb_buffer_pool_hit_ratio,mysql pct innodb buffer pool hit ratio,default,line,n42-services/resources/prediction/mysql.pct_innodb_buffer_pool_hit_ratio,FALSE
+mysql.pct_tmp_tables_written_to_disk,mysql pct tmp tables written to disk,byte,line,n42-services/resources/prediction/mysql.pct_tmp_tables_written_to_disk,TRUE
+mysqlpct_connection_utilization,mysql pct connection utilization,percent,line,n42-services/resources/prediction/mysqlpct_connection_utilization,FALSE
+mysql.volume_reads,mysql volume reads,byte,line,n42-services/resources/prediction/mysql.volume_reads,TRUE
+mysql.volume_writes,mysql volume writes,byte,line,n42-services/resources/prediction/mysql.volume_writes,FALSE
+mysql.query_cache_misses,mysql query cache misses,byte,line,n42-services/resources/prediction/mysql.query_cache_misses,TRUE
+tomcat.currentThreadsBusy,tomcat current Threads Busy,default,line,n42-services/resources/prediction/tomcat.currentThreadsBusy,FALSE
+tomcat.HeapMemoryUsage,tomcat Heap Memory Usage,default,line,n42-services/resources/prediction/tomcat.HeapMemoryUsage,TRUE
+tomcat.currentThreadCount,tomcat current Thread Count,default,line,n42-services/resources/prediction/tomcat.currentThreadCount,FALSE
+tomcat.rejectedSessions,tomcat rejected Sessions,default,line,n42-services/resources/prediction/tomcat.rejectedSessions,TRUE
+mongo.connections.current,mongo connections current,default,line,n42-services/resources/prediction/mongo.connections.current,FALSE
+mongo.dur.commitsInWriteLock,mongo dur commits In Write Lock,default,line,n42-services/resources/prediction/mongo.dur.commitsInWriteLock,TRUE
+mongo.dur.writeToDataFilesMB,mongo dur write To Data FilesMB,byte,line,n42-services/resources/prediction/mongo.dur.writeToDataFilesMB,FALSE
+mongo.mem.virtual,mongo mem virtual,byte,line,n42-services/resources/prediction/mongo.mem.virtual,TRUE
+proc.stat.cpu,proc stat cpu,byte,line,n42-services/resources/prediction/proc.stat.cpu,FALSE
+mongo.extra_info.page_faults,mongo extra info page faults,default,line,n42-services/resources/prediction/mongo.extra_info.page_faults,TRUE
+mongo.dur.journaledMB,mongo dur journaledMB,byte,line,n42-services/resources/prediction/mongo.dur.journaledMB,FALSE
+mongo.globalLock.activeClients.readers,mongo global Lock active Clients readers,byte,line,n42-services/resources/prediction/mongo.globalLock.activeClients.readers,TRUE
+mongo.globalLock.activeClients.writers,mongo global Lock active Clients writers,byte,line,n42-services/resources/prediction/mongo.globalLock.activeClients.readers,FALSE
+mysql.innodb_page_size,mysql innodb page size,byte,line,n42-services/resources/prediction/mysql.innodb_page_size,TRUE
+mysql.innodb_pages_created,mysql innodb pages created,default,line,n42-services/resources/prediction/mysql.innodb_pages_created,FALSE
+mysql.innodb_pages_read,mysql innodb pages read,byte,line,n42-services/resources/prediction/mysql.innodb_pages_read,TRUE
+mysql.innodb_pages_written,mysql innodb pages written,byte,line,n42-services/resources/prediction/mysql.innodb_pages_written,FALSE
+iostat.disk.msec_read,iostat disk msec read,byte,line,n42-services/resources/prediction/iostat.disk.msec_read,TRUE
+iostat.disk.msec_write,iostat disk msec write,byte,line,n42-services/resources/prediction/iostat.disk.msec_write,FALSE
+df.bytes.free,df bytes free,byte,line,n42-services/resources/prediction/df.bytes.free,TRUE
+df.bytes.percentused,df bytes percentused,byte,line,n42-services/resources/prediction/df.bytes.percentused,FALSE
+df.bytes.total,df bytes total,byte,line,n42-services/resources/prediction/df.bytes.total,TRUE
+df.bytes.used,df bytes used,byte,line,n42-services/resources/prediction/df.bytes.used,FALSE
+df.inodes.free,df inodes free,byte,line,n42-services/resources/prediction/df.inodes.free,TRUE
+df.inodes.percentused,df inodes percentused,byte,line,n42-services/resources/prediction/df.inodes.percentused,FALSE
+df.inodes.total,df inodes total,byte,line,n42-services/resources/prediction/df.inodes.total,TRUE
+df.inodes.used,df inodes used,byte,line,n42-services/resources/prediction/df.inodes.used,FALSE
+iostat.disk.await,iostat disk await,byte,line,n42-services/resources/prediction/iostat.disk.await,FALSE
+iostat.disk.ios_in_progress,iostat disk ios in progress,byte,line,n42-services/resources/prediction/iostat.disk.ios_in_progress,TRUE
+iostat.disk.msec_total,iostat disk msec total,byte,line,n42-services/resources/prediction/iostat.disk.msec_total,FALSE
+iostat.disk.msec_weighted_total,iostat disk msec weighted total,byte,line,n42-services/resources/prediction/iostat.disk.msec_weighted_total,TRUE
+iostat.disk.read_merged,iostat disk read merged,byte,line,n42-services/resources/prediction/iostat.disk.read_merged,FALSE
+iostat.disk.read_sectors,iostat disk read sectors,byte,line,n42-services/resources/prediction/iostat.disk.read_sectors,TRUE
+iostat.disk.svctm,iostat disk svctm,byte,line,n42-services/resources/prediction/iostat.disk.svctm,FALSE
+iostat.disk.util,iostat disk util,byte,line,n42-services/resources/prediction/iostat.disk.util,TRUE
+iostat.disk.write_merged,iostat disk write merged,byte,line,n42-services/resources/prediction/iostat.disk.write_merged,FALSE
+iostat.disk.write_sectors,iostat disk write sectors,byte,line,n42-services/resources/prediction/iostat.disk.write_sectors,TRUE
+iostat.part.await,iostat part await,byte,line,n42-services/resources/prediction/iostat.part.await,FALSE
+iostat.part.ios_in_progress,iostat part ios in progress,byte,line,n42-services/resources/prediction/iostat.part.ios_in_progress,TRUE
+iostat.part.msec_read,iostat part msec read,byte,line,n42-services/resources/prediction/iostat.part.msec_read,FALSE
+iostat.part.msec_total,iostat part msec total,byte,line,n42-services/resources/prediction/iostat.part.msec_total,TRUE
+iostat.part.msec_weighted_total,iostat part msec weighted total,byte,line,n42-services/resources/prediction/iostat.part.msec_weighted_total,FALSE
+iostat.part.msec_write,iostat part msec write,byte,line,n42-services/resources/prediction/iostat.part.msec_write,TRUE
+iostat.part.read_merged,iostat part read merged,byte,line,n42-services/resources/prediction/iostat.part.read_merged,FALSE
+iostat.part.read_requests,iostat part read requests,byte,line,n42-services/resources/prediction/iostat.part.read_requests,TRUE
+iostat.part.read_sectors,iostat part read sectors,byte,line,n42-services/resources/prediction/iostat.part.read_sectors,FALSE
+iostat.part.svctm,iostat part svctm,byte,line,n42-services/resources/prediction/iostat.part.svctm,TRUE
+iostat.part.util,iostat part util,byte,line,n42-services/resources/prediction/iostat.part.util,FALSE
+iostat.part.write_merged,iostat part write merged,byte,line,n42-services/resources/prediction/iostat.part.write_merged,TRUE
+iostat.part.write_requests,iostat part write requests,byte,line,n42-services/resources/prediction/iostat.part.write_requests,FALSE
+iostat.part.write_sectors,iostat part write sectors,byte,line,n42-services/resources/prediction/iostat.part.write_sectors,TRUE
+mongo.asserts,mongo asserts,byte,line,n42-services/resources/prediction/mongo.asserts,FALSE
+mongo.backgroundFlushing.flushes,mongo backgroundFlushing flushes,byte,line,n42-services/resources/prediction/mongo.backgroundFlushing.flushes,TRUE
+mongo.backgroundFlushing.total_ms,mongo backgroundFlushing total ms,byte,line,n42-services/resources/prediction/mongo.backgroundFlushing.total_ms,FALSE
+mongo.connections.available,mongo connections available,byte,line,n42-services/resources/prediction/mongo.connections.available,TRUE
+mongo.cursors.timedOut,mongo cursors timedOut,byte,line,n42-services/resources/prediction/mongo.cursors.timedOut,FALSE
+mongo.dur.earlyCommits,mongo dur earlyCommits,byte,line,n42-services/resources/prediction/mongo.dur.earlyCommits,TRUE
+mongo.globalLock.totalTime,mongo globalLock totalTime,byte,line,n42-services/resources/prediction/mongo.globalLock.totalTime,FALSE
+mongo.mem.mapped,mongo mem mapped,byte,line,n42-services/resources/prediction/mongo.mem.mapped,TRUE
+mongo.mem.resident,mongo mem resident,byte,line,n42-services/resources/prediction/mongo.mem.resident,FALSE
+mongo.network.numRequests,mongo network numRequests,byte,line,n42-services/resources/prediction/mongo.network.numRequests,TRUE
+mysql.aborted_clients,mysql aborted clients,byte,line,n42-services/resources/prediction/mysql.aborted_clients,FALSE
+mysql.aborted_connects,mysql aborted connects,byte,line,n42-services/resources/prediction/mysql.aborted_connects,TRUE
+mysql.bytes_sent,mysql bytes sent,byte,line,n42-services/resources/prediction/mysql.bytes_sent,FALSE
+mysql.com_admin_commands,mysql com admin commands,byte,line,n42-services/resources/prediction/mysql.com_admin_commands,TRUE
+mysql.com_alter_db,mysql com alter db,byte,line,n42-services/resources/prediction/mysql.com_alter_db,FALSE
+mysql.com_alter_table,mysql com alter table,byte,line,n42-services/resources/prediction/mysql.com_alter_table,TRUE
+mysql.com_analyze,mysql com analyze,byte,line,n42-services/resources/prediction/mysql.com_analyze,FALSE
+mysql.com_begin,mysql com begin,byte,line,n42-services/resources/prediction/mysql.com_begin,TRUE
+mysql.com_call_procedure,mysql com call procedure,byte,line,n42-services/resources/prediction/mysql.com_call_procedure,FALSE
+mysql.com_change_db,mysql com change db,byte,line,n42-services/resources/prediction/mysql.com_change_db,TRUE
+mysql.com_change_master,mysql com change master,byte,line,n42-services/resources/prediction/mysql.com_change_master,FALSE
+mysql.com_check,mysql com check,byte,line,n42-services/resources/prediction/mysql.com_check,TRUE
+mysql.com_checksum,mysql com checksum,byte,line,n42-services/resources/prediction/mysql.com_checksum,FALSE
+mysql.com_commit,mysql com commit,byte,line,n42-services/resources/prediction/mysql.com_commit,TRUE
+mysql.com_create_db,mysql com create db,byte,line,n42-services/resources/prediction/mysql.com_create_db,FALSE
+mysql.com_create_function,mysql com create function,byte,line,n42-services/resources/prediction/mysql.com_create_function,TRUE
+mysql.com_create_index,mysql com create index,byte,line,n42-services/resources/prediction/mysql.com_create_index,FALSE
+mysql.com_create_table,mysql com create table,byte,line,n42-services/resources/prediction/mysql.com_create_table,TRUE
+mysql.com_create_user,mysql com create user,byte,line,n42-services/resources/prediction/mysql.com_create_user,FALSE
+mysql.com_dealloc_sql,mysql com dealloc sql,byte,line,n42-services/resources/prediction/mysql.com_dealloc_sql,TRUE
+mysql.com_delete,mysql com delete,byte,line,n42-services/resources/prediction/mysql.com_delete,FALSE
+mysql.com_delete_multi,mysql com delete multi,byte,line,n42-services/resources/prediction/mysql.com_delete_multi,TRUE
+mysql.com_do,mysql com do,byte,line,n42-services/resources/prediction/mysql.com_do,FALSE
+mysql.com_drop_db,mysql com drop db,byte,line,n42-services/resources/prediction/mysql.com_drop_db,TRUE
+mysql.com_drop_function,mysql com drop function,byte,line,n42-services/resources/prediction/mysql.com_drop_function,FALSE
+mysql.com_drop_index,mysql com drop index,byte,line,n42-services/resources/prediction/mysql.com_drop_index,TRUE
+mysql.com_drop_table,mysql com drop table,byte,line,n42-services/resources/prediction/mysql.com_drop_table,FALSE
+mysql.com_drop_user,mysql com drop user,byte,line,n42-services/resources/prediction/mysql.com_drop_user,TRUE
+mysql.com_flush,mysql com flush,byte,line,n42-services/resources/prediction/mysql.com_flush,FALSE
+mysql.com_grant,mysql com grant,byte,line,n42-services/resources/prediction/mysql.com_grant,TRUE
+mysql.com_ha_close,mysql com ha close,byte,line,n42-services/resources/prediction/mysql.com_ha_close,FALSE
+mysql.com_ha_open,mysql com ha open,byte,line,n42-services/resources/prediction/mysql.com_ha_open,TRUE
+mysql.com_ha_read,mysql com ha read,byte,line,n42-services/resources/prediction/mysql.com_ha_read,FALSE
+mysql.com_help,mysql com help,byte,line,n42-services/resources/prediction/mysql.com_help,TRUE
+mysql.com_insert,mysql com insert,byte,line,n42-services/resources/prediction/mysql.com_insert,FALSE
+mysql.com_insert_select,mysql com insert select,byte,line,n42-services/resources/prediction/mysql.com_insert_select,TRUE
+mysql.com_kill,mysql com kill,byte,line,n42-services/resources/prediction/mysql.com_kill,FALSE
+mysql.com_load,mysql com load,byte,line,n42-services/resources/prediction/mysql.com_load,TRUE
+mysql.com_lock_tables,mysql com lock tables,byte,line,n42-services/resources/prediction/mysql.com_lock_tables,FALSE
+mysql.com_optimize,mysql com optimize,byte,line,n42-services/resources/prediction/mysql.com_optimize,TRUE
+mysql.com_preload_keys,mysql com preload keys,byte,line,n42-services/resources/prediction/mysql.com_preload_keys,FALSE
+mysql.com_prepare_sql,mysql com prepare sql,byte,line,n42-services/resources/prediction/mysql.com_prepare_sql,TRUE
+mysql.com_purge,mysql com purge,byte,line,n42-services/resources/prediction/mysql.com_purge,FALSE
+mysql.com_purge_before_date,mysql com purge before date,byte,line,n42-services/resources/prediction/mysql.com_purge_before_date,TRUE
+mysql.com_rename_table,mysql com rename table,byte,line,n42-services/resources/prediction/mysql.com_rename_table,FALSE
+mysql.com_repair,mysql com repair,byte,line,n42-services/resources/prediction/mysql.com_repair,TRUE
+mysql.com_replace,mysql com replace,byte,line,n42-services/resources/prediction/mysql.com_replace,FALSE
+mysql.com_replace_select,mysql com replace select,byte,line,n42-services/resources/prediction/mysql.com_replace_select,TRUE
+mysql.com_reset,mysql com reset,byte,line,n42-services/resources/prediction/mysql.com_reset,FALSE
+mysql.com_revoke,mysql com revoke,byte,line,n42-services/resources/prediction/mysql.com_revoke,TRUE
+mysql.com_revoke_all,mysql com revoke all,byte,line,n42-services/resources/prediction/mysql.com_revoke_all,FALSE
+mysql.com_rollback,mysql com rollback,byte,line,n42-services/resources/prediction/mysql.com_rollback,TRUE
+mysql.com_savepoint,mysql com savepoint,byte,line,n42-services/resources/prediction/mysql.com_savepoint,FALSE
+mysql.com_select,mysql com select,byte,line,n42-services/resources/prediction/mysql.com_select,TRUE
+mysql.com_set_option,mysql com set option,byte,line,n42-services/resources/prediction/mysql.com_set_option,FALSE
+mysql.com_show_binlog_events,mysql com show binlog events,byte,line,n42-services/resources/prediction/mysql.com_show_binlog_events,TRUE
+mysql.com_show_binlogs,mysql com show binlogs,byte,line,n42-services/resources/prediction/mysql.com_show_binlogs,FALSE
+mysql.com_show_charsets,mysql com show charsets,byte,line,n42-services/resources/prediction/mysql.com_show_charsets,TRUE
+mysql.com_show_collations,mysql com show collations,byte,line,n42-services/resources/prediction/mysql.com_show_collations,FALSE
+mysql.com_show_create_db,mysql com show create db,byte,line,n42-services/resources/prediction/mysql.com_show_create_db,TRUE
+mysql.com_show_create_table,mysql com show create table,byte,line,n42-services/resources/prediction/mysql.com_show_create_table,FALSE
+mysql.com_show_databases,mysql com show databases,byte,line,n42-services/resources/prediction/mysql.com_show_databases,TRUE
+mysql.com_show_errors,mysql com show errors,byte,line,n42-services/resources/prediction/mysql.com_show_errors,FALSE
+mysql.com_show_fields,mysql com show fields,byte,line,n42-services/resources/prediction/mysql.com_show_fields,TRUE
+mysql.com_show_grants,mysql com show grants,byte,line,n42-services/resources/prediction/mysql.com_show_grants,FALSE
+mysql.com_show_keys,mysql com show keys,byte,line,n42-services/resources/prediction/mysql.com_show_keys,TRUE
+mysql.com_show_master_status,mysql com show master status,byte,line,n42-services/resources/prediction/mysql.com_show_master_status,FALSE
+mysql.com_show_open_tables,mysql com show open tables,byte,line,n42-services/resources/prediction/mysql.com_show_open_tables,TRUE
+mysql.com_show_privileges,mysql com show privileges,byte,line,n42-services/resources/prediction/mysql.com_show_privileges,FALSE
+mysql.com_show_processlist,mysql com show processlist,byte,line,n42-services/resources/prediction/mysql.com_show_processlist,TRUE
+mysql.com_show_slave_hosts,mysql com show slave hosts,byte,line,n42-services/resources/prediction/mysql.com_show_slave_hosts,FALSE
+mysql.com_show_slave_status,mysql com show slave status,byte,line,n42-services/resources/prediction/mysql.com_show_slave_status,TRUE
+mysql.com_show_status,mysql com show status,byte,line,n42-services/resources/prediction/mysql.com_show_status,FALSE
+mysql.com_show_storage_engines,mysql com show storage engines,byte,line,n42-services/resources/prediction/mysql.com_show_storage_engines,TRUE
+mysql.com_show_tables,mysql com show tables,byte,line,n42-services/resources/prediction/mysql.com_show_tables,FALSE
+mysql.com_show_triggers,mysql com show triggers,byte,line,n42-services/resources/prediction/mysql.com_show_triggers,TRUE
+mysql.com_show_variables,mysql com show variables,byte,line,n42-services/resources/prediction/mysql.com_show_variables,FALSE
+mysql.com_show_warnings,mysql com show warnings,byte,line,n42-services/resources/prediction/mysql.com_show_warnings,TRUE
+mysql.com_slave_start,mysql com slave start,byte,line,n42-services/resources/prediction/mysql.com_slave_start,FALSE
+mysql.com_slave_stop,mysql com slave stop,byte,line,n42-services/resources/prediction/mysql.com_slave_stop,TRUE
+mysql.com_stmt_close,mysql com stmt close,byte,line,n42-services/resources/prediction/mysql.com_stmt_close,FALSE
+mysql.com_stmt_execute,mysql com stmt execute,byte,line,n42-services/resources/prediction/mysql.com_stmt_execute,TRUE
+mysql.com_stmt_fetch,mysql com stmt fetch,byte,line,n42-services/resources/prediction/mysql.com_stmt_fetch,FALSE
+mysql.com_stmt_prepare,mysql com stmt prepare,byte,line,n42-services/resources/prediction/mysql.com_stmt_prepare,TRUE
+mysql.com_stmt_reset,mysql com stmt reset,byte,line,n42-services/resources/prediction/mysql.com_stmt_reset,FALSE
+mysql.com_stmt_send_long_data,mysql com stmt send long data,byte,line,n42-services/resources/prediction/mysql.com_stmt_send_long_data,TRUE
+mysql.com_truncate,mysql com truncate,byte,line,n42-services/resources/prediction/mysql.com_truncate,FALSE
+mysql.com_unlock_tables,mysql com unlock tables,byte,line,n42-services/resources/prediction/mysql.com_unlock_tables,TRUE
+mysql.com_update,mysql com update,byte,line,n42-services/resources/prediction/mysql.com_update,FALSE
+mysql.com_update_multi,mysql com update multi,byte,line,n42-services/resources/prediction/mysql.com_update_multi,TRUE
+mysql.com_xa_commit,mysql com xa commit,byte,line,n42-services/resources/prediction/mysql.com_xa_commit,FALSE
+mysql.com_xa_end,mysql com xa end,byte,line,n42-services/resources/prediction/mysql.com_xa_end,TRUE
+mysql.com_xa_prepare,mysql com xa prepare,byte,line,n42-services/resources/prediction/mysql.com_xa_prepare,FALSE
+mysql.com_xa_recover,mysql com xa recover,byte,line,n42-services/resources/prediction/mysql.com_xa_recover,TRUE
+mysql.com_xa_rollback,mysql com xa rollback,byte,line,n42-services/resources/prediction/mysql.com_xa_rollback,FALSE
+mysql.com_xa_start,mysql com xa start,byte,line,n42-services/resources/prediction/mysql.com_xa_start,TRUE
+mysql.connections_cached,mysql connections cached,byte,line,n42-services/resources/prediction/mysql.connections_cached,FALSE
+mysql.connections_connected,mysql connections connected,byte,line,n42-services/resources/prediction/mysql.connections_connected,TRUE
+mysql.created_tmp_disk_tables,mysql created tmp disk tables,byte,line,n42-services/resources/prediction/mysql.created_tmp_disk_tables,FALSE
+mysql.created_tmp_tables,mysql created tmp tables,byte,line,n42-services/resources/prediction/mysql.created_tmp_tables,TRUE
+mysql.innodb_bp_pages_created,mysql innodb bp pages created,byte,line,n42-services/resources/prediction/mysql.innodb_bp_pages_created,FALSE
+mysql.innodb_bp_pages_read,mysql innodb bp pages read,byte,line,n42-services/resources/prediction/mysql.innodb_bp_pages_read,TRUE
+mysql.innodb_bp_pages_written,mysql innodb bp pages written,byte,line,n42-services/resources/prediction/mysql.innodb_bp_pages_written,FALSE
+mysql.innodb_buffer_pool_pages_clean,mysql innodb buffer pool pages clean,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_pages_clean,TRUE
+mysql.innodb_buffer_pool_pages_dirty,mysql innodb buffer pool pages dirty,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_pages_dirty,FALSE
+mysql.innodb_buffer_pool_pages_flushed,mysql innodb buffer pool pages flushed,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_pages_flushed,TRUE
+mysql.innodb_buffer_pool_pages_free,mysql innodb buffer pool pages free,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_pages_free,FALSE
+mysql.innodb_buffer_pool_pages_misc,mysql innodb buffer pool pages misc,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_pages_misc,TRUE
+mysql.innodb_buffer_pool_pages_unassigned,mysql innodb buffer pool pages unassigned,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_pages_unassigned,FALSE
+mysql.innodb_buffer_pool_read_ahead_rnd,mysql innodb buffer pool read ahead rnd,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_read_ahead_rnd,TRUE
+mysql.innodb_buffer_pool_reads,mysql innodb buffer pool reads,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_reads,FALSE
+mysql.innodb_buffer_pool_wait_free,mysql innodb buffer pool wait free,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_wait_free,TRUE
+mysql.innodb_buffer_pool_write_requests,mysql innodb buffer pool write requests,byte,line,n42-services/resources/prediction/mysql.innodb_buffer_pool_write_requests,FALSE
+mysql.innodb_data_fsyncs,mysql innodb data fsyncs,byte,line,n42-services/resources/prediction/mysql.innodb_data_fsyncs,TRUE
+mysql.innodb_data_pending_fsyncs,mysql innodb data pending fsyncs,byte,line,n42-services/resources/prediction/mysql.innodb_data_pending_fsyncs,FALSE
+mysql.innodb_data_read,mysql innodb data read,byte,line,n42-services/resources/prediction/mysql.innodb_data_read,TRUE
+mysql.innodb_data_written,mysql innodb data written,byte,line,n42-services/resources/prediction/mysql.innodb_data_written,FALSE
+mysql.innodb_fsyncs_data,mysql innodb fsyncs data,byte,line,n42-services/resources/prediction/mysql.innodb_fsyncs_data,TRUE
+mysql.innodb_fsyncs_os_log,mysql innodb fsyncs os log,byte,line,n42-services/resources/prediction/mysql.innodb_fsyncs_os_log,FALSE
+mysql.innodb_os_log_fsyncs,mysql innodb os log fsyncs,byte,line,n42-services/resources/prediction/mysql.innodb_os_log_fsyncs,TRUE
+mysql.innodb_os_log_written,mysql innodb os log written,byte,line,n42-services/resources/prediction/mysql.innodb_os_log_written,FALSE
+mysql.innodb_rows_deleted,mysql innodb rows deleted,byte,line,n42-services/resources/prediction/mysql.innodb_rows_deleted,TRUE
+mysql.innodb_rows_inserted,mysql innodb rows inserted,byte,line,n42-services/resources/prediction/mysql.innodb_rows_inserted,FALSE
+mysql.innodb_rows_read,mysql innodb rows read,byte,line,n42-services/resources/prediction/mysql.innodb_rows_read,TRUE
+mysql.innodb_rows_updated,mysql innodb rows updated,byte,line,n42-services/resources/prediction/mysql.innodb_rows_updated,FALSE
+mysql.master_log_lag_bytes,mysql master log lag bytes,byte,line,n42-services/resources/prediction/mysql.master_log_lag_bytes,TRUE
+mysql.max_used_connections,mysql max used connections,byte,line,n42-services/resources/prediction/mysql.max_used_connections,FALSE
+mysql.open_files,mysql open files,byte,line,n42-services/resources/prediction/mysql.open_files,TRUE
+mysql.open_streams,mysql open streams,byte,line,n42-services/resources/prediction/mysql.open_streams,FALSE
+mysql.open_tables,mysql open tables,byte,line,n42-services/resources/prediction/mysql.open_tables,TRUE
+mysql.opened_tables,mysql opened tables,byte,line,n42-services/resources/prediction/mysql.opened_tables,FALSE
+mysql.pct_query_cache_hit_utilization,mysql pct query cache hit utilization,byte,line,n42-services/resources/prediction/mysql.pct_query_cache_hit_utilization,TRUE
+mysql.pct_query_cache_memory_in_use,mysql pct query cache memory in use,byte,line,n42-services/resources/prediction/mysql.pct_query_cache_memory_in_use,FALSE
+mysql.qcache_free_blocks,mysql qcache free blocks,byte,line,n42-services/resources/prediction/mysql.qcache_free_blocks,TRUE
+mysql.qcache_free_memory,mysql qcache free memory,byte,line,n42-services/resources/prediction/mysql.qcache_free_memory,FALSE
+mysql.qcache_hits,mysql qcache hits,byte,line,n42-services/resources/prediction/mysql.qcache_hits,TRUE
+mysql.qcache_inserts,mysql qcache inserts,byte,line,n42-services/resources/prediction/mysql.qcache_inserts,FALSE
+mysql.qcache_lowmem_prunes,mysql qcache lowmem prunes,byte,line,n42-services/resources/prediction/mysql.qcache_lowmem_prunes,TRUE
+mysql.qcache_not_cached,mysql qcache not cached,byte,line,n42-services/resources/prediction/mysql.qcache_not_cached,FALSE
+mysql.qcache_queries_in_cache,mysql qcache queries in cache,byte,line,n42-services/resources/prediction/mysql.qcache_queries_in_cache,TRUE
+mysql.qcache_total_blocks,mysql qcache total blocks,byte,line,n42-services/resources/prediction/mysql.qcache_total_blocks,FALSE
+mysql.query_cache_hits,mysql query cache hits,byte,line,n42-services/resources/prediction/mysql.query_cache_hits,TRUE
+mysql.query_cache_not_cached,mysql query cache not cached,byte,line,n42-services/resources/prediction/mysql.query_cache_not_cached,FALSE
+mysql.replication_lag,mysql replication lag,byte,line,n42-services/resources/prediction/mysql.replication_lag,TRUE
+mysql.replication_status,mysql replication status,byte,line,n42-services/resources/prediction/mysql.replication_status,FALSE
+mysql.select_full_join,mysql select full join,byte,line,n42-services/resources/prediction/mysql.select_full_join,TRUE
+mysql.select_full_range_join,mysql select full range join,byte,line,n42-services/resources/prediction/mysql.select_full_range_join,FALSE
+mysql.select_range,mysql select range,byte,line,n42-services/resources/prediction/mysql.select_range,TRUE
+mysql.select_range_check,mysql select range check,byte,line,n42-services/resources/prediction/mysql.select_range_check,FALSE
+mysql.select_scan,mysql select scan,byte,line,n42-services/resources/prediction/mysql.select_scan,TRUE
+mysql.slave_relay_log_bytes,mysql slave relay log bytes,byte,line,n42-services/resources/prediction/mysql.slave_relay_log_bytes,FALSE
+mysql.slow_queries,mysql slow queries,byte,line,n42-services/resources/prediction/mysql.slow_queries,TRUE
+mysql.sort_range,mysql sort range,byte,line,n42-services/resources/prediction/mysql.sort_range,FALSE
+mysql.sort_scan,mysql sort scan,byte,line,n42-services/resources/prediction/mysql.sort_scan,TRUE
+mysql.table_locks_immediate,mysql table locks immediate,byte,line,n42-services/resources/prediction/mysql.table_locks_immediate,FALSE
+mysql.table_locks_waited,mysql table locks waited,byte,line,n42-services/resources/prediction/mysql.table_locks_waited,TRUE
+mysql.threads_cached,mysql threads cached,byte,line,n42-services/resources/prediction/mysql.threads_cached,FALSE
+mysql.threads_connected,mysql threads connected,byte,line,n42-services/resources/prediction/mysql.threads_connected,TRUE
+mysql.threads_created,mysql threads created,byte,line,n42-services/resources/prediction/mysql.threads_created,FALSE
+mysql.threads_running,mysql threads running,byte,line,n42-services/resources/prediction/mysql.threads_running,TRUE
+mysql.uptime,mysql uptime,byte,line,n42-services/resources/prediction/mysql.uptime,FALSE
+net.sockstat.ipfragqueues,net sockstat ipfragqueues,byte,line,n42-services/resources/prediction/net.sockstat.ipfragqueues,TRUE
+net.sockstat.memory,net sockstat memory,byte,line,n42-services/resources/prediction/net.sockstat.memory,FALSE
+net.sockstat.num_orphans,net sockstat num orphans,byte,line,n42-services/resources/prediction/net.sockstat.num_orphans,TRUE
+net.sockstat.num_sockets,net sockstat num sockets,byte,line,n42-services/resources/prediction/net.sockstat.num_sockets,FALSE
+net.sockstat.num_timewait,net sockstat num timewait,byte,line,n42-services/resources/prediction/net.sockstat.num_timewait,TRUE
+net.sockstat.sockets_inuse,net sockstat sockets inuse,byte,line,n42-services/resources/prediction/net.sockstat.sockets_inuse,FALSE
+net.stat.tcp.abort,net stat tcp abort,byte,line,n42-services/resources/prediction/net.stat.tcp.abort,TRUE
+net.stat.tcp.abort.failed,net stat tcp abort failed,byte,line,n42-services/resources/prediction/net.stat.tcp.abort.failed,FALSE
+net.stat.tcp.congestion.recovery,net stat tcp congestion recovery,byte,line,n42-services/resources/prediction/net.stat.tcp.congestion.recovery,TRUE
+net.stat.tcp.delayedack,net stat tcp delayedack,byte,line,n42-services/resources/prediction/net.stat.tcp.delayedack,FALSE
+net.stat.tcp.failed_accept,net stat tcp failed accept,byte,line,n42-services/resources/prediction/net.stat.tcp.failed_accept,TRUE
+net.stat.tcp.memory.pressure,net stat tcp memory pressure,byte,line,n42-services/resources/prediction/net.stat.tcp.memory.pressure,FALSE
+net.stat.tcp.memory.prune,net stat tcp memory prune,byte,line,n42-services/resources/prediction/net.stat.tcp.memory.prune,TRUE
+net.stat.tcp.packetloss.recovery,net stat tcp packetloss recovery,byte,line,n42-services/resources/prediction/net.stat.tcp.packetloss.recovery,FALSE
+net.stat.tcp.reording,net stat tcp reording,byte,line,n42-services/resources/prediction/net.stat.tcp.reording,TRUE
+net.stat.tcp.retransmit,net stat tcp retransmit,byte,line,n42-services/resources/prediction/net.stat.tcp.retransmit,FALSE
+net.stat.tcp.syncookies,net stat tcp syncookies,byte,line,n42-services/resources/prediction/net.stat.tcp.syncookies,TRUE
+net.stat.udp.datagrams,net stat udp datagrams,byte,line,n42-services/resources/prediction/net.stat.udp.datagrams,FALSE
+net.stat.udp.errors,net stat udp errors,byte,line,n42-services/resources/prediction/net.stat.udp.errors,TRUE
+proc.interrupts,proc interrupts,byte,line,n42-services/resources/prediction/proc.interrupts,FALSE
+proc.kernel.entropy_avail,proc kernel entropy avail,byte,line,n42-services/resources/prediction/proc.kernel.entropy_avail,TRUE
+proc.loadavg.15min,proc loadavg 15min,byte,line,n42-services/resources/prediction/proc.loadavg.15min,FALSE
+proc.loadavg.1min,proc loadavg 1min,byte,line,n42-services/resources/prediction/proc.loadavg.1min,TRUE
+proc.loadavg.5min,proc loadavg 5min,byte,line,n42-services/resources/prediction/proc.loadavg.5min,FALSE
+proc.loadavg.runnable,proc loadavg runnable,byte,line,n42-services/resources/prediction/proc.loadavg.runnable,TRUE
+proc.loadavg.total_threads,proc loadavg total threads,byte,line,n42-services/resources/prediction/proc.loadavg.total_threads,FALSE
+proc.meminfo.anonpages,proc meminfo anonpages,byte,line,n42-services/resources/prediction/proc.meminfo.anonpages,TRUE
+proc.meminfo.bounce,proc meminfo bounce,byte,line,n42-services/resources/prediction/proc.meminfo.bounce,FALSE
+proc.meminfo.buffers,proc meminfo buffers,byte,line,n42-services/resources/prediction/proc.meminfo.buffers,TRUE
+proc.meminfo.cached,proc meminfo cached,byte,line,n42-services/resources/prediction/proc.meminfo.cached,FALSE
+proc.meminfo.commitlimit,proc meminfo commitlimit,byte,line,n42-services/resources/prediction/proc.meminfo.commitlimit,TRUE
+proc.meminfo.committed_as,proc meminfo committed as,byte,line,n42-services/resources/prediction/proc.meminfo.committed_as,FALSE
+proc.meminfo.dirty,proc meminfo dirty,byte,line,n42-services/resources/prediction/proc.meminfo.dirty,TRUE
+proc.meminfo.highfree,proc meminfo highfree,byte,line,n42-services/resources/prediction/proc.meminfo.highfree,FALSE
+proc.meminfo.hightotal,proc meminfo hightotal,byte,line,n42-services/resources/prediction/proc.meminfo.hightotal,TRUE
+proc.meminfo.hugepagesize,proc meminfo hugepagesize,byte,line,n42-services/resources/prediction/proc.meminfo.hugepagesize,FALSE
+proc.meminfo.inactive,proc meminfo inactive,byte,line,n42-services/resources/prediction/proc.meminfo.inactive,TRUE
+proc.meminfo.lowfree,proc meminfo lowfree,byte,line,n42-services/resources/prediction/proc.meminfo.lowfree,FALSE
+proc.meminfo.lowtotal,proc meminfo lowtotal,byte,line,n42-services/resources/prediction/proc.meminfo.lowtotal,TRUE
+proc.meminfo.mapped,proc meminfo mapped,byte,line,n42-services/resources/prediction/proc.meminfo.mapped,FALSE
+proc.meminfo.memtotal,proc meminfo memtotal,byte,line,n42-services/resources/prediction/proc.meminfo.memtotal,TRUE
+proc.meminfo.nfs_unstable,proc meminfo nfs unstable,byte,line,n42-services/resources/prediction/proc.meminfo.nfs_unstable,FALSE
+proc.meminfo.pagetables,proc meminfo pagetables,byte,line,n42-services/resources/prediction/proc.meminfo.pagetables,TRUE
+proc.meminfo.slab,proc meminfo slab,byte,line,n42-services/resources/prediction/proc.meminfo.slab,FALSE
+proc.meminfo.swapcached,proc meminfo swapcached,byte,line,n42-services/resources/prediction/proc.meminfo.swapcached,TRUE
+proc.meminfo.swapfree,proc meminfo swapfree,byte,line,n42-services/resources/prediction/proc.meminfo.swapfree,FALSE
+proc.meminfo.swaptotal,proc meminfo swaptotal,byte,line,n42-services/resources/prediction/proc.meminfo.swaptotal,TRUE
+proc.meminfo.vmallocchunk,proc meminfo vmallocchunk,byte,line,n42-services/resources/prediction/proc.meminfo.vmallocchunk,FALSE
+proc.meminfo.vmalloctotal,proc meminfo vmalloctotal,byte,line,n42-services/resources/prediction/proc.meminfo.vmalloctotal,TRUE
+proc.meminfo.vmallocused,proc meminfo vmallocused,byte,line,n42-services/resources/prediction/proc.meminfo.vmallocused,FALSE
+proc.meminfo.writeback,proc meminfo writeback,byte,line,n42-services/resources/prediction/proc.meminfo.writeback,TRUE
+proc.net.carrier.errs,proc net carrier errs,byte,line,n42-services/resources/prediction/proc.net.carrier.errs,FALSE
+proc.net.collisions,proc net collisions,byte,line,n42-services/resources/prediction/proc.net.collisions,TRUE
+proc.net.compressed,proc net compressed,byte,line,n42-services/resources/prediction/proc.net.compressed,FALSE
+proc.net.dropped,proc net dropped,byte,line,n42-services/resources/prediction/proc.net.dropped,TRUE
+proc.net.errs,proc net errs,byte,line,n42-services/resources/prediction/proc.net.errs,FALSE
+proc.net.fifo.errs,proc net fifo errs,byte,line,n42-services/resources/prediction/proc.net.fifo.errs,TRUE
+proc.net.frame.errs,proc net frame errs,byte,line,n42-services/resources/prediction/proc.net.frame.errs,FALSE
+proc.net.multicast,proc net multicast,byte,line,n42-services/resources/prediction/proc.net.multicast,TRUE
+proc.net.packets,proc net packets,byte,line,n42-services/resources/prediction/proc.net.packets,FALSE
+proc.net.tcp,proc net tcp,byte,line,n42-services/resources/prediction/proc.net.tcp,TRUE
+proc.stat.cpu,proc stat cpu,byte,line,n42-services/resources/prediction/proc.stat.cpu,FALSE
+proc.stat.cpu.percpu,proc stat cpu percpu,byte,line,n42-services/resources/prediction/proc.stat.cpu.percpu,TRUE
+proc.stat.ctxt,proc stat ctxt,byte,line,n42-services/resources/prediction/proc.stat.ctxt,FALSE
+proc.stat.intr,proc stat intr,byte,line,n42-services/resources/prediction/proc.stat.intr,TRUE
+proc.stat.processes,proc stat processes,byte,line,n42-services/resources/prediction/proc.stat.processes,FALSE
+proc.stat.procs_blocked,proc stat procs blocked,byte,line,n42-services/resources/prediction/proc.stat.procs_blocked,TRUE
+proc.uptime.now,proc uptime now,byte,line,n42-services/resources/prediction/proc.uptime.now,FALSE
+proc.uptime.total,proc uptime total,byte,line,n42-services/resources/prediction/proc.uptime.total,TRUE
+proc.vmstat.pgfault,proc vmstat pgfault,byte,line,n42-services/resources/prediction/proc.vmstat.pgfault,FALSE
+proc.vmstat.pgmajfault,proc vmstat pgmajfault,byte,line,n42-services/resources/prediction/proc.vmstat.pgmajfault,TRUE
+proc.vmstat.pgpgin,proc vmstat pgpgin,byte,line,n42-services/resources/prediction/proc.vmstat.pgpgin,FALSE
+proc.vmstat.pgpgout,proc vmstat pgpgout,byte,line,n42-services/resources/prediction/proc.vmstat.pgpgout,TRUE
+proc.vmstat.pswpin,proc vmstat pswpin,byte,line,n42-services/resources/prediction/proc.vmstat.pswpin,FALSE
+proc.vmstat.pswpout,proc vmstat pswpout,byte,line,n42-services/resources/prediction/proc.vmstat.pswpout,TRUE
+tomcat.NonHeapMemoryUsage,tomcat NonHeapMemoryUsage,byte,line,n42-services/resources/prediction/tomcat.NonHeapMemoryUsage,TRUE
+tomcat.Uptime,tomcat Uptime,byte,line,n42-services/resources/prediction/tomcat.Uptime,FALSE
+tomcat.averageProcessingTime,tomcat averageProcessingTime,byte,line,n42-services/resources/prediction/tomcat.averageProcessingTime,TRUE
+tomcat.bytesReceived,tomcat bytesReceived,byte,line,n42-services/resources/prediction/tomcat.bytesReceived,FALSE
+tomcat.errorCount,tomcat errorCount,byte,line,n42-services/resources/prediction/tomcat.errorCount,TRUE
+tomcat.maxTime,tomcat maxTime,byte,line,n42-services/resources/prediction/tomcat.maxTime,FALSE
+tomcat.requestCount,tomcat requestCount,byte,line,n42-services/resources/prediction/tomcat.requestCount,TRUE
+zookeeper.zk_approximate_data_size,zookeeper zk approximate data size,byte,line,n42-services/resources/prediction/zookeeper.zk_approximate_data_size,FALSE
+zookeeper.zk_avg_latency,zookeeper zk avg latency,byte,line,n42-services/resources/prediction/zookeeper.zk_avg_latency,TRUE
+zookeeper.zk_max_latency,zookeeper zk max latency,byte,line,n42-services/resources/prediction/zookeeper.zk_max_latency,FALSE
+zookeeper.zk_min_latency,zookeeper zk min latency,byte,line,n42-services/resources/prediction/zookeeper.zk_min_latency,TRUE
+zookeeper.zk_num_alive_connections,zookeeper zk num alive connections,byte,line,n42-services/resources/prediction/zookeeper.zk_num_alive_connections,FALSE
+zookeeper.zk_open_file_descriptor_count,zookeeper zk open file descriptor count,byte,line,n42-services/resources/prediction/zookeeper.zk_open_file_descriptor_count,TRUE
+zookeeper.zk_outstanding_requests,zookeeper zk outstanding requests,byte,line,n42-services/resources/prediction/zookeeper.zk_outstanding_requests,FALSE
+zookeeper.zk_packets_received,zookeeper zk packets received,byte,line,n42-services/resources/prediction/zookeeper.zk_packets_received,TRUE
+zookeeper.zk_packets_sent,zookeeper zk packets sent,byte,line,n42-services/resources/prediction/zookeeper.zk_packets_sent,FALSE

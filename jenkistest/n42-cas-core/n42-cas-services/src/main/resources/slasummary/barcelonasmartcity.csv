@@ -1,0 +1,19 @@
+metricName,yAxisFormatter,renderer,graph,isPrediction,title,isCumulative
+sentilo.sound.BLUEWAVE.MIC0001,default,line,TRUE,FALSE,sentilo sound bluewave mic0001,FALSE
+sentilo.sound.BLUEWAVE.MIC0002,default,line,TRUE,FALSE,sentilo sound bluewave mic0002,FALSE
+sentilo.sound.BLUEWAVE.MIC0003,default,line,TRUE,FALSE,sentilo sound bluewave mic0003,FALSE
+sentilo.sound.BLUEWAVE.MIC0004,default,line,TRUE,FALSE,sentilo sound bluewave mic0004,FALSE
+sentilo.sound.BLUEWAVE.MIC0005,default,line,TRUE,FALSE,sentilo sound bluewave mic0005,FALSE
+sentilo.sound.BLUEWAVE.MIC0006,default,line,TRUE,FALSE,sentilo sound bluewave mic0006,FALSE
+sentilo.sound.BLUEWAVE.MIC0007,default,line,TRUE,FALSE,sentilo sound bluewave mic0007,FALSE
+sentilo.sound.BLUEWAVE.MIC0008,default,line,TRUE,FALSE,sentilo sound bluewave mic0008,FALSE
+sentilo.sound.BLUEWAVE.MIC0010,default,line,TRUE,FALSE,sentilo sound bluewave mic0010,FALSE
+sentilo.sound.CESVA.TA120-T240705-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240705 n,FALSE
+sentilo.sound.CESVA.TA120-T240709-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240709 n,FALSE
+sentilo.sound.CESVA.TA120-T240710-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240710 n,FALSE
+sentilo.sound.CESVA.TA120-T240717-B,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240717 b,FALSE
+sentilo.sound.CESVA.TA120-T240717-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240717 n,FALSE
+sentilo.sound.CESVA.TA120-T240718-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240718 n,FALSE
+sentilo.sound.CESVA.TA120-T240719-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t240719 n,FALSE
+sentilo.sound.CESVA.TA120-T241000-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t241000 n,FALSE
+sentilo.sound.CESVA.TA120-T241192-N,default,line,TRUE,FALSE,sentilo sound cesva ta120 t241192 n,FALSE

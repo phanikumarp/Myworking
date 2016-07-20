@@ -1,0 +1,503 @@
+metricName,timeRangeFromRelative,tags,customAggregator
+csr.memory.available,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+csr.memory.used,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+csr.memory.free,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+csr.cpuutil.total,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.bytes,1@hours,host@AS-SVC2-DB01###direction@out###iface@eth0,rate@"unit":"minutes"
+mongo.dur.compression,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+apache.Resource_Utilization_Processes_Busy_Workers,1@hours, , 
+Vsphere.CPU.Ready,1@hours,n42-dev12,"div@"divisor": "200""
+tomcat.processingTime,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.sessionCreateRate,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.activeSessions,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.rejectedSessions,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.backgroundFlushing.average_ms,1@hours, ,rate@"unit": "minutes"
+mongo.dur.commits,1@hours, ,rate@"unit": "minutes"
+mongo.globalLock.lockTime,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_data_writes,1@hours,n42-dev14,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_read_requests,1@hours,n42-dev14,rate@"unit": "minutes"
+mysql.innodb_data_reads,1@hours,n42-dev14,rate@"unit": "minutes"
+mongo.opcounters,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.bytesSent,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.maxThreads,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.activeSessions,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.requestCount,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.CPU.Usage,1@years, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.read_requests,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.write_requests,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.active,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.memfree,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.extra_info.heap_usage_bytes,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.globalLock.currentQueue.readers,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.globalLock.currentQueue.writers,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.globalLock.totalTime,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.network.bytesIn,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.network.bytesOut,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.cursors.totalOpen,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifInErrors,1@years, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOutOctets,1@years, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifInOctets,1@years, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOutErrors,1@years, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOutQLen,1@years, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_execute_sql,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.bytes_received,1@hours,n42-dev14,rate@"unit": "minutes"
+mysql.connections_running,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.pct_innodb_buffer_pool_hit_ratio,1@hours, ,rate@"unit": "minutes"
+mysql.pct_tmp_tables_written_to_disk,1@hours, ,rate@"unit": "minutes"
+mysqlpct_connection_utilization,1@hours, ,rate@"unit": "minutes"
+mysql.volume_reads,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.volume_writes,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.query_cache_misses,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.currentThreadsBusy,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.HeapMemoryUsage,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.currentThreadCount,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.rejectedSessions,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.connections.current,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.dur.commitsInWriteLock,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.dur.writeToDataFilesMB,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.mem.virtual,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.cpu,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.extra_info.page_faults,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.dur.journaledMB,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.globalLock.activeClients.readers,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.globalLock.activeClients.writers,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_page_size,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_pages_created,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_pages_read,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_pages_written,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.msec_read,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.msec_write,1@hours, ,avg@"sampling": { "value": "5"@"unit": "minutes"}
+CPU.Ready,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+CPU.Usage,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+CPU.Usage.Mhz,1@years,,rate@"unit": "minutes"
+CPU.Used,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Memory.Usage,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Network.Usage,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Virtual.Disk.Read,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Virtual.Disk.write,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.CPU.Usage.Mhz,1@months,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.CPU.Used,1@months,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.Memory.Usage,1@months,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.Network.Usage,1@months,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.Virtual.Disk.Read,1@months,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+Vsphere.Virtual.Disk.write,1@months,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.bytes.free,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.bytes.percentused,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.bytes.total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.bytes.used,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.inodes.free,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.inodes.percentused,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.inodes.total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+df.inodes.used,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.act,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.bck,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.bin,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.bout,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.chkdown,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.chkfail,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.downtime,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.dreq,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.dresp,1@hours,,rate@"unit": "minutes"
+haproxy.econ,1@hours,,rate@"unit": "minutes"
+haproxy.ereq,1@hours,,rate@"unit": "minutes"
+haproxy.eresp,1@hours,,rate@"unit": "minutes"
+haproxy.iid,1@hours,,rate@"unit": "minutes"
+haproxy.lastchg,1@hours,,rate@"unit": "minutes"
+haproxy.lbtot,1@hours,,rate@"unit": "minutes"
+haproxy.pid,1@hours,,rate@"unit": "minutes"
+haproxy.qcur,1@hours,,rate@"unit": "minutes"
+haproxy.qlimit,1@hours,,rate@"unit": "minutes"
+haproxy.qmax,1@hours,,rate@"unit": "minutes"
+haproxy.queuelength,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.rate,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.rate_lim,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.rate_max,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.roundtrip,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.scur,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.sid,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.slim,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.smax,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.stot,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.throttle,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.tracked,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.type,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.weight,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.wredis,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+haproxy.wretr,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.await,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.ios_in_progress,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.msec_total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.msec_weighted_total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.read_merged,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.read_sectors,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.svctm,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.util,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.write_merged,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.disk.write_sectors,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.await,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.ios_in_progress,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.msec_read,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.msec_total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.msec_weighted_total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.msec_write,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.read_merged,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.read_requests,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.read_sectors,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.svctm,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.util,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.write_merged,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.write_requests,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+iostat.part.write_sectors,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.datastore.queries_waiting,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.datastore.query_collisions,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.datastore.query_time,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.http.ingest_count,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.http.ingest_time,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.http.query_time,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.http.request_time,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.jvm.free_memory,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.jvm.max_memory,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.jvm.thread_count,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.jvm.total_memory,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.metric_counters,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.protocol.http_request_count,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+kairosdb.protocol.telnet_request_count,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+load_value_test,1@weeks,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifAdminStatus,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifDescr,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifInDiscards,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifInNUcastPkts,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifInUcastPkts,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifInUnknownProtos,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifIndex,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifLastChange,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifMtu,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOperStatus,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOutDiscards,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOutNUcastPkts,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifOutUcastPkts,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifPhysAddress,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifSpecific,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifSpeed,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+loadbalancer.ifType,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+metric1,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+metrics,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.asserts,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.backgroundFlushing.flushes,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.backgroundFlushing.total_ms,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.connections.available,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.cursors.timedOut,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.dur.earlyCommits,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.globalLock.totalTime,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.mem.mapped,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.mem.resident,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mongo.network.numRequests,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.aborted_clients,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.aborted_connects,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.bytes_sent,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_admin_commands,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_alter_db,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_alter_table,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_analyze,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_begin,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_call_procedure,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_change_db,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_change_master,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_check,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_checksum,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_commit,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_create_db,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_create_function,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_create_index,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_create_table,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_create_user,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_dealloc_sql,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_delete,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_delete_multi,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_do,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_drop_db,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_drop_function,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_drop_index,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_drop_table,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_drop_user,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_flush,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_grant,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_ha_close,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_ha_open,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_ha_read,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_help,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_insert,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_insert_select,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_kill,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_load,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_lock_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_optimize,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_preload_keys,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_prepare_sql,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_purge,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_purge_before_date,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_rename_table,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_repair,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_replace,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_replace_select,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_reset,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_revoke,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_revoke_all,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_rollback,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_savepoint,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_select,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_set_option,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_binlog_events,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_binlogs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_charsets,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_collations,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_create_db,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_create_table,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_databases,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_errors,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_fields,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_grants,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_keys,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_master_status,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_open_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_privileges,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_processlist,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_slave_hosts,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_slave_status,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_status,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_storage_engines,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_triggers,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_variables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_show_warnings,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_slave_start,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_slave_stop,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_stmt_close,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_stmt_execute,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_stmt_fetch,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_stmt_prepare,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_stmt_reset,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_stmt_send_long_data,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_truncate,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_unlock_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_update,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_update_multi,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_xa_commit,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_xa_end,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_xa_prepare,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_xa_recover,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_xa_rollback,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.com_xa_start,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.connections_cached,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.connections_connected,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.created_tmp_disk_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.created_tmp_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_bp_pages_created,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_bp_pages_read,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_bp_pages_written,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_pages_clean,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_pages_dirty,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_pages_flushed,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_pages_free,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_pages_misc,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_pages_unassigned,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_read_ahead_rnd,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_reads,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_wait_free,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_buffer_pool_write_requests,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_data_fsyncs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_data_pending_fsyncs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_data_read,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_data_written,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_fsyncs_data,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_fsyncs_os_log,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_os_log_fsyncs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_os_log_written,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_rows_deleted,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_rows_inserted,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_rows_read,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.innodb_rows_updated,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.master_log_lag_bytes,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.max_used_connections,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.open_files,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.open_streams,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.open_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.opened_tables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.pct_query_cache_hit_utilization,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.pct_query_cache_memory_in_use,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_free_blocks,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_free_memory,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_hits,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_inserts,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_lowmem_prunes,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_not_cached,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_queries_in_cache,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.qcache_total_blocks,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.query_cache_hits,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.query_cache_not_cached,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.replication_lag,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.replication_status,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.select_full_join,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.select_full_range_join,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.select_range,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.select_range_check,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.select_scan,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.slave_relay_log_bytes,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.slow_queries,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.sort_range,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.sort_scan,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.table_locks_immediate,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.table_locks_waited,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.threads_cached,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.threads_connected,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.threads_created,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.threads_running,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+mysql.uptime,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.sockstat.ipfragqueues,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.sockstat.memory,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.sockstat.num_orphans,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.sockstat.num_sockets,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.sockstat.num_timewait,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.sockstat.sockets_inuse,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.abort,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.abort.failed,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.congestion.recovery,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.delayedack,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.failed_accept,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.memory.pressure,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.memory.prune,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.packetloss.recovery,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.reording,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.retransmit,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.tcp.syncookies,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.udp.datagrams,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+net.stat.udp.errors,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.interrupts,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.kernel.entropy_avail,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.loadavg.15min,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.loadavg.1min,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.loadavg.5min,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.loadavg.runnable,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.loadavg.total_threads,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.anonpages,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.bounce,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.buffers,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.cached,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.commitlimit,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.committed_as,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.dirty,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.highfree,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.hightotal,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.hugepagesize,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.inactive,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.lowfree,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.lowtotal,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.mapped,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.memtotal,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.nfs_unstable,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.pagetables,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.slab,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.swapcached,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.swapfree,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.swaptotal,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.vmallocchunk,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.vmalloctotal,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.vmallocused,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.meminfo.writeback,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.interrupts,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.kernel.entropy_avail,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.loadavg.15min,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.loadavg.1min,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.loadavg.5min,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.loadavg.runnable,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.loadavg.total_threads,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.active,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.anonpages,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.bounce,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.buffers,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.cached,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.commitlimit,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.committed_as,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.dirty,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.highfree,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.hightotal,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.hugepagesize,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.inactive,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.lowfree,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.lowtotal,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.mapped,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.memfree,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.memtotal,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.nfs_unstable,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.pagetables,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.slab,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.swapcached,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.swapfree,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.swaptotal,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.vmallocchunk,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.vmalloctotal,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.vmallocused,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.meminfo.writeback,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.stat.ctxt,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.stat.intr,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.stat.processes,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.stat.procs_blocked,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.uptime.now,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.uptime.total,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.vmstat.pgfault,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.vmstat.pgmajfault,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.vmstat.pgpgin,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.vmstat.pgpgout,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.vmstat.pswpin,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.n42-dev11.vmstat.pswpout,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.carrier.errs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.collisions,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.compressed,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.dropped,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.errs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.fifo.errs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.frame.errs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.multicast,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.packets,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.net.tcp,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.cpu,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.cpu.percpu,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.ctxt,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.intr,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.processes,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.stat.procs_blocked,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.uptime.now,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.uptime.total,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.vmstat.pgfault,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.vmstat.pgmajfault,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.vmstat.pgpgin,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.vmstat.pgpgout,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.vmstat.pswpin,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+proc.vmstat.pswpout,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+sys.numa.allocation,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+sys.numa.foreign_allocs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+sys.numa.interleave,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+sys.numa.zoneallocs,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tcollector.collector.lines_invalid,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tcollector.collector.lines_received,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tcollector.collector.lines_sent,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tcollector.reader.lines_collected,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tcollector.reader.lines_dropped,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+test.loadbalcer.roundtrip,1@years,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+test2.loadbalcer.roundtrip,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.NonHeapMemoryUsage,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.Uptime,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.averageProcessingTime,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.bytesReceived,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.errorCount,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.maxTime,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+tomcat.requestCount,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_approximate_data_size,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_avg_latency,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_max_latency,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_min_latency,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_num_alive_connections,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_open_file_descriptor_count,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_outstanding_requests,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_packets_received,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}
+zookeeper.zk_packets_sent,1@hours,,avg@"sampling": { "value": "5"@"unit": "minutes"}

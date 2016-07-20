@@ -1,0 +1,17 @@
+ {
+ 	"Application_versions": [{
+ 		"appVersion": "Version-1.0.1",
+ 		"ReleaseDate": "1461673236",
+ 		"applicationVersionId":1
+ 	}, {
+ 		"appVersion": "Version-1.0.2",
+ 		"ReleaseDate": "1461682236",
+ 		 		"applicationVersionId":2
+ 		
+ 	}, {
+ 		"appVersion": "Version-1.0.3",
+ 		"ReleaseDate": "1461688836",
+ 		 		"applicationVersionId":3
+ 		
+ 	}]
+ }

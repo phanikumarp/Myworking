@@ -1,0 +1,54 @@
+{
+      "groupColour" : "red",
+      "groupName" : "Platform KPI",
+      "Metrics" : [ {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "gc.collection_frequency",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "gc.time_spent",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "jvm.heap_usage",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "jvm.active_threads",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "jvm.rejected_session_counts",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "jvm.active_session_counts",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "jvm.stack_memory",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }, {
+        "metricType" : "JVM",
+        "score" : "NA",
+        "metricName" : "jvm.heap_memory",
+        "metricColour" : "red",
+        "error" : "Zero data points downloaded for this metric."
+      }],
+      "groupScore" : 0
+    }

@@ -1,0 +1,9 @@
+# Dependent Metric, Dependent-Upon
+tomcat.processingTime,CPU.Used
+tomcat.processingTime,tomcat.bytesSent
+tomcat.bytesSent,mysql.com_execute_sql
+mysql.com_execute_sql,tomcat.processingTime
+tomcat.processingTime,Memory.Usage
+tomcat.maxThreads,Network.Usage
+tomcat.processingTime,tomcat.bytesSent
+Network.Usage,Network.Usage

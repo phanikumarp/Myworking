@@ -1,0 +1,104 @@
+name,description,application,host
+Nova,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-1
+Nova,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-3
+Swift,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-1
+Cinder,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-3
+Neutron,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-5
+Glance,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-1
+Keystone,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-1
+Horizon,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-3
+Ceilometer,OpenStack Server,Sunnyvale OpenStack 1,n42-poweredge-1
+Nova ,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-6
+Nova ,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-10
+Glance,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-6
+Cinder,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-6
+Neutron,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-6
+Neutron,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-8
+Keystone,OpenStack Server,Sunnyvale OpenStack 2,n42-poweredge-6
+HaProxy,Load Balancer,ADC-SDDC,n42-dev11
+Apache,Web Server,ADC-SDDC,n42-dev12
+Apache,Web Server,ADC-SDDC,n42-dev13
+MySQL,Database Server,ADC-SDDC,n42-dev14
+Tomcat,Web Server,AxN42,n42-dev02
+Postgres,Database Server,AxN42,n42-dev02
+Hbase,NoSQL Server,AxN42,n42-dev15
+Apache,Web Server,SKT VMware,OverCloud
+Apache,Web Server,SKT VMware,OverCloud Ctrl-1
+Apache,Web Server,SKT VMware,OverCloud Ctrl-2
+Apache,Web Server,SKT VMware,UnderCloud
+Horizon,OpenStack Server,SKT VMware,OverCloud
+Horizon,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Horizon,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Horizon,OpenStack Server,SKT VMware,UnderCloud
+Keystone,OpenStack Server,SKT VMware,OverCloud
+Keystone,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Keystone,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Keystone,OpenStack Server,SKT VMware,UnderCloud
+Heat,OpenStack Server,SKT VMware,OverCloud
+Heat,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Heat,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Heat,OpenStack Server,SKT VMware,UnderCloud
+Nova API,OpenStack Server,SKT VMware,OverCloud
+Nova API,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Nova API,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Nova API,OpenStack Server,SKT VMware,UnderCloud
+Cinder,OpenStack Server,SKT VMware,OverCloud
+Cinder,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Cinder,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Neutron,OpenStack Server,SKT VMware,OverCloud
+Neutron,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Neutron,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Neutron,OpenStack Server,SKT VMware,UnderCloud
+Glance API,OpenStack Server,SKT VMware,OverCloud
+Glance API,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Glance API,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Glance API,OpenStack Server,SKT VMware,UnderCloud
+Rabbit MQ,OpenStack Server,SKT VMware,OverCloud
+Rabbit MQ,OpenStack Server,SKT VMware,OverCloud Ctrl-1
+Rabbit MQ,OpenStack Server,SKT VMware,OverCloud Ctrl-2
+Rabbit MQ,OpenStack Server,SKT VMware,UnderCloud
+MySQL,Database Server,SKT VMware,OverCloud
+MySQL,Database Server,SKT VMware,OverCloud Ctrl-1
+MySQL,Database Server,SKT VMware,OverCloud Ctrl-2
+MySQL,Database Server,SKT VMware,UnderCloud
+Nova consoleauth,OpenStack Server,SKT VMware,OverCloud
+Sherpa,OpenStack Server,SKT VMware,OverCloud
+Swift proxy,OpenStack Server,SKT VMware,Object Swift Ctrl-1
+Swift proxy,OpenStack Server,SKT VMware,Object Swift Ctrl-2
+Swift proxy,OpenStack Server,SKT VMware,HelionSwift-1
+Swift proxy,OpenStack Server,SKT VMware,HelionSwift-2
+Swift account,OpenStack Server,SKT VMware,Object Swift Ctrl-1
+Swift account,OpenStack Server,SKT VMware,Object Swift Ctrl-2
+Swift account,OpenStack Server,SKT VMware,HelionSwift-1
+Swift account,OpenStack Server,SKT VMware,HelionSwift-2
+Swift container,OpenStack Server,SKT VMware,Object Swift Ctrl-1
+Swift container,OpenStack Server,SKT VMware,Object Swift Ctrl-2
+Swift container,OpenStack Server,SKT VMware,HelionSwift-1
+Swift container,OpenStack Server,SKT VMware,HelionSwift-2
+Swift Object,OpenStack Server,SKT VMware,Object Swift Ctrl-1
+Swift Object,OpenStack Server,SKT VMware,Object Swift Ctrl-2
+Swift Object,OpenStack Server,SKT VMware,HelionSwift-1
+Swift Object,OpenStack Server,SKT VMware,HelionSwift-2
+Kvm,OpenStack Server,SKT VMware,Compute-1
+Kvm,OpenStack Server,SKT VMware,Compute-2
+Neutron ovs agent,OpenStack Server,SKT VMware,Compute-1
+Neutron ovs agent,OpenStack Server,SKT VMware,Compute-2
+Nova compute,OpenStack Server,SKT VMware,Compute-1
+Nova compute,OpenStack Server,SKT VMware,Compute-2
+Ironic API,OpenStack Server,SKT VMware,UnderCloud
+KVM,OpenStack Server,SKT VMware,Block Storage-1
+Store Virtual - VSA VM,OpenStack Server,SKT VMware,Block Storage-1
+Nova,OpenStack Server,CDAT OpenStack,compute01
+Nova,OpenStack Server,CDAT OpenStack,compute02
+Glance,OpenStack Server,CDAT OpenStack,controller01
+Cinder,OpenStack Server,CDAT OpenStack,controller01
+Cinder,OpenStack Server,CDAT OpenStack,block01
+Cinder,OpenStack Server,CDAT OpenStack,block02
+Neutron,OpenStack Server,CDAT OpenStack,controller01
+Neutron,OpenStack Server,CDAT OpenStack,network01
+Neutron,OpenStack Server,CDAT OpenStack,compute01
+Neutron,OpenStack Server,CDAT OpenStack,compute02
+Keystone,OpenStack Server,CDAT OpenStack,controller01
+Heat,OpenStack Server,CDAT OpenStack,controller01
+Horizon,OpenStack Server,CDAT OpenStack,controller01
+Ceilometer,OpenStack Server,CDAT OpenStack,controller01

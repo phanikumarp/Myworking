@@ -1,0 +1,15 @@
+<ModelContainer>
+	<modelPackage>test.oiq.root.model</modelPackage>
+	<definitions>
+		
+	<ModelDefinition>
+			<name>Root</name>
+			<fields>
+				<FieldDefinition>
+					<name>rootName</name>
+					<type>string</type>
+				</FieldDefinition>
+			</fields>
+		</ModelDefinition>
+	</definitions>
+</ModelContainer>
