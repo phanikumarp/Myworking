@@ -1,0 +1,77 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: "com.github.hierynomus.license"
+apply plugin: 'nebula.ospackage-base'
+
+group = 'mycalculator'
+version = '1.0'
+
+description = """mycalc"""
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.12.1"
+        classpath 'com.netflix.nebula:gradle-ospackage-plugin:3.1.0'
+    }
+}
+dependencies {
+    compile "org.apache.tomcat:tomcat-catalina:7.0.30+"
+}
+dependencies {
+      compile "javax.servlet:javax.servlet-api:3.+"
+}
+
+task fatJar(type: Jar) {
+  manifest {
+    attributes 'Main-Class': 'com.calc.ppk.Calculator'
+  }
+  baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+task packDeb(type: Deb, dependsOn: fatJar) {
+    packageName = project.name
+    version = 1.0
+
+   requires('openjdk-7-jre-headless')
+     from('build/libs/.') {
+     into "/opt/${project.name}"
+  }
+
+  preInstall = file('pkg_scripts/preInstall.sh')
+  postInstall = file('pkg_scripts/postInstall.sh')
+  postUninstall = file('pkg_scripts/postUninstall.sh')
+
+    from(jar.outputs.files) {
+        into 'lib'
+    }
+    from('build/scripts') {
+        into 'bin'
+        fileMode = 0550
+    }
+    from(configurations.runtime) {
+        into 'lib'
+    }
+    from('src/main/resources') {
+        fileType CONFIG | NOREPLACE
+        into 'conf'
+    }
+
+}
+

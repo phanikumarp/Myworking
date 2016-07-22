@@ -1,0 +1,15 @@
+Source: mycalculator
+Section: java
+Priority: optional
+Maintainer: root
+Uploaders: 
+Version: 1.0
+Standards-Version: 3.8.3
+Package: mycalculator
+Provides: mycalculator
+Homepage: 
+Architecture: all
+Distribution: 
+Depends: openjdk-7-jre-headless
+Description: mycalculator
+ mycalc
