@@ -1,5 +1,0 @@
-# Dependent Metric, Dependent-Upon
-Tomcat,HaProxy
-Tomcat,Mysql
-Mysql,MongoDB
-HardwareLoadBalancer,MongoDB

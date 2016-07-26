@@ -1,0 +1,852 @@
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_misc 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_assign_to_keycache 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_deleted 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_tmp_tables_written_to_disk 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_fetch 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_grants 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_unassigned 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_clean 1443097564 148.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.sort_range 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_flush 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_bp_pages_read 1443097564 148.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.bytes_received 1443097564 159413.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_send_long_data 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_dealloc_sql 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_server 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rollback_to_savepoint 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_event 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_reads 1443097564 159.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_tables 1443097564 60.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_connection_utilization 1443097564 100.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_begin 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_tablespace 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rename_user 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_fsyncs_data 1443097564 5.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_errors 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.connections_connected 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_plugins 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_engine_logs 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_install_plugin 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_binlog_events 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_reset 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_revoke 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_storage_engines 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_purge 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_pages_created 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_preload_keys 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_requests 1443097564 511.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_table 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_call_procedure 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_range 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_relaylog_events 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_view 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_open_tables 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.opened_tables 1443097564 67.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_trigger 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_update_multi 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.slave_relay_log_bytes 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_proc 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_not_cached 1443097564 109.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_procedure 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_full_range_join 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_slave_stop 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_profile 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_written 1443097564 34304.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_table 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_status 1443097564 87.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_index 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_help 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_revoke_all 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_index 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_function_status 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_user 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.volume_reads 1443097564 109.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.connections_cached 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_os_log_written 1443097564 512.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_do 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_procedure_status 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rollback 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.created_tmp_tables 1443097564 193.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_collations 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_fields 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.aborted_connects 1443097564 11.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_start 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_kill 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_function 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_release_savepoint 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_table_definitions 1443097564 67.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_checksum 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.query_cache_hits 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.created_tmp_disk_tables 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_ha_close 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_charsets 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_writes 1443097564 5.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_files 1443097564 16.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_savepoint 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_pages_read 1443097564 148.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_reset 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_change_db 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_pages_written 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_truncate 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.query_cache_not_cached 1443097564 109.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_dirty 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_free 1443097564 8044.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_created 1443097564 2.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_read 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_analyze 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_select 1443097564 109.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_tables 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_warnings 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_table 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_update 1443097564 4.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_commit 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_view 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_hits 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_running 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_uninstall_plugin 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_updated 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_udf 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_reprepare 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_db 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.table_locks_immediate 1443097564 81.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_function 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_lock_tables 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_rnd 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_db 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_ha_open 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_empty_query 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_inserts 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_event 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_load 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_read 1443097564 2510848.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_evicted 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_repair 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_replace_select 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_query_cache_hit_utilization 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_pending_fsyncs 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_db_upgrade 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_event 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_purge_before_date 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_db 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_server 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_fsyncs 1443097564 5.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.opened_files 1443097564 109.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_end 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_master_status 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.master_log_lag_bytes 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_scan 1443097564 193.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.max_used_connections 1443097564 2.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_resignal 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.opened_table_definitions 1443097564 67.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_check 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_prepare_sql 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_set_option 1443097564 416.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_func 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_range_check 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_insert_select 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.volume_writes 1443097564 4.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_slave_status 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_replace 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_function 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_fsyncs_os_log 1443097564 3.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_commit 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.sort_scan 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_ha_read 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_free_blocks 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_cached 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_server 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.query_cache_misses 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_processlist 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.uptime 1443097564 16941.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_binlog 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_query_cache_memory_in_use 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_keys 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_page_size 1443097564 16384.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_recover 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_variables 1443097564 104.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.bytes_sent 1443097564 899484.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_bp_pages_written 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_os_log_fsyncs 1443097564 3.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_delete 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_grant 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_databases 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_bp_pages_created 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_binlogs 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.aborted_clients 1443097564 3.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.table_locks_waited 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_optimize 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rename_table 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_triggers 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_inserted 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_close 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_user 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_execute 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_signal 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_connected 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_rollback 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_wait_free 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_change_master 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_user 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_prepare 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_db 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_reads 1443097564 149.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_slave_start 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_privileges 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_total_blocks 1443097564 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_full_join 1443097564 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:122) - End of the Mysql Metrics 
+
+2015-09-24  INFO (MySQLAgent.java:106) - Gathering MySQL metrics. Agent Name: Remote_server Agent Version: 2.0.0
+2015-09-24  INFO (MySQLAgent.java:110) - Connected with the server : 175.126.104.46 with port : 4343
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_write_requests 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_procedure 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_free_memory 1443097624 1031432.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_flushed 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_trigger 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_profiles 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_prepare 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_unlock_tables 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_table_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_queries_in_cache 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_trigger 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.replication_lag 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_event 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_execute_sql 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_admin_commands 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_streams 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.replication_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_events 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_engine_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_lowmem_prunes 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_procedure 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_table 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.connections_running 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_slave_hosts 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_delete_multi 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_insert 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.slow_queries 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_innodb_buffer_pool_hit_ratio 1443097624 77.42424 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_engine_mutex 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_misc 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_assign_to_keycache 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_deleted 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_tmp_tables_written_to_disk 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_fetch 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_grants 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_unassigned 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_clean 1443097624 148.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.sort_range 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_flush 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_bp_pages_read 1443097624 148.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.bytes_received 1443097624 160935.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_send_long_data 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_dealloc_sql 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_server 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rollback_to_savepoint 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_event 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_reads 1443097624 159.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_tables 1443097624 60.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_connection_utilization 1443097624 100.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_begin 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_tablespace 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rename_user 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_fsyncs_data 1443097624 5.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_errors 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.connections_connected 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_plugins 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_engine_logs 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_install_plugin 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_binlog_events 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_reset 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_revoke 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_storage_engines 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_purge 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_pages_created 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_preload_keys 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_requests 1443097624 511.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_table 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_call_procedure 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_range 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_relaylog_events 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_view 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_open_tables 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.opened_tables 1443097624 67.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_trigger 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_update_multi 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.slave_relay_log_bytes 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_proc 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_not_cached 1443097624 110.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_procedure 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_full_range_join 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_slave_stop 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_profile 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_written 1443097624 34304.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_table 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_status 1443097624 88.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_index 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_help 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_revoke_all 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_index 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_function_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_user 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.volume_reads 1443097624 110.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.connections_cached 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_os_log_written 1443097624 512.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_do 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_procedure_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rollback 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.created_tmp_tables 1443097624 195.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_collations 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_fields 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.aborted_connects 1443097624 11.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_start 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_kill 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_function 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_release_savepoint 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_table_definitions 1443097624 67.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_checksum 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.query_cache_hits 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.created_tmp_disk_tables 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_ha_close 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_charsets 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_writes 1443097624 5.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.open_files 1443097624 16.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_savepoint 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_pages_read 1443097624 148.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_reset 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_change_db 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_pages_written 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_truncate 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.query_cache_not_cached 1443097624 110.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_dirty 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_pages_free 1443097624 8044.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_created 1443097624 2.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_read 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_analyze 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_select 1443097624 110.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_tables 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_warnings 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_table 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_update 1443097624 4.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_commit 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_view 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_hits 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_running 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_uninstall_plugin 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_updated 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_udf 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_reprepare 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_db 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.table_locks_immediate 1443097624 81.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_function 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_lock_tables 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_rnd 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_db 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_ha_open 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_empty_query 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_inserts 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_event 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_load 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_read 1443097624 2510848.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_read_ahead_evicted 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_repair 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_replace_select 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_query_cache_hit_utilization 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_pending_fsyncs 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_db_upgrade 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_event 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_purge_before_date 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_db 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_create_server 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_data_fsyncs 1443097624 5.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.opened_files 1443097624 109.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_end 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_master_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.master_log_lag_bytes 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_scan 1443097624 195.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.max_used_connections 1443097624 2.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_resignal 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.opened_table_definitions 1443097624 67.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_check 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_prepare_sql 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_set_option 1443097624 420.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_create_func 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_range_check 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_insert_select 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.volume_writes 1443097624 4.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_slave_status 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_replace 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_function 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_fsyncs_os_log 1443097624 3.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_commit 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.sort_scan 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_ha_read 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_free_blocks 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_cached 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_server 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.query_cache_misses 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_processlist 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.uptime 1443097624 17001.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_binlog 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.pct_query_cache_memory_in_use 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_keys 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_page_size 1443097624 16384.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_recover 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_variables 1443097624 105.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.bytes_sent 1443097624 909716.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_bp_pages_written 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_os_log_fsyncs 1443097624 3.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_delete 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_grant 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_databases 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_bp_pages_created 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_binlogs 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.aborted_clients 1443097624 3.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.table_locks_waited 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_optimize 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_rename_table 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_triggers 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_rows_inserted 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_close 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_user 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_stmt_execute 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_signal 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.threads_connected 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_rollback 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_wait_free 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_change_master 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_drop_user 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_xa_prepare 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_alter_db 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.innodb_buffer_pool_reads 1443097624 149.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_slave_start 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.com_show_privileges 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.qcache_total_blocks 1443097624 1.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:338) - put mysql.select_full_join 1443097624 0.0 appname=ADC hostname=Remote_server host=localhost
+
+2015-09-24  INFO (MySQLAgent.java:122) - End of the Mysql Metrics 
+

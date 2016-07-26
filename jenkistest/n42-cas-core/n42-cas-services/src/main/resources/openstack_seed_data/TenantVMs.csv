@@ -1,5 +1,0 @@
-name,description,domainName,ipAddress,tenant,openstack
-vm-1,vm-1,vm-1,vm-1,N42-Tenant-1,Sunnyvale OpenStack 1
-vm-2,vm-2,vm-2,vm-2,N42-Tenant-1,Sunnyvale OpenStack 1
-vm-3,vm-3,vm-3,vm-3,N42-Tenant-1,Sunnyvale OpenStack 1
-vm-4,vm-4,vm-4,vm-4,N42-Tenant-1,Sunnyvale OpenStack 1

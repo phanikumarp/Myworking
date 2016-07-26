@@ -1,0 +1,55 @@
+2016-07-14 18:02:24,048 : Job execution threads will use class loader of thread: main
+2016-07-14 18:02:24,067 : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-07-14 18:02:24,068 : Quartz Scheduler v.1.6.3 created.
+2016-07-14 18:02:24,071 : RAMJobStore initialized.
+2016-07-14 18:02:24,072 : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-07-14 18:02:24,072 : Quartz scheduler version: 1.6.3
+2016-07-14 18:02:24,077 : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-14 18:02:25,191 : Config file parameters  Host :192.168.31.129 | Hostname : phani-lnx | ServerDb host : 52.8.104.253 | ServerDb port : 4343 | Jmx port  :1099 and Time interval  :5000
+2016-07-14 18:02:29,994 : Config file parameters  Host :192.168.31.129 | Hostname : phani-lnx | ServerDb host : 52.8.104.253 | ServerDb port : 4343 | Jmx port  :1099 and Time interval  :5000
+2016-07-14 18:02:30,634 : Connected with the server : ec2-52-8-104-253.us-west-1.compute.amazonaws.com with port : 4343
+
+2016-07-14 18:02:30,634 : Started gathering metrics
+2016-07-14 18:02:30,641 : Getting metric data of this parameter :: Uptime = 1682939
+2016-07-14 18:02:30,646 : Getting metric data of this parameter :: HeapMemoryUsage = 25926504
+2016-07-14 18:02:30,649 : Getting metric data of this parameter :: NonHeapMemoryUsage = 18693064
+2016-07-14 18:02:30,653 : Getting metric data of this parameter :: ThreadCount = 62
+2016-07-14 18:02:30,656 : Getting metric data of this parameter :: rejectedSessions = 0
+2016-07-14 18:02:30,659 : Getting metric data of this parameter :: activeSessions = 0
+2016-07-14 18:02:30,663 : Getting metric data of this parameter :: sessionCreateRate = 0
+2016-07-14 18:02:30,667 : Getting metric data of this parameter :: processingTime_http-bio-8888 = 0
+2016-07-14 18:02:30,670 : Getting metric data of this parameter :: requestCount_http-bio-8888 = 0
+2016-07-14 18:02:30,672 : Getting metric data of this parameter :: bytesSent = 0
+2016-07-14 18:02:30,675 : Getting metric data of this parameter :: bytesReceived = 0
+2016-07-14 18:02:30,679 : Getting metric data of this parameter :: processingTime_Manager = 0
+2016-07-14 18:02:30,682 : Getting metric data of this parameter :: errorCount = 0
+2016-07-14 18:02:30,684 : Getting metric data of this parameter :: maxTime = 0
+2016-07-14 18:02:30,690 : Getting metric data of this parameter :: requestCount_Manager = 0
+2016-07-14 18:02:30,692 : Getting metric data of this parameter :: maxThreads = 200
+2016-07-14 18:02:30,697 : Getting metric data of this parameter :: currentThreadsBusy = 0
+2016-07-14 18:02:30,698 : End of the metrics 
+
+2016-07-14 18:02:33,371 : Connected with the server : ec2-52-8-104-253.us-west-1.compute.amazonaws.com with port : 4343
+
+2016-07-14 18:02:33,372 : Started gathering metrics
+2016-07-14 18:02:33,375 : Getting metric data of this parameter :: Uptime = 1685677
+2016-07-14 18:02:33,379 : Getting metric data of this parameter :: HeapMemoryUsage = 32177736
+2016-07-14 18:02:33,382 : Getting metric data of this parameter :: NonHeapMemoryUsage = 18695288
+2016-07-14 18:02:33,385 : Getting metric data of this parameter :: ThreadCount = 57
+2016-07-14 18:02:33,388 : Getting metric data of this parameter :: rejectedSessions = 0
+2016-07-14 18:02:33,392 : Getting metric data of this parameter :: activeSessions = 0
+2016-07-14 18:02:33,395 : Getting metric data of this parameter :: sessionCreateRate = 0
+2016-07-14 18:02:33,398 : Getting metric data of this parameter :: processingTime_http-bio-8888 = 0
+2016-07-14 18:02:33,402 : Getting metric data of this parameter :: requestCount_http-bio-8888 = 0
+2016-07-14 18:02:33,405 : Getting metric data of this parameter :: bytesSent = 0
+2016-07-14 18:02:33,409 : Getting metric data of this parameter :: bytesReceived = 0
+2016-07-14 18:02:33,412 : Getting metric data of this parameter :: processingTime_Manager = 0
+2016-07-14 18:02:33,415 : Getting metric data of this parameter :: errorCount = 0
+2016-07-14 18:02:33,417 : Getting metric data of this parameter :: maxTime = 0
+2016-07-14 18:02:33,419 : Getting metric data of this parameter :: requestCount_Manager = 0
+2016-07-14 18:02:33,421 : Getting metric data of this parameter :: maxThreads = 200
+2016-07-14 18:02:33,423 : Getting metric data of this parameter :: currentThreadsBusy = 0
+2016-07-14 18:02:33,424 : Getting metric data of this parameter :: avarage_processingTime_Manager = 0
+2016-07-14 18:02:33,425 : Getting metric data of this parameter :: avarage_processingTime_http-bio-8888 = 0
+2016-07-14 18:02:33,426 : End of the metrics 
+

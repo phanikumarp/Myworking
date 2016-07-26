@@ -1,9 +1,0 @@
-metricName,yAxisFormatter,renderer,graph,isPrediction,title,isCumulative
-csr.connections,default,line,TRUE,TRUE,csr connections,FALSE
-csr.throughput,byte,line,TRUE,FALSE,csr throughput,FALSE
-csr.connectionrate,byte,line,TRUE,FALSE,csr connectionrate,FALSE
-csr.roundtrip,byte,line,TRUE,FALSE,csr roundtrip,FALSE
-csr.cpuutil.total,default,line,TRUE,FALSE,csr cpuutil total,FALSE
-csr.memory.available,byte,line,TRUE,FALSE,csr memory available,FALSE
-csr.memory.free,byte,line,TRUE,FALSE,csr memory free,FALSE
-csr.memory.used,byte,line,TRUE,FALSE,csr memory used,FALSE

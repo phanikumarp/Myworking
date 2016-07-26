@@ -1,0 +1,513 @@
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate 1443079319 31 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_lim 1443079319 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_max 1443079319 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:78) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:58) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qcur 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qmax 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.scur 1443079324 147 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.smax 1443079324 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.slim 1443079324 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.stot 1443079324 1906710 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bin 1443079324 703007720 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bout 1443079324 25373369058 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dreq 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dresp 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.ereq 1443079324 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.econ 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.eresp 1443079324 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wretr 1443079324 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wredis 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.weight 1443079324 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.act 1443079324 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bck 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkfail 1443079324 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkdown 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lastchg 1443079324 73939 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.downtime 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qlimit 1443079324 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.pid 1443079324 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.iid 1443079324 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.sid 1443079324 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.throttle 1443079324 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lbtot 1443079324 1906710 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.tracked 1443079324 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.type 1443079324 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate 1443079324 31 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_lim 1443079324 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_max 1443079324 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:78) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:46) - Getting Haproxy Metrics Time :24/09/15 12:52:04
+2015-09-24  INFO  (HAProxyManager.java:58) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qcur 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qmax 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.scur 1443079329 142 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.smax 1443079329 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.slim 1443079329 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.stot 1443079329 1906866 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bin 1443079329 703058607 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bout 1443079329 25375631961 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dreq 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dresp 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.ereq 1443079329 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.econ 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.eresp 1443079329 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wretr 1443079329 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wredis 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.weight 1443079329 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.act 1443079329 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bck 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkfail 1443079329 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkdown 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lastchg 1443079329 73944 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.downtime 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qlimit 1443079329 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.pid 1443079329 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.iid 1443079329 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.sid 1443079329 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.throttle 1443079329 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lbtot 1443079329 1906866 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.tracked 1443079329 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.type 1443079329 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate 1443079329 38 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_lim 1443079329 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_max 1443079329 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:78) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:46) - Getting Haproxy Metrics Time :24/09/15 12:52:09
+2015-09-24  INFO  (HAProxyManager.java:58) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qcur 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qmax 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.scur 1443079334 149 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.smax 1443079334 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.slim 1443079334 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.stot 1443079334 1907013 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bin 1443079334 703102063 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bout 1443079334 25377599825 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dreq 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dresp 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.ereq 1443079334 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.econ 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.eresp 1443079334 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wretr 1443079334 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wredis 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.weight 1443079334 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.act 1443079334 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bck 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkfail 1443079334 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkdown 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lastchg 1443079334 73949 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.downtime 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qlimit 1443079334 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.pid 1443079334 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.iid 1443079334 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.sid 1443079334 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.throttle 1443079334 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lbtot 1443079334 1907013 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.tracked 1443079334 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.type 1443079334 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate 1443079334 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_lim 1443079334 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_max 1443079334 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:78) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:46) - Getting Haproxy Metrics Time :24/09/15 12:52:14
+2015-09-24  INFO  (HAProxyManager.java:58) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qcur 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qmax 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.scur 1443079339 141 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.smax 1443079339 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.slim 1443079339 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.stot 1443079339 1907166 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bin 1443079339 703153616 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bout 1443079339 25379862756 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dreq 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.dresp 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.ereq 1443079339 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.econ 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.eresp 1443079339 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wretr 1443079339 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.wredis 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.weight 1443079339 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.act 1443079339 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.bck 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkfail 1443079339 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.chkdown 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lastchg 1443079339 73954 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.downtime 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.qlimit 1443079339 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.pid 1443079339 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.iid 1443079339 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.sid 1443079339 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.throttle 1443079339 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.lbtot 1443079339 1907166 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.tracked 1443079339 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.type 1443079339 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate 1443079339 34 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_lim 1443079339 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:151) - put haproxy.rate_max 1443079339 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:78) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:46) - Getting Haproxy Metrics Time :24/09/15 12:52:19
+2015-09-24  INFO  (SimpleThreadPool.java:258) - Job execution threads will use class loader of thread: main
+2015-09-24  INFO  (SchedulerSignalerImpl.java:63) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2015-09-24  INFO  (QuartzScheduler.java:215) - Quartz Scheduler v.1.6.3 created.
+2015-09-24  INFO  (RAMJobStore.java:141) - RAMJobStore initialized.
+2015-09-24  INFO  (StdSchedulerFactory.java:1224) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2015-09-24  INFO  (StdSchedulerFactory.java:1228) - Quartz scheduler version: 1.6.3
+2015-09-24  INFO  (QuartzScheduler.java:461) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2015-09-24  INFO  (HAProxyManager.java:44) - Getting Haproxy Metrics Time :24/09/15 13:05:47
+2015-09-24  INFO  (HAProxyManager.java:44) - Getting Haproxy Metrics Time :24/09/15 13:05:52
+2015-09-24  INFO  (HAProxyManager.java:50) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qcur 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qmax 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.scur 1443080152 148 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.smax 1443080152 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.slim 1443080152 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.stot 1443080152 1929961 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bin 1443080152 710460148 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bout 1443080152 25700079671 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.dreq 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.dresp 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.ereq 1443080152 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.econ 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.eresp 1443080152 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.wretr 1443080152 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.wredis 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.weight 1443080152 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.act 1443080152 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bck 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.chkfail 1443080152 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.chkdown 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.lastchg 1443080152 74772 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.downtime 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qlimit 1443080152 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.pid 1443080152 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.iid 1443080152 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.sid 1443080152 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.throttle 1443080152 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.lbtot 1443080152 1929961 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.tracked 1443080152 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.type 1443080152 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate 1443080152 30 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate_lim 1443080152 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate_max 1443080152 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:59) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:50) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qcur 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qmax 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.scur 1443080157 148 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.smax 1443080157 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.slim 1443080157 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.stot 1443080157 1929961 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bin 1443080157 710460148 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bout 1443080157 25700079671 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.dreq 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.dresp 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.ereq 1443080157 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.econ 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.eresp 1443080157 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.wretr 1443080157 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.wredis 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.weight 1443080157 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.act 1443080157 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bck 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.chkfail 1443080157 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.chkdown 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.lastchg 1443080157 74772 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.downtime 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qlimit 1443080157 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.pid 1443080157 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.iid 1443080157 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.sid 1443080157 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.throttle 1443080157 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.lbtot 1443080157 1929961 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.tracked 1443080157 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.type 1443080157 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate 1443080157 30 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate_lim 1443080157 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate_max 1443080157 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:59) - End of the Haproxy Metrics 
+
+2015-09-24  INFO  (HAProxyManager.java:44) - Getting Haproxy Metrics Time :24/09/15 13:05:57
+2015-09-24  INFO  (HAProxyManager.java:44) - Getting Haproxy Metrics Time :24/09/15 13:06:02
+2015-09-24  INFO  (HAProxyManager.java:50) - Connected with the server : 175.126.104.46 with port : 4343
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qcur 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qmax 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.scur 1443080162 144 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.smax 1443080162 498 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.slim 1443080162 60000 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.stot 1443080162 1930263 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bin 1443080162 710557920 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bout 1443080162 25704380683 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.dreq 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.dresp 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.ereq 1443080162 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.econ 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.eresp 1443080162 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.wretr 1443080162 29 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.wredis 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.weight 1443080162 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.act 1443080162 2 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.bck 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.chkfail 1443080162 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.chkdown 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.lastchg 1443080162 74782 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.downtime 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.qlimit 1443080162 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.pid 1443080162 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.iid 1443080162 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.sid 1443080162 0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.throttle 1443080162 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.lbtot 1443080162 1930263 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.tracked 1443080162 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.type 1443080162 1 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate 1443080162 31 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate_lim 1443080162 0.0 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:129) - put haproxy.rate_max 1443080162 183 appname=SDDC hostname=Admin2 host=175.126.103.46
+
+2015-09-24  INFO  (HAProxyManager.java:59) - End of the Haproxy Metrics 
+

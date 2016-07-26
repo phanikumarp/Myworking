@@ -1,5 +1,0 @@
-name,description,tenant application,tenant,openstack application,cloud,vms
-HaProxy,Load Balancer,ADC-SDDC,N42-Tenant-1,Sunnyvale OpenStack 1,Sunnyvale Cloud,vm-1
-Apache,Web Server,ADC-SDDC,N42-Tenant-1,Sunnyvale OpenStack 1,Sunnyvale Cloud,vm-2
-Apache,Web Server,ADC-SDDC,N42-Tenant-1,Sunnyvale OpenStack 1,Sunnyvale Cloud,vm-3
-MySQL,Database Server,ADC-SDDC,N42-Tenant-1,Sunnyvale OpenStack 1,Sunnyvale Cloud,vm-4

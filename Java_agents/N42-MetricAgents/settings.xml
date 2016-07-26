@@ -1,0 +1,10 @@
+<settings>
+	<servers>
+		<!-- these id should match the id of the repo server in pom.xml -->
+		<server>
+			<id>n42-mvn-repo</id>
+			<username>sreelatha.gukanti@gmail.com</username>
+			<password>5ree1atha</password>
+		</server>
+	</servers>
+</settings> 
