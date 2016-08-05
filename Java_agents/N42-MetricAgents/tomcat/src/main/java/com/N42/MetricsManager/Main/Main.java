@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
+import org.quartz.SchedulerException;
 import org.quartz.SimpleTrigger;
 import org.quartz.impl.StdSchedulerFactory;
 
@@ -37,21 +38,28 @@ public class Main  {
 		return metricsTrigger;
 	}
 
-	private static void runTomcatJob() {
+	private static void runTomcatJob() throws SchedulerException {
+		JobDetail tomcatjob =null;
+		Scheduler tomcatScheduler = null;
 		try {
 			// configure the scheduler time
 			logger.debug("Configuring the schedular time");
 			SimpleTrigger metricsTrigger = getTrigger();
-
-			JobDetail tomcatjob = new JobDetail();
+           if(null == tomcatjob){
+			tomcatjob = new JobDetail();
 			tomcatjob.setName("tomcatjob");
 			tomcatjob.setJobClass(TomcatMetricManager.class);
-			Scheduler tomcatScheduler = new StdSchedulerFactory().getScheduler();
+			tomcatScheduler = new StdSchedulerFactory().getScheduler();
 			tomcatScheduler.scheduleJob(tomcatjob, metricsTrigger);
 			tomcatScheduler.start();
-
+           }
 		} catch (Exception ex) {
 			 logger.error("unable to start the scheduler due to this exception ::"+ex.toString());
+		}
+		finally{
+			  
+		     tomcatjob=null;
+		 
 		}
 	}
 }

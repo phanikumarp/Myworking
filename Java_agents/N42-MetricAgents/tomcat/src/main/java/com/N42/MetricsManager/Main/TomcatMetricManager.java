@@ -152,8 +152,8 @@ public class TomcatMetricManager implements Job {
 		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
 		Date dateobj = new Date();
 		logger.debug("Getting Metrics Time:" + df.format(dateobj));
-		intialize();
-
+		initialize();
+        logger.debug("initilization completed");
 		try {
 			/*
 			 * Getting all Tomcat metics with instances
@@ -162,8 +162,7 @@ public class TomcatMetricManager implements Job {
 				getAllMetricsWithInstance();
 			}
 			try (Socket clientSocket = new Socket(dbHostName, dbPortNumber);
-					PrintWriter out = (clientSocket.isConnected())
-							? new PrintWriter(clientSocket.getOutputStream(), true) : null;) {
+					PrintWriter out = (clientSocket.isConnected())? new PrintWriter(clientSocket.getOutputStream(), true) : null;) {
 				if (out != null) {
 					logger.info("Connected with the server : " + clientSocket.getInetAddress().getHostName() + " with port : " + clientSocket.getPort() + "\n");
 					collectMetrics(out);
@@ -172,16 +171,25 @@ public class TomcatMetricManager implements Job {
 				logger.error("Server not connected  due to this exception : " + e);
 			} catch (IOException e) {
 				logger.error("Server not connected  due to this exception : " + e);
-			}
+			}        
 			logger.info("End of the metrics \n");
 			IS_FIRST_TIME = false;
 		} catch (IOException e) {
 			logger.error("Server not connected  due to this exception : " + e);
 		}
+		finally{
+		    closejmx();
+		}
+	}
+     // For Closing jmxClient 
+	private void closejmx() {
+		
+		jmxClient.close();
+		
 	}
 
-	private void intialize() {
-
+	private void initialize() {
+	    
 		establishJMXClient();
 
 	}
@@ -255,9 +263,9 @@ public class TomcatMetricManager implements Job {
 								putCommand.append(TIMESTAMP + " ");
 								putCommand.append(entry.getValue().toString() + " ");
 								putCommand.append(TAG3 + appName + " ");
-								putCommand.append(TAG2 + hostIp + " ");
-								putCommand.append(TAG1 + hostName + "\n");
-								out.write(putCommand.toString());
+								putCommand.append(TAG1 + hostName + " ");
+								putCommand.append(TAG2 + hostIp + "\n");
+						    	out.write(putCommand.toString());
 								// System.out.print(putCommand.toString());
 								logger.debug(putCommand.toString());
 								logger.info("Getting metric data of this parameter :: " + entry.getKey() + " = "+ entry.getValue());
@@ -307,14 +315,14 @@ public class TomcatMetricManager implements Job {
 					putCommand.append(TIMESTAMP + " ");
 					putCommand.append(value.toString() + " ");
 					putCommand.append(TAG3 + appName + " ");
-					putCommand.append(TAG2 + hostIp + " ");
-					putCommand.append(TAG1 + hostName + "\n");
+					putCommand.append(TAG1 + hostName + " ");
+					putCommand.append(TAG2 + hostIp + "\n");
 					out.write(putCommand.toString());
 					logger.debug(putCommand.toString());
 					// System.out.print(putCommand.toString());
 					logger.info("Getting metric data of this parameter :: " + attribute + " = " + value);
 				}
-			} // for
+			} // end of for loop
 
 			prevMap.putAll(currentMap);
 			currentMap.clear();
@@ -349,7 +357,7 @@ public class TomcatMetricManager implements Job {
 			if (jmxClient == null) {
 				logger.error("The JMX client object is null; it was not be initialized.");
 			}
-			fileout.write(" ----------Tomcat all instances ---------" + "\n\n");
+			fileout.write("<----------Tomcat all instances --------->" + "\n\n");
 			domains = jmxClient.getBeanDomains();
 			for (int k = 0; k < domains.length; k++) {
 				ObjectName[] onames = getObjectsByDomain(domains[k]);
@@ -363,7 +371,7 @@ public class TomcatMetricManager implements Job {
 						for (int j = 0; j < att.length; j++) {
 							servAttrName = att[j].getName();
 							// writing all metrics to the file
-							fileout.write("Attribute...... " + servAttrName + "\n");
+							fileout.write("Attribute......:: " + servAttrName + "\n");
 						}
 					} catch (Exception ex) {
 						logger.error("Failed to retrieve : " + sobjName + " exception " + ex.toString());
@@ -412,6 +420,7 @@ public class TomcatMetricManager implements Job {
 		return null;
 	}
 
+	
 	@SuppressWarnings("unused")
 	private ObjectName getObjectName(String objectName)
 			throws InstanceNotFoundException, MalformedObjectNameException, IOException {
@@ -425,13 +434,15 @@ public class TomcatMetricManager implements Job {
 
 		JMXServiceURL url = new JMXServiceURL(serviceUrl);
 		JMXConnector connector;
+		MBeanServerConnection connection;
 		if ((username != null) && (password != null)) {
 			environment.put(JMXConnector.CREDENTIALS, new String[] { username, password });
 			connector = JMXConnectorFactory.connect(url, environment);
 		} else {
 			connector = JMXConnectorFactory.connect(url, environment);
 		}
-		MBeanServerConnection connection = connector.getMBeanServerConnection();
+		try{
+		connection = connector.getMBeanServerConnection();
 		if ((objName.isPropertyPattern()) || (objName.isDomainPattern())) {
 			Set<ObjectInstance> mBeans = connection.queryMBeans(objName, null);
 			if (mBeans.size() == 0) {
@@ -444,6 +455,13 @@ public class TomcatMetricManager implements Job {
 				objName = ((ObjectInstance) mBeans.iterator().next()).getObjectName();
 				logger.debug("Retrieving jmx object:" + objName);
 			}
+		}
+		}catch (Exception ex) {
+			logger.error("MBeanServerConnection due to this exception::" + ex.toString());
+		}
+		finally{
+			connector.close();
+			connection=null;
 		}
 		return objName;
 	}
