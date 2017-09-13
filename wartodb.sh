@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #
 # WAR to DEB
