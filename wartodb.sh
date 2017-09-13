@@ -23,7 +23,7 @@ tomcat_path=$(get_tomcat_path $tomcat_version)
 file_name="monitoring-services"
 out_file="monitoring-services"
 in_file="/home/phani/monitoring-services.war"
-app_creator="phani@opsmx.com"
+app_creator="phani@gmail.com"
 do_help=0
 
 
@@ -37,7 +37,6 @@ cleanup() {
     rm -rf $base_dir
     printf "Deleted temp working directory %s\n" $base_dir;
 }
-
 
 while getopts ":c:f:hp:s:v:" opt; do
     case $opt in
