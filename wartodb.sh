@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+### ppk requirement "sudo apt-get install dh-make debhelper devscripts fakeroot"
 # WAR to DEB
 # This script takes a WAR file, and packages it into a DEB file targetting tomcat's default webapps directory,
 # /var/lib/tomcatX/webapps
